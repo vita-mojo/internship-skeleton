@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@internship-skeleton/menu": ["libs/menu/src/index.ts"],
+      "@internship-skeleton/store-selection": [
+        "libs/store-selection/src/index.ts"
+      ],
+      "@internship-skeleton/tenants": ["libs/tenants/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

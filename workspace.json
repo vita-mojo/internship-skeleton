@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "menu": "libs/menu",
+    "online-store": "apps/online-store",
+    "store-selection": "libs/store-selection",
+    "tenants": "libs/tenants"
+  }
+}
