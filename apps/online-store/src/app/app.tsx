@@ -1,6 +1,6 @@
+import { ItemCustomization } from '@internship-skeleton/item-customization';
 import { Menu } from '@internship-skeleton/menu';
 import { StoreSelection } from '@internship-skeleton/store-selection';
-import { Tenants } from '@internship-skeleton/tenants';
 import { ThemeProvider } from '@mui/material/styles';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import styled from 'styled-components';
@@ -18,7 +18,7 @@ export function App() {
         <Routes>
           <Route path="store-selection" element={<StoreSelection />} />
           <Route path="menu" element={<Menu />} />
-          <Route path="tenants" element={<Tenants />} />
+          <Route path="item-customization" element={<ItemCustomization />} />
           <Route
             path="*"
             element={<Navigate to="/store-selection" replace />}
