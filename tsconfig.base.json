@@ -18,8 +18,7 @@
       "@internship-skeleton/menu": ["libs/menu/src/index.ts"],
       "@internship-skeleton/store-selection": [
         "libs/store-selection/src/index.ts"
-      ],
-      "@internship-skeleton/tenants": ["libs/tenants/src/index.ts"]
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
