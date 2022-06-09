@@ -2,7 +2,6 @@ import {
   MigrationInterface,
   QueryRunner,
   Table,
-  TableColumn,
   TableForeignKey
 } from 'typeorm';
 
@@ -12,7 +11,7 @@ export class CreateCategoryModifiersTable1654703454488
   async up(queryRunner: QueryRunner): Promise<void> {
     await queryRunner.createTable(
       new Table({
-        name: 'Category_Modifiers',
+        name: 'modifier-category',
         columns: [
           {
             name: 'id',
@@ -32,38 +31,33 @@ export class CreateCategoryModifiersTable1654703454488
           {
             name: 'max_selection',
             type: 'int'
+          },
+          {
+            name: 'product_id',
+            type: 'int'
           }
         ]
       }),
       true
     );
 
-    await queryRunner.addColumn(
-      'Category_Modifiers',
-      new TableColumn({
-        name: 'product_id',
-        type: 'int'
-      })
-    );
-
     await queryRunner.createForeignKey(
-      'Category_Modifiers',
+      'modifier-category',
       new TableForeignKey({
         columnNames: ['product_id'],
         referencedColumnNames: ['id'],
-        referencedTableName: 'Product',
+        referencedTableName: 'product',
         onDelete: 'CASCADE'
       })
     );
   }
 
   async down(queryRunner: QueryRunner): Promise<void> {
-    const catModTable = await queryRunner.getTable('Category_Modifiers');
+    const catModTable = await queryRunner.getTable('modifier-category');
     const foreignKey = catModTable.foreignKeys.find(
       (fk) => fk.columnNames.indexOf('product_id') !== -1
     );
-    await queryRunner.dropForeignKey('Category_Modifiers', foreignKey);
-    await queryRunner.dropColumn('Category_Modifiers', 'product_id');
-    await queryRunner.dropTable('Category_Modifiers');
+    await queryRunner.dropForeignKey('modifier-category', foreignKey);
+    await queryRunner.dropTable('modifier-category');
   }
 }
