@@ -16,19 +16,24 @@ export class CreateModifiersTable1654703549333 implements MigrationInterface {
             type: 'int',
             isGenerated: true,
             generationStrategy: 'increment',
-            isPrimary: true
+            isPrimary: true,
+            isNullable: true
           },
           {
             name: 'modif_cat_id',
-            type: 'int'
+            type: 'int',
+            isNullable: true
           },
           {
             name: 'name',
-            type: 'varchar'
+            type: 'varchar',
+            length: '255',
+            isNullable: true
           },
           {
             name: 'price',
-            type: 'float'
+            type: 'float',
+            isNullable: true
           },
           {
             name: 'is_default',
