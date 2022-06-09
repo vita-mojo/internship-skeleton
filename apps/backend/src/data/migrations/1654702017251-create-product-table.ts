@@ -16,14 +16,12 @@ export class CreateProductTable1654702017251 implements MigrationInterface {
             type: 'int',
             isGenerated: true,
             generationStrategy: 'increment',
-            isPrimary: true,
-            isNullable: true
+            isPrimary: true
           },
           {
             name: 'name',
             type: 'varchar',
-            length: '255',
-            isNullable: true
+            length: '255'
           },
           {
             name: 'image',
@@ -32,13 +30,13 @@ export class CreateProductTable1654702017251 implements MigrationInterface {
           },
           {
             name: 'price',
-            type: 'float',
-            isNullable: true
+            type: 'float'
           },
           {
             name: 'description',
             type: 'text',
-            length: '1000'
+            length: '1000',
+            isNullable: true
           },
           {
             name: 'metadata',
@@ -46,8 +44,7 @@ export class CreateProductTable1654702017251 implements MigrationInterface {
           },
           {
             name: 'menu_id',
-            type: 'int',
-            isNullable: true
+            type: 'int'
           }
         ]
       }),
