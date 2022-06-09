@@ -11,19 +11,24 @@ export class CreateStoreTable1654699651443 implements MigrationInterface {
             type: 'int',
             isPrimary: true,
             isGenerated: true,
+            isNullable: true,
             generationStrategy: 'increment'
           },
           {
             name: 'name',
-            type: 'varchar'
+            type: 'varchar',
+            length: '255',
+            isNullable: true
           },
           {
             name: 'description',
-            type: 'text'
+            type: 'text',
+            length: '2000'
           },
           {
             name: 'geo',
-            type: 'json'
+            type: 'json',
+            isNullable: true
           }
         ]
       }),
