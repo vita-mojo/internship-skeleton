@@ -39,7 +39,8 @@ export class CreateMenuTable1654702006571 implements MigrationInterface {
           },
           {
             name: 'channel',
-            type: 'enum'
+            type: 'enum',
+            enum: ['DELIVERY', 'PICK_UP', 'EAT_IN']
           }
         ]
       }),

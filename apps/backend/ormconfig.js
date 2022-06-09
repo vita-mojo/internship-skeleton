@@ -7,8 +7,8 @@ module.exports = {
   database: 'vitaSQL',
   entities: ['entity/*.js'],
   migrationsTableName: 'table-migrations',
-  migrations: ['./data/migrations/*.ts'],
+  migrations: ['dist/out-tsc/apps/backend/src/data/migrations/*.js'],
   cli: {
-    migrationsDir: 'migrations'
+    migrationsDir: 'dist/out-tsc/apps/backend/src/data/migrations'
   }
 };
