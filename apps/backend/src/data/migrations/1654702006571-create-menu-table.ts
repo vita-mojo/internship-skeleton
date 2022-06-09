@@ -16,24 +16,22 @@ export class CreateMenuTable1654702006571 implements MigrationInterface {
             type: 'int',
             isGenerated: true,
             generationStrategy: 'increment',
-            isPrimary: true,
-            isNullable: true
+            isPrimary: true
           },
           {
             name: 'store_id',
-            type: 'int',
-            isNullable: true
+            type: 'int'
           },
           {
             name: 'name',
             type: 'varchar',
-            length: '255',
-            isNullable: true
+            length: '255'
           },
           {
             name: 'description',
             type: 'text',
-            length: '2000'
+            length: '2000',
+            isNullable: true
           },
           {
             name: 'working_hours',
