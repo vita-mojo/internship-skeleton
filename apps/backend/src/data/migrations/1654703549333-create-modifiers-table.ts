@@ -19,7 +19,7 @@ export class CreateModifiersTable1654703549333 implements MigrationInterface {
             isPrimary: true
           },
           {
-            name: 'modif_cat_id',
+            name: 'modifier_cateogory_id',
             type: 'int'
           },
           {
@@ -46,7 +46,7 @@ export class CreateModifiersTable1654703549333 implements MigrationInterface {
     await queryRunner.createForeignKey(
       'modifiers',
       new TableForeignKey({
-        columnNames: ['modif_cat_id'],
+        columnNames: ['modifier_cateogory_id'],
         referencedColumnNames: ['id'],
         referencedTableName: 'modifier-category',
         onDelete: 'CASCADE'
@@ -57,7 +57,7 @@ export class CreateModifiersTable1654703549333 implements MigrationInterface {
   public async down(queryRunner: QueryRunner): Promise<void> {
     const modifiersTable = await queryRunner.getTable('modifiers');
     const foreignKey = modifiersTable.foreignKeys.find(
-      (fk) => fk.columnNames.indexOf('modif_cat_id') !== -1
+      (fk) => fk.columnNames.indexOf('modifier_cateogory_id') !== -1
     );
     await queryRunner.dropForeignKey('modifiers', foreignKey);
     await queryRunner.dropTable('modifiers');
