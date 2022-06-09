@@ -18,27 +18,26 @@ export class CreateCategoryModifiersTable1654703454488
             type: 'int',
             isPrimary: true,
             isGenerated: true,
-            isNullable: true,
             generationStrategy: 'increment'
           },
           {
             name: 'name',
             type: 'varchar',
-            length: '255',
-            isNullable: true
+            length: '255'
           },
           {
             name: 'min_selection',
-            type: 'int'
+            type: 'int',
+            isNullable: true
           },
           {
             name: 'max_selection',
-            type: 'int'
+            type: 'int',
+            isNullable: true
           },
           {
             name: 'product_id',
-            type: 'int',
-            isNullable: true
+            type: 'int'
           }
         ]
       }),
