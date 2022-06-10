@@ -7,8 +7,8 @@ export class Modifier {
   @PrimaryGeneratedColumn('increment')
   id: number;
 
-  @Column({ type: 'int' })
-  modifier_cateogory_id: number;
+  @Column({ type: 'int', name: 'working_hours' })
+  modifierCateogoryId: number;
 
   @Column({ type: 'varchar', length: 255 })
   name: string;
@@ -16,8 +16,8 @@ export class Modifier {
   @Column({ type: 'float' })
   price: number;
 
-  @Column({ type: 'boolean' })
-  is_default: boolean;
+  @Column({ type: 'boolean', name: 'is_default' })
+  isDefault: boolean;
 
   @Column({ type: 'json' })
   metadata: { energy: string; protein: string; fiber: string };

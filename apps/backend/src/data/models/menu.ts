@@ -17,7 +17,7 @@ export class Menu {
   id: number;
 
   @Column({ type: 'int' })
-  store_id: number;
+  storeId: number;
 
   @Column({ type: 'varchar', length: 255 })
   name: string;
@@ -25,14 +25,10 @@ export class Menu {
   @Column({ type: 'text', length: 2000 })
   description: string;
 
-  @Column({ type: 'json' })
-  working_hours: { from: string; to: string };
+  @Column({ type: 'json', name: 'working_hours' })
+  workingHours: { from: string; to: string };
 
-  @Column({
-    type: 'enum',
-    enum: ['DELIVERY', 'PICK_UP', 'EAT_IN'],
-    default: 'EAT_IN'
-  })
+  @Column({ type: 'enum', enum: ['DELIVERY', 'PICK_UP', 'EAT_IN'] })
   channel: channelType;
 
   @ManyToOne(() => Store, (store) => store.menus)
