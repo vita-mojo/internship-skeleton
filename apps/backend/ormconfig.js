@@ -5,7 +5,7 @@ module.exports = {
   username: 'root',
   password: 'root',
   database: 'vitaSQL',
-  entities: ['entity/*.js'],
+  entities: ['apps/backend/src/data/models/*.ts'],
   migrationsTableName: 'table-migrations',
   migrations: ['dist/out-tsc/apps/backend/src/data/migrations/*.js'],
   cli: {

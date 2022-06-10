@@ -1,6 +1,6 @@
 import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 
-import { ModifierCategory } from './create-modifier-category-entity';
+import { ModifierCategory } from './modifierCategory';
 
 @Entity()
 export class Modifier {
@@ -8,7 +8,7 @@ export class Modifier {
   id: number;
 
   @Column({ type: 'int' })
-  modifierCateogoryId: number;
+  modifier_cateogory_id: number;
 
   @Column({ type: 'varchar', length: 255 })
   name: string;
@@ -17,7 +17,7 @@ export class Modifier {
   price: number;
 
   @Column({ type: 'boolean' })
-  isDefault: boolean;
+  is_default: boolean;
 
   @Column({ type: 'json' })
   metadata: { energy: string; protein: string; fiber: string };

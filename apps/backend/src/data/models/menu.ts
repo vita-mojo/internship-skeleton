@@ -6,8 +6,8 @@ import {
   PrimaryGeneratedColumn
 } from 'typeorm';
 
-import { Product } from './create-product-entity';
-import { Store } from './create-store-entity';
+import { Product } from './product';
+import { Store } from './store';
 
 export type channelType = 'DELIVERY' | 'PICK_UP' | 'EAT_IN';
 
@@ -17,7 +17,7 @@ export class Menu {
   id: number;
 
   @Column({ type: 'int' })
-  storeId: number;
+  store_id: number;
 
   @Column({ type: 'varchar', length: 255 })
   name: string;
@@ -26,7 +26,7 @@ export class Menu {
   description: string;
 
   @Column({ type: 'json' })
-  workingHours: { from: string; to: string };
+  working_hours: { from: string; to: string };
 
   @Column({
     type: 'enum',
