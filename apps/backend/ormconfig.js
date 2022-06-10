@@ -1,7 +1,7 @@
 module.exports = {
   type: 'mysql',
   host: 'localhost',
-  port: 3307, //port of docker or port of MySQL workbench?
+  port: 3307,
   username: 'root',
   password: 'root',
   database: 'vitaSQL',
