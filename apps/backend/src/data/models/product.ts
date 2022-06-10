@@ -6,8 +6,8 @@ import {
   PrimaryGeneratedColumn
 } from 'typeorm';
 
-import { Menu } from './create-menu-entity';
-import { ModifierCategory } from './create-modifier-category-entity';
+import { Menu } from './menu';
+import { ModifierCategory } from './modifierCategory';
 
 @Entity()
 export class Product {
@@ -29,8 +29,8 @@ export class Product {
   @Column({ type: 'json' })
   metadata: { diatary: string; ingredients: string; nutrition: string };
 
-  @Column({ type: 'int' })
-  menu_id: number;
+  @Column({ type: 'int', name: 'menu_id' })
+  menuId: number;
 
   @ManyToOne(() => Menu, (menu: Menu) => menu.products)
   menu: Menu;
