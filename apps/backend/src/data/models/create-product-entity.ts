@@ -39,5 +39,5 @@ export class Product {
     () => ModifierCategory,
     (modifier_category: ModifierCategory) => modifier_category.product
   )
-  modifier_category: ModifierCategory[];
+  modifier_categories: ModifierCategory[];
 }
