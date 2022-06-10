@@ -8,7 +8,7 @@ export class Modifier {
   id: number;
 
   @Column({ type: 'int' })
-  modifier_cateogory_id: number;
+  modifierCateogoryId: number;
 
   @Column({ type: 'varchar', length: 255 })
   name: string;
@@ -17,14 +17,14 @@ export class Modifier {
   price: number;
 
   @Column({ type: 'boolean' })
-  is_default: boolean;
+  isDefault: boolean;
 
   @Column({ type: 'json' })
   metadata: { energy: string; protein: string; fiber: string };
 
   @ManyToOne(
     () => ModifierCategory,
-    (modifier_category) => modifier_category.modifiers
+    (modifierCategory) => modifierCategory.modifiers
   )
-  modifier_category: ModifierCategory;
+  modifierCategory: ModifierCategory;
 }
