@@ -30,7 +30,7 @@ export class Product {
   metadata: { diatary: string; ingredients: string; nutrition: string };
 
   @Column({ type: 'int' })
-  menuId: number;
+  menu_id: number;
 
   @ManyToOne(() => Menu, (menu: Menu) => menu.products)
   menu: Menu;
