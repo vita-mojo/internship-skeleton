@@ -30,14 +30,14 @@ export class Product {
   metadata: { diatary: string; ingredients: string; nutrition: string };
 
   @Column({ type: 'int' })
-  menu_id: number;
+  menuId: number;
 
   @ManyToOne(() => Menu, (menu: Menu) => menu.products)
   menu: Menu;
 
   @OneToMany(
     () => ModifierCategory,
-    (modifier_category: ModifierCategory) => modifier_category.product
+    (modifierCategory: ModifierCategory) => modifierCategory.product
   )
-  modifier_categories: ModifierCategory[];
+  modifierCategories: ModifierCategory[];
 }
