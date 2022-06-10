@@ -6,8 +6,8 @@ import {
   PrimaryGeneratedColumn
 } from 'typeorm';
 
-import { Product } from './create-product-entity';
-import { Modifiers } from './create-modifiers-entity';
+import { Modifiers } from './modifiers';
+import { Product } from './product';
 
 @Entity()
 export class ModifierCategory {
@@ -17,14 +17,14 @@ export class ModifierCategory {
   @Column({ type: 'varchar', length: 255 })
   name: string;
 
-  @Column({ type: 'int' })
-  min_selection: number;
+  @Column({ type: 'int', name: 'min_selection' })
+  minSelection: number;
 
-  @Column({ type: 'int' })
-  max_selection: number;
+  @Column({ type: 'int', name: 'max_selection' })
+  maxSelection: number;
 
-  @Column({ type: 'int' })
-  product_id: number;
+  @Column({ type: 'int', name: 'product_id' })
+  productId: number;
 
   @ManyToOne(() => Product, (product: Product) => product.modifierCategories)
   product: Product;
