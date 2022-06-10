@@ -11,7 +11,7 @@ import { Store } from './create-store-entity';
 
 export type channelType = 'DELIVERY' | 'PICK_UP' | 'EAT_IN';
 
-@Entity({ name: 'menu' })
+@Entity()
 export class Menu {
   @PrimaryGeneratedColumn('increment')
   id: number;
@@ -35,9 +35,9 @@ export class Menu {
   })
   channel: channelType;
 
-  @ManyToOne(() => Store, (store: Store) => store.store_id)
+  @ManyToOne(() => Store, (store) => store.menus)
   store: Store;
 
-  @OneToMany(() => Product, (product: Product) => product.id)
+  @OneToMany(() => Product, (product) => product.menu)
   products: Product[];
 }

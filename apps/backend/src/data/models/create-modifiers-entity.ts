@@ -2,7 +2,7 @@ import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 
 import { ModifierCategory } from './create-modifier-category-entity';
 
-@Entity({ name: 'modifiers' })
+@Entity()
 export class Modifier {
   @PrimaryGeneratedColumn('increment')
   id: number;
@@ -24,8 +24,7 @@ export class Modifier {
 
   @ManyToOne(
     () => ModifierCategory,
-    (modifier_category: ModifierCategory) =>
-      modifier_category.modifier_cateogory_id
+    (modifier_category) => modifier_category.modifiers
   )
   modifier_category: ModifierCategory;
 }
