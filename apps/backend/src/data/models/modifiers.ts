@@ -3,7 +3,7 @@ import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 import { ModifierCategory } from './modifierCategory';
 
 @Entity()
-export class Modifier {
+export class Modifiers {
   @PrimaryGeneratedColumn('increment')
   id: number;
 
