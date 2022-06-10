@@ -2,7 +2,7 @@ import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
 
 import { Menu } from './create-menu-entity';
 
-@Entity({ name: 'store' })
+@Entity()
 export class Store {
   @PrimaryGeneratedColumn({ type: 'int' })
   id: number;
@@ -16,6 +16,6 @@ export class Store {
   @Column({ type: 'json' })
   geo: { lat: string; long: string; adress: string };
 
-  @OneToMany(() => Menu, (menu) => menu.id)
-  menu: Menu[];
+  @OneToMany(() => Menu, (menu) => menu.store)
+  menus: Menu[];
 }

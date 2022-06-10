@@ -26,12 +26,12 @@ export class ModifierCategory {
   @Column({ type: 'int' })
   product_id: number;
 
-  @ManyToOne(() => Product, (product: Product) => product.menu_id, {
-    onUpdate: 'CASCADE',
-    onDelete: 'CASCADE'
-  })
+  @ManyToOne(() => Product, (product: Product) => product.modifier_categories)
   product: Product;
 
-  @OneToMany(() => Modifiers, (modifier: Modifiers) => modifier.id)
+  @OneToMany(
+    () => Modifiers,
+    (modifier: Modifiers) => modifier.modifier_category
+  )
   modifiers: Modifiers[];
 }
