@@ -18,13 +18,13 @@ export class ModifierCategory {
   name: string;
 
   @Column({ type: 'int' })
-  min_selection: number;
+  minSelection: number;
 
   @Column({ type: 'int' })
-  max_selection: number;
+  maxSelection: number;
 
   @Column({ type: 'int' })
-  product_id: number;
+  productId: number;
 
   @ManyToOne(() => Product, (product: Product) => product.modifier_categories)
   product: Product;
