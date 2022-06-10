@@ -18,20 +18,20 @@ export class ModifierCategory {
   name: string;
 
   @Column({ type: 'int' })
-  minSelection: number;
+  min_selection: number;
 
   @Column({ type: 'int' })
-  maxSelection: number;
+  max_selection: number;
 
   @Column({ type: 'int' })
-  productId: number;
+  product_id: number;
 
-  @ManyToOne(() => Product, (product: Product) => product.modifier_categories)
+  @ManyToOne(() => Product, (product: Product) => product.modifierCategories)
   product: Product;
 
   @OneToMany(
     () => Modifiers,
-    (modifier: Modifiers) => modifier.modifier_category
+    (modifier: Modifiers) => modifier.modifierCategory
   )
   modifiers: Modifiers[];
 }
