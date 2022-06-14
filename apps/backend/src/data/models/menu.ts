@@ -17,7 +17,7 @@ export class Menu {
   @PrimaryGeneratedColumn('increment')
   id: number;
 
-  @Column({ type: 'int', name: 'store_id' })
+  @Column({ type: 'int', name: 'store_id', nullable: false })
   storeId: number;
 
   @Column({ type: 'varchar', length: 255 })

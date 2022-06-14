@@ -8,8 +8,8 @@ module.exports = {
   entities: ['apps/backend/src/data/models/*.ts'],
   seeds: ['apps/backend/src/data/seeds/*.ts'],
   migrationsTableName: 'table-migrations',
-  migrations: ['dist/out-tsc/apps/backend/src/data/migrations/*.js'],
+  migrations: ['apps/backend/src/data/migrations/*.ts'],
   cli: {
-    migrationsDir: 'dist/out-tsc/apps/backend/src/data/migrations'
+    migrationsDir: 'apps/backend/src/data/migrations'
   }
 };
