@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "store_id": 1,
+    "storeId": 1,
     "name": "Lunch - Delivery",
     "description": "hic et voluptatibus ea eveniet tempora molestiae quaerat eveniet omnis natus nam voluptatem expedita necessitatibus",
-    "working_hours": {
+    "workingHours": {
       "from": "06:40",
       "to": "21:39"
     },
@@ -12,10 +12,10 @@
   },
   {
     "id": 2,
-    "store_id": 1,
+    "storeId": 1,
     "name": "Breakfast - KGX-EUS-STN-HTR",
     "description": "est saepe amet omnis sed ad blanditiis facere ab nihil nulla dolor delectus adipisci fugit",
-    "working_hours": {
+    "workingHours": {
       "from": "12:32",
       "to": "13:27"
     },
@@ -23,10 +23,10 @@
   },
   {
     "id": 3,
-    "store_id": 1,
+    "storeId": 1,
     "name": "All Day - KGX-EUS-STN-HTR",
     "description": "sint ut iure cupiditate iusto quia est quas ut occaecati non eum sint corporis magnam",
-    "working_hours": {
+    "workingHours": {
       "from": "02:13",
       "to": "22:51"
     },
@@ -34,10 +34,10 @@
   },
   {
     "id": 4,
-    "store_id": 1,
+    "storeId": 1,
     "name": "Deep Blue - Breakfast",
     "description": "sunt totam est sint corrupti et aut aperiam enim velit autem quos sunt explicabo possimus",
-    "working_hours": {
+    "workingHours": {
       "from": "06:07",
       "to": "22:57"
     },
@@ -45,10 +45,10 @@
   },
   {
     "id": 5,
-    "store_id": 1,
+    "storeId": 1,
     "name": "Order at The Athenian",
     "description": "impedit aut ut odio ut qui doloremque neque velit dolore exercitationem ratione non reprehenderit exercitationem",
-    "working_hours": {
+    "workingHours": {
       "from": "08:01",
       "to": "23:33"
     },
@@ -56,10 +56,10 @@
   },
   {
     "id": 6,
-    "store_id": 1,
+    "storeId": 1,
     "name": "CS Academy All Day",
     "description": "sed molestiae est sed dolorum facere eius et nulla odit sit ut odio incidunt blanditiis",
-    "working_hours": {
+    "workingHours": {
       "from": "06:07",
       "to": "18:04"
     },
@@ -67,10 +67,10 @@
   },
   {
     "id": 7,
-    "store_id": 2,
+    "storeId": 2,
     "name": "Kosmos All Day",
     "description": "placeat neque labore accusamus et facilis praesentium omnis quia consequatur aspernatur dolore voluptates fugit et",
-    "working_hours": {
+    "workingHours": {
       "from": "11:55",
       "to": "16:09"
     },
@@ -78,10 +78,10 @@
   },
   {
     "id": 8,
-    "store_id": 2,
+    "storeId": 2,
     "name": "Liverpool-Jack Burrito - VB Delivery",
     "description": "et aspernatur esse qui nemo quo eligendi rerum dolorem laboriosam voluptatum est laudantium corrupti aut",
-    "working_hours": {
+    "workingHours": {
       "from": "05:27",
       "to": "14:19"
     },
@@ -89,10 +89,10 @@
   },
   {
     "id": 9,
-    "store_id": 2,
+    "storeId": 2,
     "name": "Lahpet Main Menu",
     "description": "voluptatem est voluptatibus et iure qui aperiam sunt deleniti reiciendis officiis non adipisci minus quaerat",
-    "working_hours": {
+    "workingHours": {
       "from": "02:13",
       "to": "20:20"
     },
@@ -100,10 +100,10 @@
   },
   {
     "id": 10,
-    "store_id": 2,
+    "storeId": 2,
     "name": "Name",
     "description": "sed facere natus suscipit laborum iste sit dolore inventore et fugit et facere et ut",
-    "working_hours": {
+    "workingHours": {
       "from": "02:56",
       "to": "19:24"
     },
@@ -111,10 +111,10 @@
   },
   {
     "id": 11,
-    "store_id": 2,
+    "storeId": 2,
     "name": "Kingly Street",
     "description": "quod repudiandae omnis aperiam id dolorum aut et id nam esse quibusdam ab eius et",
-    "working_hours": {
+    "workingHours": {
       "from": "01:24",
       "to": "14:59"
     },
@@ -122,10 +122,10 @@
   },
   {
     "id": 12,
-    "store_id": 2,
+    "storeId": 2,
     "name": "Deep Blue Delivery Aggregators - North",
     "description": "explicabo error libero eos qui ipsam laudantium recusandae vel repellendus saepe est sit deserunt repudiandae",
-    "working_hours": {
+    "workingHours": {
       "from": "09:54",
       "to": "13:26"
     },
@@ -133,10 +133,10 @@
   },
   {
     "id": 13,
-    "store_id": 3,
+    "storeId": 3,
     "name": "All Day - pb3",
     "description": "et ad ratione iusto est consequatur magnam est nesciunt ad optio id qui fuga inventore",
-    "working_hours": {
+    "workingHours": {
       "from": "12:19",
       "to": "23:29"
     },
@@ -144,10 +144,10 @@
   },
   {
     "id": 14,
-    "store_id": 3,
+    "storeId": 3,
     "name": "Mildreds - Brunch & Main OPAT",
     "description": "et alias blanditiis mollitia dolor maiores ut et dolores molestias aut perspiciatis laborum perspiciatis velit",
-    "working_hours": {
+    "workingHours": {
       "from": "02:40",
       "to": "17:47"
     },
@@ -155,10 +155,10 @@
   },
   {
     "id": 15,
-    "store_id": 3,
+    "storeId": 3,
     "name": "N/a",
     "description": "maiores dignissimos accusantium et similique dolorem quos et ducimus quas voluptatem cumque commodi aliquam dignissimos",
-    "working_hours": {
+    "workingHours": {
       "from": "11:48",
       "to": "19:44"
     },
@@ -166,10 +166,10 @@
   },
   {
     "id": 16,
-    "store_id": 3,
+    "storeId": 3,
     "name": "Grocery Essentials",
     "description": "eum ut aut est ut quo quibusdam impedit consequatur praesentium voluptas vel ea eveniet qui",
-    "working_hours": {
+    "workingHours": {
       "from": "05:15",
       "to": "18:20"
     },
@@ -177,10 +177,10 @@
   },
   {
     "id": 17,
-    "store_id": 3,
+    "storeId": 3,
     "name": "Breakfast Hop",
     "description": "consequatur et omnis accusamus possimus qui dolore ducimus quisquam in officia qui dolorum voluptatum architecto",
-    "working_hours": {
+    "workingHours": {
       "from": "05:35",
       "to": "21:54"
     },
@@ -188,10 +188,10 @@
   },
   {
     "id": 18,
-    "store_id": 3,
+    "storeId": 3,
     "name": "EPOS-Cocina",
     "description": "excepturi aut occaecati hic reiciendis sint aut ipsam consequatur ex sit magni provident explicabo numquam",
-    "working_hours": {
+    "workingHours": {
       "from": "07:02",
       "to": "14:03"
     },
@@ -199,10 +199,10 @@
   },
   {
     "id": 19,
-    "store_id": 3,
+    "storeId": 3,
     "name": "Grounded Kitchen Delivery Aggregators",
     "description": "nam quam error vero consequatur nam dolores nihil error laborum velit et commodi qui assumenda",
-    "working_hours": {
+    "workingHours": {
       "from": "07:38",
       "to": "19:58"
     },
@@ -210,10 +210,10 @@
   },
   {
     "id": 20,
-    "store_id": 3,
+    "storeId": 3,
     "name": "Mamasons-pos",
     "description": "vitae minima et amet cupiditate debitis aut enim atque ut qui harum vero quibusdam quas",
-    "working_hours": {
+    "workingHours": {
       "from": "01:24",
       "to": "14:46"
     },
@@ -221,10 +221,10 @@
   },
   {
     "id": 21,
-    "store_id": 4,
+    "storeId": 4,
     "name": "Delivery - Cocina",
     "description": "aperiam et quia illum et perspiciatis dolorem dolorem ut rem eligendi magni in et voluptas",
-    "working_hours": {
+    "workingHours": {
       "from": "07:45",
       "to": "23:50"
     },
@@ -232,10 +232,10 @@
   },
   {
     "id": 22,
-    "store_id": 4,
+    "storeId": 4,
     "name": "Breakfast Hop",
     "description": "sed magnam eligendi occaecati officiis assumenda rerum optio dolor cupiditate id ullam fugiat autem error",
-    "working_hours": {
+    "workingHours": {
       "from": "10:54",
       "to": "19:26"
     },
@@ -243,10 +243,10 @@
   },
   {
     "id": 23,
-    "store_id": 4,
+    "storeId": 4,
     "name": "POS",
     "description": "et minima nihil quis perferendis et nemo hic eum voluptas ducimus eveniet voluptate similique sunt",
-    "working_hours": {
+    "workingHours": {
       "from": "11:52",
       "to": "14:29"
     },
@@ -254,10 +254,10 @@
   },
   {
     "id": 24,
-    "store_id": 4,
+    "storeId": 4,
     "name": "Mr Fish Delivery",
     "description": "eaque quis possimus aspernatur perferendis et molestiae sint omnis accusamus ut et vitae aut omnis",
-    "working_hours": {
+    "workingHours": {
       "from": "11:55",
       "to": "13:31"
     },
@@ -265,10 +265,10 @@
   },
   {
     "id": 25,
-    "store_id": 4,
+    "storeId": 4,
     "name": "EM EPOS",
     "description": "et error saepe doloremque asperiores at corporis blanditiis sed accusantium veritatis qui accusantium veniam et",
-    "working_hours": {
+    "workingHours": {
       "from": "06:53",
       "to": "21:01"
     },
@@ -276,10 +276,10 @@
   },
   {
     "id": 26,
-    "store_id": 5,
+    "storeId": 5,
     "name": "All Day menu (Xscape) POS",
     "description": "accusantium perspiciatis repellendus dolorem ducimus ratione voluptatibus sit error tempore cupiditate non voluptates quos iste",
-    "working_hours": {
+    "workingHours": {
       "from": "08:58",
       "to": "21:01"
     },
@@ -287,10 +287,10 @@
   },
   {
     "id": 27,
-    "store_id": 5,
+    "storeId": 5,
     "name": "All Day-London Bridge",
     "description": "blanditiis rem et deserunt quo temporibus eum facere aut iusto sed rerum qui repellendus at",
-    "working_hours": {
+    "workingHours": {
       "from": "01:29",
       "to": "19:49"
     },
@@ -298,10 +298,10 @@
   },
   {
     "id": 28,
-    "store_id": 5,
+    "storeId": 5,
     "name": "Lazeez Tapas_POS",
     "description": "ut pariatur optio sequi odit magnam aut voluptatibus suscipit sed consequatur dolore temporibus alias velit",
-    "working_hours": {
+    "workingHours": {
       "from": "06:59",
       "to": "20:38"
     },
@@ -309,10 +309,10 @@
   },
   {
     "id": 29,
-    "store_id": 6,
+    "storeId": 6,
     "name": "Lunch Hop",
     "description": "non id ut quaerat excepturi hic vitae ex atque ex eveniet vero beatae sint consequuntur",
-    "working_hours": {
+    "workingHours": {
       "from": "05:14",
       "to": "22:19"
     },
@@ -320,10 +320,10 @@
   },
   {
     "id": 30,
-    "store_id": 6,
+    "storeId": 6,
     "name": "Collection",
     "description": "dolor est est temporibus quis vitae minus nam molestiae odit necessitatibus eum ipsum et dolores",
-    "working_hours": {
+    "workingHours": {
       "from": "00:17",
       "to": "14:56"
     },
@@ -331,10 +331,10 @@
   },
   {
     "id": 31,
-    "store_id": 6,
+    "storeId": 6,
     "name": "Hotboxd Lunch",
     "description": "cum voluptas natus suscipit illum laborum rerum dolor enim voluptas culpa consectetur eum ullam quod",
-    "working_hours": {
+    "workingHours": {
       "from": "11:30",
       "to": "15:06"
     },
@@ -342,10 +342,10 @@
   },
   {
     "id": 32,
-    "store_id": 6,
+    "storeId": 6,
     "name": "House of Yum Weekend",
     "description": "inventore voluptas qui saepe cum consequatur cupiditate velit sunt alias eligendi aut veritatis fuga deserunt",
-    "working_hours": {
+    "workingHours": {
       "from": "00:29",
       "to": "20:33"
     },
@@ -353,10 +353,10 @@
   },
   {
     "id": 33,
-    "store_id": 6,
+    "storeId": 6,
     "name": "Honest Burgers- Test Kitchen",
     "description": "non expedita iste porro tempora magni illo enim aut excepturi voluptatem rerum id laborum error",
-    "working_hours": {
+    "workingHours": {
       "from": "07:25",
       "to": "16:58"
     },
@@ -364,10 +364,10 @@
   },
   {
     "id": 34,
-    "store_id": 6,
+    "storeId": 6,
     "name": "Breakfast - KGX-EUS-STN-HTR",
     "description": "ut tenetur ea laborum voluptas et voluptatem sint cupiditate possimus et rerum harum placeat maiores",
-    "working_hours": {
+    "workingHours": {
       "from": "04:25",
       "to": "23:58"
     },
@@ -375,10 +375,10 @@
   },
   {
     "id": 35,
-    "store_id": 6,
+    "storeId": 6,
     "name": "Manchester",
     "description": "voluptatem illum ut exercitationem minus error similique aut autem aut et et animi velit sunt",
-    "working_hours": {
+    "workingHours": {
       "from": "00:20",
       "to": "13:37"
     },
@@ -386,10 +386,10 @@
   },
   {
     "id": 36,
-    "store_id": 7,
+    "storeId": 7,
     "name": "All Day menu (Xscape) Delivery",
     "description": "non illo velit ipsum dignissimos reprehenderit recusandae nesciunt et et nisi facere tenetur error veniam",
-    "working_hours": {
+    "workingHours": {
       "from": "00:24",
       "to": "16:08"
     },
@@ -397,10 +397,10 @@
   },
   {
     "id": 37,
-    "store_id": 7,
+    "storeId": 7,
     "name": "Labe",
     "description": "et error dolorum sit et pariatur quod molestiae molestiae iure eos ut odit quia omnis",
-    "working_hours": {
+    "workingHours": {
       "from": "03:20",
       "to": "14:31"
     },
@@ -408,10 +408,10 @@
   },
   {
     "id": 38,
-    "store_id": 7,
+    "storeId": 7,
     "name": "Order at Victoria",
     "description": "minima vel expedita mollitia tenetur dolor sit quia eligendi consequatur necessitatibus cum aperiam quis accusamus",
-    "working_hours": {
+    "workingHours": {
       "from": "11:31",
       "to": "14:52"
     },
@@ -419,10 +419,10 @@
   },
   {
     "id": 39,
-    "store_id": 7,
+    "storeId": 7,
     "name": "Indian Menu - Delivery",
     "description": "corporis dolorum nihil asperiores repellat aspernatur similique perferendis maxime est molestiae est autem dolorum itaque",
-    "working_hours": {
+    "workingHours": {
       "from": "09:16",
       "to": "17:53"
     },
@@ -430,10 +430,10 @@
   },
   {
     "id": 40,
-    "store_id": 7,
+    "storeId": 7,
     "name": "Artisan Wrap Co - VB Delivery",
     "description": "et saepe accusamus qui ut voluptas maiores expedita ipsa excepturi quae molestias sit delectus in",
-    "working_hours": {
+    "workingHours": {
       "from": "03:01",
       "to": "13:58"
     },
@@ -441,10 +441,10 @@
   },
   {
     "id": 41,
-    "store_id": 8,
+    "storeId": 8,
     "name": "beboz italian pos",
     "description": "assumenda inventore autem suscipit unde aperiam accusamus itaque at qui cupiditate ut culpa laborum voluptate",
-    "working_hours": {
+    "workingHours": {
       "from": "02:18",
       "to": "22:46"
     },
@@ -452,10 +452,10 @@
   },
   {
     "id": 42,
-    "store_id": 8,
+    "storeId": 8,
     "name": "House of Yum Evening",
     "description": "qui et aliquam nobis enim dolor est vel perferendis quam cum quod distinctio similique non",
-    "working_hours": {
+    "workingHours": {
       "from": "10:25",
       "to": "19:42"
     },
@@ -463,10 +463,10 @@
   },
   {
     "id": 43,
-    "store_id": 8,
+    "storeId": 8,
     "name": "Delivery at Marylebone",
     "description": "fugiat voluptatem minima aut tempore et incidunt sed sed impedit dolor at consequatur praesentium aut",
-    "working_hours": {
+    "workingHours": {
       "from": "06:22",
       "to": "16:59"
     },
@@ -474,10 +474,10 @@
   },
   {
     "id": 44,
-    "store_id": 9,
+    "storeId": 9,
     "name": "Order Here - Poor Boys",
     "description": "corrupti dicta et et consequatur voluptas quibusdam maiores odit cumque nobis consequatur sed et quidem",
-    "working_hours": {
+    "workingHours": {
       "from": "11:21",
       "to": "20:11"
     },
@@ -485,10 +485,10 @@
   },
   {
     "id": 45,
-    "store_id": 9,
+    "storeId": 9,
     "name": "LahKoh_POS",
     "description": "exercitationem incidunt soluta necessitatibus magnam in aut rerum omnis voluptate est vel id quae non",
-    "working_hours": {
+    "workingHours": {
       "from": "04:42",
       "to": "19:22"
     },
@@ -496,10 +496,10 @@
   },
   {
     "id": 46,
-    "store_id": 9,
+    "storeId": 9,
     "name": "CHILANGO_POS",
     "description": "repellat quia sapiente expedita suscipit dignissimos labore magnam accusantium qui accusantium doloribus eaque mollitia tenetur",
-    "working_hours": {
+    "workingHours": {
       "from": "11:41",
       "to": "13:51"
     },
@@ -507,10 +507,10 @@
   },
   {
     "id": 47,
-    "store_id": 9,
+    "storeId": 9,
     "name": "Menu - Crêpeaffaire",
     "description": "ut quibusdam impedit nostrum aperiam debitis sunt a voluptatem explicabo optio sit consequatur rerum nobis",
-    "working_hours": {
+    "workingHours": {
       "from": "07:53",
       "to": "22:32"
     },
@@ -518,10 +518,10 @@
   },
   {
     "id": 48,
-    "store_id": 10,
+    "storeId": 10,
     "name": "IAD Menu",
     "description": "blanditiis sed blanditiis qui doloremque sint quam animi aut sapiente eligendi est at delectus ea",
-    "working_hours": {
+    "workingHours": {
       "from": "08:11",
       "to": "14:35"
     },
@@ -529,10 +529,10 @@
   },
   {
     "id": 49,
-    "store_id": 10,
+    "storeId": 10,
     "name": "Order Between",
     "description": "id magni quia tempore aut quo dolores maxime ut aut ut numquam consectetur incidunt molestiae",
-    "working_hours": {
+    "workingHours": {
       "from": "03:56",
       "to": "23:49"
     },
@@ -540,10 +540,10 @@
   },
   {
     "id": 50,
-    "store_id": 10,
+    "storeId": 10,
     "name": "Breakfast Menu",
     "description": "reiciendis quia occaecati voluptatem iusto iure quis facilis in provident quia vitae expedita facere non",
-    "working_hours": {
+    "workingHours": {
       "from": "02:56",
       "to": "17:42"
     },
@@ -551,10 +551,10 @@
   },
   {
     "id": 51,
-    "store_id": 11,
+    "storeId": 11,
     "name": "Drive Thru-Breakfast",
     "description": "et excepturi dicta beatae ea sint dignissimos itaque quia minima distinctio dolores porro numquam sunt",
-    "working_hours": {
+    "workingHours": {
       "from": "07:16",
       "to": "15:01"
     },
@@ -562,10 +562,10 @@
   },
   {
     "id": 52,
-    "store_id": 11,
+    "storeId": 11,
     "name": "Benugo C+C Menu",
     "description": "blanditiis quidem beatae harum dolorem molestiae molestias enim ut quidem et consequatur cum aut natus",
-    "working_hours": {
+    "workingHours": {
       "from": "00:03",
       "to": "21:18"
     },
@@ -573,10 +573,10 @@
   },
   {
     "id": 53,
-    "store_id": 11,
+    "storeId": 11,
     "name": "Order at Cannon Street",
     "description": "nam aut quia rerum non amet facere sit distinctio non sed magnam aut sint qui",
-    "working_hours": {
+    "workingHours": {
       "from": "08:23",
       "to": "18:03"
     },
@@ -584,10 +584,10 @@
   },
   {
     "id": 54,
-    "store_id": 11,
+    "storeId": 11,
     "name": "Afternoon Tea Delivery",
     "description": "libero porro perspiciatis magnam perspiciatis omnis sed accusantium eos quia quasi nihil assumenda consequatur ut",
-    "working_hours": {
+    "workingHours": {
       "from": "12:17",
       "to": "20:56"
     },
@@ -595,10 +595,10 @@
   },
   {
     "id": 55,
-    "store_id": 11,
+    "storeId": 11,
     "name": "Pizza Hut POS",
     "description": "at odit quibusdam aliquid at commodi maxime ratione voluptatem et perspiciatis placeat dolore non est",
-    "working_hours": {
+    "workingHours": {
       "from": "02:10",
       "to": "17:16"
     },
@@ -606,10 +606,10 @@
   },
   {
     "id": 56,
-    "store_id": 11,
+    "storeId": 11,
     "name": "Arcade Food Hall",
     "description": "sit soluta culpa expedita esse consequatur praesentium similique minus tenetur hic atque ut corrupti excepturi",
-    "working_hours": {
+    "workingHours": {
       "from": "00:25",
       "to": "19:12"
     },
@@ -617,10 +617,10 @@
   },
   {
     "id": 57,
-    "store_id": 12,
+    "storeId": 12,
     "name": "Corporate Catering - Lunch",
     "description": "illum dolores quisquam eum voluptas corporis est vel deleniti inventore eius ullam dolores qui iusto",
-    "working_hours": {
+    "workingHours": {
       "from": "10:14",
       "to": "20:49"
     },
@@ -628,10 +628,10 @@
   },
   {
     "id": 58,
-    "store_id": 12,
+    "storeId": 12,
     "name": "monument",
     "description": "voluptatem aut sit est aut ea libero tenetur vel quos repellat quos incidunt aut cum",
-    "working_hours": {
+    "workingHours": {
       "from": "08:09",
       "to": "16:09"
     },
@@ -639,10 +639,10 @@
   },
   {
     "id": 59,
-    "store_id": 12,
+    "storeId": 12,
     "name": "Our Menu",
     "description": "dolor aut quos dolore sit nostrum et dolore voluptas nesciunt beatae alias dolore quia perspiciatis",
-    "working_hours": {
+    "workingHours": {
       "from": "11:39",
       "to": "20:05"
     },
@@ -650,10 +650,10 @@
   },
   {
     "id": 60,
-    "store_id": 12,
+    "storeId": 12,
     "name": "Oowee Vegan Menu",
     "description": "at corrupti saepe vitae saepe omnis omnis dolorum laborum inventore tempore impedit voluptas hic sed",
-    "working_hours": {
+    "workingHours": {
       "from": "09:30",
       "to": "13:25"
     },
@@ -661,10 +661,10 @@
   },
   {
     "id": 61,
-    "store_id": 13,
+    "storeId": 13,
     "name": "C+C",
     "description": "quia sit omnis ut nam qui quibusdam iusto unde qui vel cum quo molestias fugit",
-    "working_hours": {
+    "workingHours": {
       "from": "01:37",
       "to": "16:03"
     },
@@ -672,10 +672,10 @@
   },
   {
     "id": 62,
-    "store_id": 13,
+    "storeId": 13,
     "name": "Dirty Bones OPAT",
     "description": "amet eveniet quia quibusdam mollitia facere consequatur saepe ut unde modi fuga maiores animi qui",
-    "working_hours": {
+    "workingHours": {
       "from": "07:01",
       "to": "17:36"
     },
@@ -683,10 +683,10 @@
   },
   {
     "id": 63,
-    "store_id": 13,
+    "storeId": 13,
     "name": "K10Menu",
     "description": "sit sit sequi id repudiandae atque nulla rerum vero suscipit autem necessitatibus maiores qui quo",
-    "working_hours": {
+    "workingHours": {
       "from": "06:51",
       "to": "17:33"
     },
@@ -694,10 +694,10 @@
   },
   {
     "id": 64,
-    "store_id": 14,
+    "storeId": 14,
     "name": "Hotboxd Lunch",
     "description": "et dolorem explicabo aut quis ut voluptatibus quo rem et velit ipsam iusto optio ratione",
-    "working_hours": {
+    "workingHours": {
       "from": "05:27",
       "to": "14:18"
     },
@@ -705,10 +705,10 @@
   },
   {
     "id": 65,
-    "store_id": 14,
+    "storeId": 14,
     "name": "Java Roastery POS",
     "description": "earum accusantium velit et nihil maxime qui eos voluptates praesentium voluptatem quia et quisquam itaque",
-    "working_hours": {
+    "workingHours": {
       "from": "11:24",
       "to": "23:53"
     },
@@ -716,10 +716,10 @@
   },
   {
     "id": 66,
-    "store_id": 14,
+    "storeId": 14,
     "name": "Order at Farringdon",
     "description": "quasi autem nihil aliquid eos officiis nostrum ducimus ut consectetur qui et suscipit nihil maxime",
-    "working_hours": {
+    "workingHours": {
       "from": "00:13",
       "to": "17:14"
     },
@@ -727,10 +727,10 @@
   },
   {
     "id": 67,
-    "store_id": 14,
+    "storeId": 14,
     "name": "Jay Store Menu",
     "description": "ea itaque excepturi et occaecati eos sit quam veritatis quam animi rerum quia sunt quidem",
-    "working_hours": {
+    "workingHours": {
       "from": "03:58",
       "to": "14:40"
     },
@@ -738,10 +738,10 @@
   },
   {
     "id": 68,
-    "store_id": 15,
+    "storeId": 15,
     "name": "Lunch - Delivery",
     "description": "aliquam perferendis sed rerum esse hic et quidem placeat molestias tenetur ducimus omnis quibusdam cupiditate",
-    "working_hours": {
+    "workingHours": {
       "from": "08:05",
       "to": "20:15"
     },
@@ -749,10 +749,10 @@
   },
   {
     "id": 69,
-    "store_id": 15,
+    "storeId": 15,
     "name": "Almost Famous Menu - All Day",
     "description": "molestiae eum ab ullam voluptatem ab est dolores et voluptas quia beatae labore voluptatibus qui",
-    "working_hours": {
+    "workingHours": {
       "from": "07:04",
       "to": "19:36"
     },
@@ -760,10 +760,10 @@
   },
   {
     "id": 70,
-    "store_id": 15,
+    "storeId": 15,
     "name": "Mildreds Brunch Menu",
     "description": "ipsa totam in quis corporis unde repellat culpa non laboriosam quo sed hic dolorem sit",
-    "working_hours": {
+    "workingHours": {
       "from": "08:10",
       "to": "14:50"
     },
@@ -771,10 +771,10 @@
   },
   {
     "id": 71,
-    "store_id": 15,
+    "storeId": 15,
     "name": "Honest Burgers- Test Kitchen",
     "description": "iusto quia cum fuga eos quae quia ab non facere nisi ratione repellat velit dicta",
-    "working_hours": {
+    "workingHours": {
       "from": "10:46",
       "to": "18:31"
     },
@@ -782,10 +782,10 @@
   },
   {
     "id": 72,
-    "store_id": 15,
+    "storeId": 15,
     "name": "HG Walter_POS",
     "description": "ipsam culpa veniam deserunt earum dolor quidem dolores asperiores commodi quisquam amet explicabo corrupti ut",
-    "working_hours": {
+    "workingHours": {
       "from": "02:45",
       "to": "22:33"
     },
@@ -793,10 +793,10 @@
   },
   {
     "id": 73,
-    "store_id": 16,
+    "storeId": 16,
     "name": "POS demo",
     "description": "atque quos provident sed vel ipsa velit ut iste assumenda nemo qui dicta atque impedit",
-    "working_hours": {
+    "workingHours": {
       "from": "08:08",
       "to": "17:00"
     },
@@ -804,10 +804,10 @@
   },
   {
     "id": 74,
-    "store_id": 16,
+    "storeId": 16,
     "name": "Cinquecento Menu",
     "description": "molestiae nihil maxime eveniet libero ut aut doloribus adipisci incidunt id ut molestiae aliquid est",
-    "working_hours": {
+    "workingHours": {
       "from": "10:11",
       "to": "20:49"
     },
@@ -815,10 +815,10 @@
   },
   {
     "id": 75,
-    "store_id": 16,
+    "storeId": 16,
     "name": "Liverpool-Jack Burrito - VB Delivery",
     "description": "provident id perferendis minus in laudantium earum doloremque consequatur fuga harum quo saepe non ullam",
-    "working_hours": {
+    "workingHours": {
       "from": "03:39",
       "to": "16:36"
     },
@@ -826,10 +826,10 @@
   },
   {
     "id": 76,
-    "store_id": 17,
+    "storeId": 17,
     "name": "Appetite_POS",
     "description": "dolores eos labore aut labore totam inventore rem aut culpa sunt est fugit voluptatem deserunt",
-    "working_hours": {
+    "workingHours": {
       "from": "07:11",
       "to": "15:30"
     },
@@ -837,10 +837,10 @@
   },
   {
     "id": 77,
-    "store_id": 17,
+    "storeId": 17,
     "name": "Lunch - Bills",
     "description": "officiis dolores ullam laudantium iure corrupti maxime sit magnam minima explicabo ipsum sint molestias sed",
-    "working_hours": {
+    "workingHours": {
       "from": "01:06",
       "to": "21:42"
     },
@@ -848,10 +848,10 @@
   },
   {
     "id": 78,
-    "store_id": 17,
+    "storeId": 17,
     "name": "Manchester",
     "description": "ducimus ab vel ipsa magnam quis voluptatem architecto at ratione maiores quis vero officiis similique",
-    "working_hours": {
+    "workingHours": {
       "from": "03:43",
       "to": "23:48"
     },
@@ -859,10 +859,10 @@
   },
   {
     "id": 79,
-    "store_id": 17,
+    "storeId": 17,
     "name": "Leeds POS",
     "description": "exercitationem ut facilis aut labore est adipisci dolores qui qui nisi id quam aut sed",
-    "working_hours": {
+    "workingHours": {
       "from": "01:27",
       "to": "14:20"
     },
@@ -870,10 +870,10 @@
   },
   {
     "id": 80,
-    "store_id": 17,
+    "storeId": 17,
     "name": "Eddie Rockets OPAT",
     "description": "perferendis ut molestiae eaque aut nisi libero praesentium pariatur ex ad assumenda aut tempora esse",
-    "working_hours": {
+    "workingHours": {
       "from": "03:48",
       "to": "15:02"
     },
@@ -881,10 +881,10 @@
   },
   {
     "id": 81,
-    "store_id": 17,
+    "storeId": 17,
     "name": "Jay Store Menu",
     "description": "iure et a possimus qui magni voluptas consequatur cupiditate quas repellendus odit ut corrupti dolores",
-    "working_hours": {
+    "workingHours": {
       "from": "05:27",
       "to": "19:36"
     },
@@ -892,10 +892,10 @@
   },
   {
     "id": 82,
-    "store_id": 17,
+    "storeId": 17,
     "name": "Click & Collect",
     "description": "labore est temporibus sapiente qui aut nihil ea laudantium exercitationem et omnis et sint culpa",
-    "working_hours": {
+    "workingHours": {
       "from": "06:56",
       "to": "23:22"
     },
@@ -903,10 +903,10 @@
   },
   {
     "id": 83,
-    "store_id": 18,
+    "storeId": 18,
     "name": "Order at Marylebone",
     "description": "minima explicabo et saepe quasi corporis quam illum illo distinctio nesciunt aliquam consequuntur libero quia",
-    "working_hours": {
+    "workingHours": {
       "from": "07:32",
       "to": "20:36"
     },
@@ -914,10 +914,10 @@
   },
   {
     "id": 84,
-    "store_id": 18,
+    "storeId": 18,
     "name": "All Day - pb3",
     "description": "ullam rem quisquam ea nemo voluptatum possimus reiciendis itaque ullam cupiditate error aut facere laboriosam",
-    "working_hours": {
+    "workingHours": {
       "from": "07:41",
       "to": "21:21"
     },
@@ -925,10 +925,10 @@
   },
   {
     "id": 85,
-    "store_id": 18,
+    "storeId": 18,
     "name": "Deliveroo Lunch",
     "description": "asperiores quo omnis similique omnis ut eum voluptatem necessitatibus et corporis quia cum minima est",
-    "working_hours": {
+    "workingHours": {
       "from": "03:46",
       "to": "13:19"
     },
@@ -936,10 +936,10 @@
   },
   {
     "id": 86,
-    "store_id": 18,
+    "storeId": 18,
     "name": "Envie",
     "description": "mollitia cum autem cumque voluptatem qui magnam esse in a quis libero eaque quia a",
-    "working_hours": {
+    "workingHours": {
       "from": "08:22",
       "to": "18:58"
     },
@@ -947,10 +947,10 @@
   },
   {
     "id": 87,
-    "store_id": 18,
+    "storeId": 18,
     "name": "EPOS - Dine In",
     "description": "dolorem id neque similique et illum assumenda quas voluptates fugiat id aliquam blanditiis tempore officia",
-    "working_hours": {
+    "workingHours": {
       "from": "02:28",
       "to": "17:30"
     },
@@ -958,10 +958,10 @@
   },
   {
     "id": 88,
-    "store_id": 18,
+    "storeId": 18,
     "name": "All Day (BKM)",
     "description": "et quisquam sit dolor mollitia consequuntur tempora voluptatem dolore dignissimos ullam quis illum quo nemo",
-    "working_hours": {
+    "workingHours": {
       "from": "01:02",
       "to": "13:14"
     },
@@ -969,10 +969,10 @@
   },
   {
     "id": 89,
-    "store_id": 19,
+    "storeId": 19,
     "name": "Melt EPOS",
     "description": "sed non et perferendis occaecati eius officia velit voluptas pariatur perferendis ea voluptas qui in",
-    "working_hours": {
+    "workingHours": {
       "from": "04:54",
       "to": "21:00"
     },
@@ -980,10 +980,10 @@
   },
   {
     "id": 90,
-    "store_id": 19,
+    "storeId": 19,
     "name": "Order at Kensington",
     "description": "aut quos ea animi ut commodi dolorem repellat quod id consectetur optio culpa voluptas reiciendis",
-    "working_hours": {
+    "workingHours": {
       "from": "00:38",
       "to": "22:04"
     },
@@ -991,10 +991,10 @@
   },
   {
     "id": 91,
-    "store_id": 19,
+    "storeId": 19,
     "name": "ABM_POS",
     "description": "velit quia repudiandae repellendus non ut nam hic quis et culpa odio dolore et amet",
-    "working_hours": {
+    "workingHours": {
       "from": "02:48",
       "to": "23:09"
     },
@@ -1002,10 +1002,10 @@
   },
   {
     "id": 92,
-    "store_id": 19,
+    "storeId": 19,
     "name": "House of Yum Coffee",
     "description": "illo ipsum aut natus unde numquam laboriosam quia soluta fuga veniam sunt explicabo enim ut",
-    "working_hours": {
+    "workingHours": {
       "from": "09:37",
       "to": "19:31"
     },
@@ -1013,10 +1013,10 @@
   },
   {
     "id": 93,
-    "store_id": 19,
+    "storeId": 19,
     "name": "Lunch - Bills",
     "description": "ut doloribus velit ex modi vel non animi sed voluptatem velit inventore modi consectetur id",
-    "working_hours": {
+    "workingHours": {
       "from": "00:42",
       "to": "20:42"
     },
@@ -1024,10 +1024,10 @@
   },
   {
     "id": 94,
-    "store_id": 19,
+    "storeId": 19,
     "name": "Chickaboomboom All Day Menu",
     "description": "praesentium ut sit omnis doloremque temporibus sed est perferendis sed numquam dolorem pariatur aliquam autem",
-    "working_hours": {
+    "workingHours": {
       "from": "00:10",
       "to": "16:33"
     },
@@ -1035,10 +1035,10 @@
   },
   {
     "id": 95,
-    "store_id": 20,
+    "storeId": 20,
     "name": "North Delivery Lunch",
     "description": "voluptates optio velit autem consequatur maxime dolor minus laboriosam et error ea quo quod corporis",
-    "working_hours": {
+    "workingHours": {
       "from": "11:48",
       "to": "19:08"
     },
@@ -1046,10 +1046,10 @@
   },
   {
     "id": 96,
-    "store_id": 20,
+    "storeId": 20,
     "name": "All Day-Core 2",
     "description": "dolorem voluptas dolores ducimus et velit officiis sapiente eum ut quia facilis eum dolorem et",
-    "working_hours": {
+    "workingHours": {
       "from": "10:24",
       "to": "18:49"
     },
@@ -1057,10 +1057,10 @@
   },
   {
     "id": 97,
-    "store_id": 20,
+    "storeId": 20,
     "name": "149 Delivery Aggregator",
     "description": "ut qui molestias temporibus cum est et omnis omnis voluptatum est eligendi velit id velit",
-    "working_hours": {
+    "workingHours": {
       "from": "01:00",
       "to": "20:08"
     },
@@ -1068,10 +1068,10 @@
   },
   {
     "id": 98,
-    "store_id": 20,
+    "storeId": 20,
     "name": "Order Benito's",
     "description": "deleniti officia suscipit delectus voluptatem vero non saepe corrupti laborum qui perferendis eligendi placeat qui",
-    "working_hours": {
+    "workingHours": {
       "from": "05:41",
       "to": "21:18"
     },
@@ -1079,10 +1079,10 @@
   },
   {
     "id": 99,
-    "store_id": 20,
+    "storeId": 20,
     "name": "Cinquecento Menu",
     "description": "quae aut quae voluptatem illum non sit rem suscipit qui quaerat sunt perferendis eius quam",
-    "working_hours": {
+    "workingHours": {
       "from": "00:58",
       "to": "15:14"
     },
@@ -1090,10 +1090,10 @@
   },
   {
     "id": 100,
-    "store_id": 21,
+    "storeId": 21,
     "name": "All Day Menu",
     "description": "fugiat nemo ipsa magni quam odio provident quae maiores et natus cum ipsum dicta vero",
-    "working_hours": {
+    "workingHours": {
       "from": "04:55",
       "to": "17:55"
     },
@@ -1101,10 +1101,10 @@
   },
   {
     "id": 101,
-    "store_id": 21,
+    "storeId": 21,
     "name": "Breakfast - Boo",
     "description": "et beatae omnis sit asperiores magnam molestiae dolorum doloribus optio iusto sint dolores quasi consequatur",
-    "working_hours": {
+    "workingHours": {
       "from": "10:22",
       "to": "13:16"
     },
@@ -1112,10 +1112,10 @@
   },
   {
     "id": 102,
-    "store_id": 21,
+    "storeId": 21,
     "name": "Food Labs- Breakfast",
     "description": "quaerat earum id odio soluta molestiae aspernatur optio amet recusandae quos voluptatem pariatur cumque et",
-    "working_hours": {
+    "workingHours": {
       "from": "02:46",
       "to": "20:35"
     },
@@ -1123,10 +1123,10 @@
   },
   {
     "id": 103,
-    "store_id": 21,
+    "storeId": 21,
     "name": "Mildreds Breakfast Menu",
     "description": "totam aperiam temporibus vel quasi eveniet eum qui cum qui sunt quaerat et et quidem",
-    "working_hours": {
+    "workingHours": {
       "from": "04:16",
       "to": "15:12"
     },
@@ -1134,10 +1134,10 @@
   },
   {
     "id": 104,
-    "store_id": 22,
+    "storeId": 22,
     "name": "Olivocracy",
     "description": "laboriosam ut natus ducimus blanditiis ut dolorem et quo id enim odit est rerum in",
-    "working_hours": {
+    "workingHours": {
       "from": "08:08",
       "to": "21:33"
     },
@@ -1145,10 +1145,10 @@
   },
   {
     "id": 105,
-    "store_id": 22,
+    "storeId": 22,
     "name": "Graine",
     "description": "officia corrupti aut id occaecati adipisci dolor aut totam ullam sunt consequuntur quidem impedit voluptatibus",
-    "working_hours": {
+    "workingHours": {
       "from": "11:52",
       "to": "22:51"
     },
@@ -1156,10 +1156,10 @@
   },
   {
     "id": 106,
-    "store_id": 22,
+    "storeId": 22,
     "name": "Brunch - Delivery",
     "description": "rerum distinctio minima quisquam magnam nostrum sed ut corrupti beatae ut debitis nulla qui enim",
-    "working_hours": {
+    "workingHours": {
       "from": "01:24",
       "to": "16:01"
     },
@@ -1167,10 +1167,10 @@
   },
   {
     "id": 107,
-    "store_id": 22,
+    "storeId": 22,
     "name": "Kosmos POS",
     "description": "voluptatem eveniet molestiae temporibus rerum consequatur unde tempore repellat veritatis qui qui aut velit dolor",
-    "working_hours": {
+    "workingHours": {
       "from": "10:21",
       "to": "16:14"
     },
@@ -1178,10 +1178,10 @@
   },
   {
     "id": 108,
-    "store_id": 22,
+    "storeId": 22,
     "name": "Evening Menu",
     "description": "doloribus iure earum est laboriosam et possimus ipsa ipsa unde magnam autem ullam harum accusantium",
-    "working_hours": {
+    "workingHours": {
       "from": "01:52",
       "to": "22:33"
     },
@@ -1189,10 +1189,10 @@
   },
   {
     "id": 109,
-    "store_id": 23,
+    "storeId": 23,
     "name": "Flamingo - EPOS",
     "description": "nihil delectus veritatis qui qui fuga ipsam est odit nostrum molestiae non voluptas corporis nulla",
-    "working_hours": {
+    "workingHours": {
       "from": "12:45",
       "to": "21:51"
     },
@@ -1200,10 +1200,10 @@
   },
   {
     "id": 110,
-    "store_id": 23,
+    "storeId": 23,
     "name": "Order at Cannon Street",
     "description": "saepe possimus dolorem pariatur modi dolores fugiat dicta aut temporibus ad labore minima ut dolore",
-    "working_hours": {
+    "workingHours": {
       "from": "07:53",
       "to": "18:06"
     },
@@ -1211,10 +1211,10 @@
   },
   {
     "id": 111,
-    "store_id": 23,
+    "storeId": 23,
     "name": "Lucky 7",
     "description": "impedit aut dolorem explicabo iste eius quo est sit id voluptas sed pariatur consequatur voluptas",
-    "working_hours": {
+    "workingHours": {
       "from": "02:23",
       "to": "13:07"
     },
@@ -1222,10 +1222,10 @@
   },
   {
     "id": 112,
-    "store_id": 23,
+    "storeId": 23,
     "name": "Order at Old Street",
     "description": "eos saepe aut nulla ipsa velit rerum adipisci dolorem rerum quis exercitationem magni beatae repellendus",
-    "working_hours": {
+    "workingHours": {
       "from": "02:39",
       "to": "23:06"
     },
@@ -1233,10 +1233,10 @@
   },
   {
     "id": 113,
-    "store_id": 23,
+    "storeId": 23,
     "name": "LahKoh_POS",
     "description": "aliquid ut odio veniam consequatur facere soluta recusandae commodi aut dolor ut distinctio et eligendi",
-    "working_hours": {
+    "workingHours": {
       "from": "10:30",
       "to": "13:13"
     },
@@ -1244,10 +1244,10 @@
   },
   {
     "id": 114,
-    "store_id": 24,
+    "storeId": 24,
     "name": "Dine In - FSR/ASR",
     "description": "quo deleniti cupiditate vel accusantium sit consequatur labore inventore molestiae sit est deserunt voluptatem ut",
-    "working_hours": {
+    "workingHours": {
       "from": "01:34",
       "to": "23:46"
     },
@@ -1255,10 +1255,10 @@
   },
   {
     "id": 115,
-    "store_id": 24,
+    "storeId": 24,
     "name": "Little Farm POS",
     "description": "debitis nam nisi quae illum eaque omnis ut velit odit et minima sunt illum et",
-    "working_hours": {
+    "workingHours": {
       "from": "09:12",
       "to": "22:39"
     },
@@ -1266,10 +1266,10 @@
   },
   {
     "id": 116,
-    "store_id": 24,
+    "storeId": 24,
     "name": "Order Between",
     "description": "et ea illum consequatur dolor et dolores blanditiis quae quos velit est alias optio repellendus",
-    "working_hours": {
+    "workingHours": {
       "from": "10:28",
       "to": "21:21"
     },
@@ -1277,10 +1277,10 @@
   },
   {
     "id": 117,
-    "store_id": 24,
+    "storeId": 24,
     "name": "Grounded Kitchen - Breakfast Main",
     "description": "doloremque consequatur cumque sed maxime eos non tempore facere eum ratione odit perspiciatis ipsam soluta",
-    "working_hours": {
+    "workingHours": {
       "from": "08:56",
       "to": "13:28"
     },
@@ -1288,10 +1288,10 @@
   },
   {
     "id": 118,
-    "store_id": 24,
+    "storeId": 24,
     "name": "North Delivery Dinner",
     "description": "non veniam maiores assumenda magnam reprehenderit nisi rerum laborum delectus consequuntur omnis necessitatibus odio quibusdam",
-    "working_hours": {
+    "workingHours": {
       "from": "11:13",
       "to": "15:44"
     },
@@ -1299,10 +1299,10 @@
   },
   {
     "id": 119,
-    "store_id": 25,
+    "storeId": 25,
     "name": "Brunch - pb2",
     "description": "odio pariatur laborum aut exercitationem provident provident qui aliquid et voluptatem repellat explicabo sunt adipisci",
-    "working_hours": {
+    "workingHours": {
       "from": "04:42",
       "to": "15:38"
     },
@@ -1310,10 +1310,10 @@
   },
   {
     "id": 120,
-    "store_id": 25,
+    "storeId": 25,
     "name": "All Day-",
     "description": "repellat nobis provident laudantium a odio vitae ut recusandae velit illum ea ut fuga repudiandae",
-    "working_hours": {
+    "workingHours": {
       "from": "11:02",
       "to": "13:02"
     },
@@ -1321,10 +1321,10 @@
   },
   {
     "id": 121,
-    "store_id": 25,
+    "storeId": 25,
     "name": "Grocery Essentials",
     "description": "tempora excepturi eum et eum dolores deleniti distinctio asperiores non velit perspiciatis sequi rerum et",
-    "working_hours": {
+    "workingHours": {
       "from": "06:47",
       "to": "23:35"
     },
@@ -1332,10 +1332,10 @@
   },
   {
     "id": 122,
-    "store_id": 25,
+    "storeId": 25,
     "name": "Macro Food - All day",
     "description": "sequi nostrum nobis labore rerum et voluptatem pariatur totam necessitatibus vel magnam dolores ut cumque",
-    "working_hours": {
+    "workingHours": {
       "from": "08:34",
       "to": "18:11"
     },
@@ -1343,10 +1343,10 @@
   },
   {
     "id": 123,
-    "store_id": 25,
+    "storeId": 25,
     "name": "Pizza Menu",
     "description": "voluptatem harum saepe aspernatur rerum accusamus velit soluta nobis labore magnam rerum debitis eos eos",
-    "working_hours": {
+    "workingHours": {
       "from": "08:01",
       "to": "16:51"
     },
@@ -1354,10 +1354,10 @@
   },
   {
     "id": 124,
-    "store_id": 26,
+    "storeId": 26,
     "name": "All Day - Brunswick Only",
     "description": "maxime ut sed quidem consectetur dolor nobis dolorum delectus harum temporibus perferendis fuga quas recusandae",
-    "working_hours": {
+    "workingHours": {
       "from": "04:07",
       "to": "15:29"
     },
@@ -1365,10 +1365,10 @@
   },
   {
     "id": 125,
-    "store_id": 26,
+    "storeId": 26,
     "name": "Five Points Drinks Menu",
     "description": "quia omnis impedit quis repellat corporis omnis non aut autem laudantium vel dignissimos deleniti quo",
-    "working_hours": {
+    "workingHours": {
       "from": "06:28",
       "to": "15:03"
     },
@@ -1376,10 +1376,10 @@
   },
   {
     "id": 126,
-    "store_id": 26,
+    "storeId": 26,
     "name": "Ecommerce Meal Kits",
     "description": "aut sapiente et magnam soluta temporibus itaque pariatur quia sequi perspiciatis reprehenderit ex debitis asperiores",
-    "working_hours": {
+    "workingHours": {
       "from": "03:38",
       "to": "14:13"
     },
@@ -1387,10 +1387,10 @@
   },
   {
     "id": 127,
-    "store_id": 27,
+    "storeId": 27,
     "name": "Hot Rocks Menu",
     "description": "dolorum magni earum maxime maiores explicabo incidunt rem temporibus voluptates corrupti sapiente qui ut et",
-    "working_hours": {
+    "workingHours": {
       "from": "10:34",
       "to": "20:06"
     },
@@ -1398,10 +1398,10 @@
   },
   {
     "id": 128,
-    "store_id": 27,
+    "storeId": 27,
     "name": "Dirty Bones",
     "description": "occaecati dolore asperiores quibusdam deserunt vel atque impedit et facilis veritatis pariatur omnis sit natus",
-    "working_hours": {
+    "workingHours": {
       "from": "08:36",
       "to": "18:39"
     },
@@ -1409,10 +1409,10 @@
   },
   {
     "id": 129,
-    "store_id": 27,
+    "storeId": 27,
     "name": "Oowee Vegan Menu",
     "description": "fugiat quas soluta est laudantium consequatur alias et mollitia expedita tenetur vel non omnis totam",
-    "working_hours": {
+    "workingHours": {
       "from": "09:21",
       "to": "14:04"
     },
@@ -1420,10 +1420,10 @@
   },
   {
     "id": 130,
-    "store_id": 27,
+    "storeId": 27,
     "name": "Dine In Evening",
     "description": "deserunt nam ratione numquam tempore voluptates et molestiae cupiditate ex in voluptas eius qui mollitia",
-    "working_hours": {
+    "workingHours": {
       "from": "01:13",
       "to": "20:11"
     },
@@ -1431,10 +1431,10 @@
   },
   {
     "id": 131,
-    "store_id": 27,
+    "storeId": 27,
     "name": "ABM- Breakfast Menu- C&C",
     "description": "ut natus quia autem sit laudantium laboriosam laborum sed possimus totam iste rerum aut exercitationem",
-    "working_hours": {
+    "workingHours": {
       "from": "12:36",
       "to": "23:49"
     },
@@ -1442,10 +1442,10 @@
   },
   {
     "id": 132,
-    "store_id": 28,
+    "storeId": 28,
     "name": "Indian Menu",
     "description": "ut placeat recusandae quia error sequi ducimus non tenetur tempore quam fugiat minus numquam quia",
-    "working_hours": {
+    "workingHours": {
       "from": "02:40",
       "to": "17:13"
     },
@@ -1453,10 +1453,10 @@
   },
   {
     "id": 133,
-    "store_id": 28,
+    "storeId": 28,
     "name": "Cinquecento_POS",
     "description": "expedita ad modi ex accusantium quo facere a nobis et mollitia dolore ipsa distinctio blanditiis",
-    "working_hours": {
+    "workingHours": {
       "from": "10:12",
       "to": "21:44"
     },
@@ -1464,10 +1464,10 @@
   },
   {
     "id": 134,
-    "store_id": 28,
+    "storeId": 28,
     "name": "Honest Burgers- Test Kitchen",
     "description": "aliquam magni non distinctio sequi fugiat maxime omnis voluptatibus incidunt at corporis est doloribus et",
-    "working_hours": {
+    "workingHours": {
       "from": "12:21",
       "to": "13:16"
     },
@@ -1475,10 +1475,10 @@
   },
   {
     "id": 135,
-    "store_id": 28,
+    "storeId": 28,
     "name": "Brunch - Delivery",
     "description": "eos et non ab sed aliquam non ut tenetur consequatur eveniet in nam deserunt numquam",
-    "working_hours": {
+    "workingHours": {
       "from": "06:16",
       "to": "23:51"
     },
@@ -1486,10 +1486,10 @@
   },
   {
     "id": 136,
-    "store_id": 28,
+    "storeId": 28,
     "name": "Delivery at Victoria",
     "description": "eum et libero in ut fugiat eveniet reprehenderit necessitatibus sint voluptatem expedita quae repellendus consequatur",
-    "working_hours": {
+    "workingHours": {
       "from": "05:51",
       "to": "20:49"
     },
@@ -1497,10 +1497,10 @@
   },
   {
     "id": 137,
-    "store_id": 29,
+    "storeId": 29,
     "name": "Dinner Menu - Java and Jazz",
     "description": "reprehenderit omnis eum necessitatibus aliquam voluptas aspernatur vitae vero deleniti nemo non omnis architecto quidem",
-    "working_hours": {
+    "workingHours": {
       "from": "09:47",
       "to": "22:00"
     },
@@ -1508,10 +1508,10 @@
   },
   {
     "id": 138,
-    "store_id": 29,
+    "storeId": 29,
     "name": "Broadgate Breakfast",
     "description": "quo at amet quos consequatur est praesentium laborum qui magnam et libero delectus minus animi",
-    "working_hours": {
+    "workingHours": {
       "from": "03:36",
       "to": "14:57"
     },
@@ -1519,10 +1519,10 @@
   },
   {
     "id": 139,
-    "store_id": 29,
+    "storeId": 29,
     "name": "Broadgate Breakfast",
     "description": "omnis fuga qui aut omnis temporibus qui veniam dolores autem velit enim explicabo quo voluptatem",
-    "working_hours": {
+    "workingHours": {
       "from": "01:51",
       "to": "16:07"
     },
@@ -1530,10 +1530,10 @@
   },
   {
     "id": 140,
-    "store_id": 29,
+    "storeId": 29,
     "name": "Order at Caravan",
     "description": "a ipsam et suscipit qui quia nemo ullam voluptate provident laudantium autem quidem dolorem cupiditate",
-    "working_hours": {
+    "workingHours": {
       "from": "02:53",
       "to": "14:47"
     },
@@ -1541,10 +1541,10 @@
   },
   {
     "id": 141,
-    "store_id": 29,
+    "storeId": 29,
     "name": "Leeds Hampers",
     "description": "velit eveniet id voluptas nam et possimus blanditiis ab omnis qui error laboriosam distinctio perspiciatis",
-    "working_hours": {
+    "workingHours": {
       "from": "00:08",
       "to": "23:05"
     },
@@ -1552,10 +1552,10 @@
   },
   {
     "id": 142,
-    "store_id": 30,
+    "storeId": 30,
     "name": "Menu - Crepe & Roll",
     "description": "asperiores voluptatem voluptatem perferendis dolor in ut quidem velit voluptatem accusamus ipsum aut vel voluptatem",
-    "working_hours": {
+    "workingHours": {
       "from": "12:34",
       "to": "17:14"
     },
@@ -1563,10 +1563,10 @@
   },
   {
     "id": 143,
-    "store_id": 30,
+    "storeId": 30,
     "name": "Olive",
     "description": "accusantium porro rerum qui sunt quia dolorum amet non porro eos hic eos repellat consequatur",
-    "working_hours": {
+    "workingHours": {
       "from": "08:07",
       "to": "15:40"
     },
@@ -1574,10 +1574,10 @@
   },
   {
     "id": 144,
-    "store_id": 30,
+    "storeId": 30,
     "name": "HOP Order Between POS",
     "description": "sit velit qui qui harum est molestiae explicabo et nostrum eos et sit rem consectetur",
-    "working_hours": {
+    "workingHours": {
       "from": "01:57",
       "to": "23:18"
     },
@@ -1585,10 +1585,10 @@
   },
   {
     "id": 145,
-    "store_id": 30,
+    "storeId": 30,
     "name": "Breakfast (UU)",
     "description": "illum odit error quam quia soluta et et est voluptas est sit sunt dolorem fugit",
-    "working_hours": {
+    "workingHours": {
       "from": "05:09",
       "to": "18:08"
     },
@@ -1596,10 +1596,10 @@
   },
   {
     "id": 146,
-    "store_id": 30,
+    "storeId": 30,
     "name": "Eddie Rockets – Collection Menu",
     "description": "nisi nobis repellat sint voluptatum eum occaecati ut sed sit vitae omnis provident perspiciatis nam",
-    "working_hours": {
+    "workingHours": {
       "from": "03:12",
       "to": "17:53"
     },
@@ -1607,10 +1607,10 @@
   },
   {
     "id": 147,
-    "store_id": 31,
+    "storeId": 31,
     "name": "Lunchtime pre-order by 1115 menu",
     "description": "pariatur rem autem non qui odit quibusdam et qui minima iste fugiat et earum et",
-    "working_hours": {
+    "workingHours": {
       "from": "04:04",
       "to": "13:15"
     },
@@ -1618,10 +1618,10 @@
   },
   {
     "id": 148,
-    "store_id": 31,
+    "storeId": 31,
     "name": "BoneDaddies_POS",
     "description": "nulla id eum minima et in veniam iste qui sunt sunt commodi quis iusto qui",
-    "working_hours": {
+    "workingHours": {
       "from": "09:22",
       "to": "15:06"
     },
@@ -1629,10 +1629,10 @@
   },
   {
     "id": 149,
-    "store_id": 31,
+    "storeId": 31,
     "name": "Artisan Wrap Co - VB Delivery",
     "description": "animi perferendis et consectetur quia et itaque voluptatem eum voluptatibus dolores ex est ducimus est",
-    "working_hours": {
+    "workingHours": {
       "from": "07:19",
       "to": "15:08"
     },
@@ -1640,10 +1640,10 @@
   },
   {
     "id": 150,
-    "store_id": 31,
+    "storeId": 31,
     "name": "K10 Menu",
     "description": "alias enim qui odio voluptatibus aut sapiente iure blanditiis ut incidunt libero accusantium et vitae",
-    "working_hours": {
+    "workingHours": {
       "from": "01:17",
       "to": "17:34"
     },
@@ -1651,10 +1651,10 @@
   },
   {
     "id": 151,
-    "store_id": 31,
+    "storeId": 31,
     "name": "DF Tacos - Deliveroo",
     "description": "quia odio eum alias voluptatem cumque eos amet nisi in in occaecati commodi consequuntur aspernatur",
-    "working_hours": {
+    "workingHours": {
       "from": "10:25",
       "to": "22:24"
     },
@@ -1662,10 +1662,10 @@
   },
   {
     "id": 152,
-    "store_id": 31,
+    "storeId": 31,
     "name": "All Day (BKM)",
     "description": "recusandae nemo architecto autem maiores dolor voluptates ab culpa libero dolorem et animi enim beatae",
-    "working_hours": {
+    "workingHours": {
       "from": "05:51",
       "to": "17:58"
     },
@@ -1673,10 +1673,10 @@
   },
   {
     "id": 153,
-    "store_id": 32,
+    "storeId": 32,
     "name": "MDK HR Delivery",
     "description": "sint ipsam corporis quis ex corrupti placeat dolor impedit ea quae neque totam nesciunt ex",
-    "working_hours": {
+    "workingHours": {
       "from": "03:53",
       "to": "15:55"
     },
@@ -1684,10 +1684,10 @@
   },
   {
     "id": 154,
-    "store_id": 32,
+    "storeId": 32,
     "name": "Grounded Kitchen POS menu",
     "description": "quidem architecto optio voluptatem facere quis deleniti consequatur ea aspernatur nam sed saepe et et",
-    "working_hours": {
+    "workingHours": {
       "from": "07:16",
       "to": "21:35"
     },
@@ -1695,10 +1695,10 @@
   },
   {
     "id": 155,
-    "store_id": 32,
+    "storeId": 32,
     "name": "House of Yum Breakfast",
     "description": "distinctio cumque sint est nulla odit dolor qui adipisci quas optio ipsum voluptatem quisquam exercitationem",
-    "working_hours": {
+    "workingHours": {
       "from": "05:24",
       "to": "20:46"
     },
@@ -1706,10 +1706,10 @@
   },
   {
     "id": 156,
-    "store_id": 32,
+    "storeId": 32,
     "name": "Pre-Order (all day delivery)",
     "description": "et aut et debitis aliquam corporis quis voluptatem qui minus quam facilis sit qui reprehenderit",
-    "working_hours": {
+    "workingHours": {
       "from": "12:24",
       "to": "15:06"
     },
@@ -1717,10 +1717,10 @@
   },
   {
     "id": 157,
-    "store_id": 33,
+    "storeId": 33,
     "name": "Pizza Hut POS",
     "description": "quis optio totam et quod magni excepturi vel voluptas illum sed reiciendis quia ut enim",
-    "working_hours": {
+    "workingHours": {
       "from": "07:34",
       "to": "21:09"
     },
@@ -1728,10 +1728,10 @@
   },
   {
     "id": 158,
-    "store_id": 33,
+    "storeId": 33,
     "name": "Mikos Gyros - Delivery Menu",
     "description": "doloremque quidem aut qui saepe suscipit eveniet non quia ea nostrum repudiandae quam vel odit",
-    "working_hours": {
+    "workingHours": {
       "from": "06:12",
       "to": "19:21"
     },
@@ -1739,10 +1739,10 @@
   },
   {
     "id": 159,
-    "store_id": 33,
+    "storeId": 33,
     "name": "Delivery - Java Roastery",
     "description": "quis cumque sed et consectetur omnis voluptates perferendis magnam consequatur quia ea mollitia minus aut",
-    "working_hours": {
+    "workingHours": {
       "from": "01:20",
       "to": "16:42"
     },
@@ -1750,10 +1750,10 @@
   },
   {
     "id": 160,
-    "store_id": 34,
+    "storeId": 34,
     "name": "Beboz Menu Lunch",
     "description": "autem distinctio odio tempore vero corrupti ipsa sequi illum at tenetur corporis debitis vel omnis",
-    "working_hours": {
+    "workingHours": {
       "from": "05:36",
       "to": "18:29"
     },
@@ -1761,10 +1761,10 @@
   },
   {
     "id": 161,
-    "store_id": 34,
+    "storeId": 34,
     "name": "Dirty Vegan-All Day",
     "description": "nostrum explicabo odio fugit exercitationem odit eligendi odio quae quo praesentium voluptas ea quisquam eos",
-    "working_hours": {
+    "workingHours": {
       "from": "12:23",
       "to": "22:11"
     },
@@ -1772,10 +1772,10 @@
   },
   {
     "id": 162,
-    "store_id": 34,
+    "storeId": 34,
     "name": "ER Collection Menu",
     "description": "voluptatem vitae reiciendis voluptatibus et molestiae sed error officia labore recusandae molestiae sit quis voluptate",
-    "working_hours": {
+    "workingHours": {
       "from": "08:39",
       "to": "15:13"
     },
@@ -1783,10 +1783,10 @@
   },
   {
     "id": 163,
-    "store_id": 34,
+    "storeId": 34,
     "name": "Order -Now",
     "description": "rerum numquam aut omnis quia aut deleniti iste et aperiam nesciunt iste officiis accusantium quo",
-    "working_hours": {
+    "workingHours": {
       "from": "02:37",
       "to": "13:49"
     },
@@ -1794,10 +1794,10 @@
   },
   {
     "id": 164,
-    "store_id": 34,
+    "storeId": 34,
     "name": "Beboz Menu Lunch",
     "description": "praesentium culpa sed est id molestiae odio veniam voluptate ducimus ab fuga vero et aut",
-    "working_hours": {
+    "workingHours": {
       "from": "12:56",
       "to": "19:40"
     },
@@ -1805,10 +1805,10 @@
   },
   {
     "id": 165,
-    "store_id": 35,
+    "storeId": 35,
     "name": "Order at Bermondsey",
     "description": "beatae perspiciatis cumque omnis optio laudantium quidem velit sed corrupti rem accusantium odio quam consequatur",
-    "working_hours": {
+    "workingHours": {
       "from": "07:52",
       "to": "14:01"
     },
@@ -1816,10 +1816,10 @@
   },
   {
     "id": 166,
-    "store_id": 35,
+    "storeId": 35,
     "name": "Mildreds - Breakfast - C&C",
     "description": "necessitatibus quidem quidem non sed debitis nobis vitae accusantium voluptates impedit sit a doloremque sint",
-    "working_hours": {
+    "workingHours": {
       "from": "02:04",
       "to": "17:07"
     },
@@ -1827,10 +1827,10 @@
   },
   {
     "id": 167,
-    "store_id": 35,
+    "storeId": 35,
     "name": "K10 Menu",
     "description": "optio cumque dolores enim quisquam asperiores aut nam qui nihil dolorum recusandae eos in quis",
-    "working_hours": {
+    "workingHours": {
       "from": "10:44",
       "to": "20:46"
     },
@@ -1838,10 +1838,10 @@
   },
   {
     "id": 168,
-    "store_id": 35,
+    "storeId": 35,
     "name": "EPOS Rest/Ta 22",
     "description": "molestiae inventore tempora ratione sit dolore at sunt harum voluptas deleniti quia numquam cum reprehenderit",
-    "working_hours": {
+    "workingHours": {
       "from": "00:25",
       "to": "23:34"
     },
@@ -1849,10 +1849,10 @@
   },
   {
     "id": 169,
-    "store_id": 36,
+    "storeId": 36,
     "name": "Brunch & Lunch",
     "description": "et et ducimus repudiandae nam est sed voluptates saepe sint qui sed et voluptatem ea",
-    "working_hours": {
+    "workingHours": {
       "from": "05:20",
       "to": "21:26"
     },
@@ -1860,10 +1860,10 @@
   },
   {
     "id": 170,
-    "store_id": 36,
+    "storeId": 36,
     "name": "Liverpool-Jack Burrito - VB Delivery",
     "description": "ut nostrum aliquam quam tenetur eaque natus laboriosam rerum quae rem sit nihil sed accusamus",
-    "working_hours": {
+    "workingHours": {
       "from": "12:49",
       "to": "13:05"
     },
@@ -1871,10 +1871,10 @@
   },
   {
     "id": 171,
-    "store_id": 36,
+    "storeId": 36,
     "name": "Click & Collect Menu",
     "description": "tenetur architecto quis at hic facere nihil recusandae qui vel sed vel neque cumque sed",
-    "working_hours": {
+    "workingHours": {
       "from": "09:10",
       "to": "21:30"
     },
@@ -1882,10 +1882,10 @@
   },
   {
     "id": 172,
-    "store_id": 36,
+    "storeId": 36,
     "name": "Mr Fish Epos",
     "description": "aut sapiente consequatur animi quidem quo consequatur ducimus et vel maxime libero aliquam facere provident",
-    "working_hours": {
+    "workingHours": {
       "from": "12:30",
       "to": "17:31"
     },
@@ -1893,10 +1893,10 @@
   },
   {
     "id": 173,
-    "store_id": 36,
+    "storeId": 36,
     "name": "Click & Collect Menu",
     "description": "veniam numquam fuga rerum explicabo omnis laudantium nobis doloribus harum accusantium illum laboriosam et accusamus",
-    "working_hours": {
+    "workingHours": {
       "from": "10:49",
       "to": "16:23"
     },
@@ -1904,10 +1904,10 @@
   },
   {
     "id": 174,
-    "store_id": 36,
+    "storeId": 36,
     "name": "Next Day Delivery",
     "description": "amet molestiae sed nisi voluptatem eveniet fuga eius nostrum aut sapiente omnis numquam molestiae illo",
-    "working_hours": {
+    "workingHours": {
       "from": "01:44",
       "to": "16:47"
     },
@@ -1915,10 +1915,10 @@
   },
   {
     "id": 175,
-    "store_id": 36,
+    "storeId": 36,
     "name": "Belfast Botanicals - All Day Menu",
     "description": "veritatis facilis libero est unde maxime aliquam odio quibusdam numquam eius rerum voluptas laborum ipsam",
-    "working_hours": {
+    "workingHours": {
       "from": "10:41",
       "to": "16:34"
     },
@@ -1926,10 +1926,10 @@
   },
   {
     "id": 176,
-    "store_id": 37,
+    "storeId": 37,
     "name": "K10Menu",
     "description": "temporibus pariatur dolores numquam quos et autem sed assumenda at illo non laborum dolore consectetur",
-    "working_hours": {
+    "workingHours": {
       "from": "09:10",
       "to": "16:49"
     },
@@ -1937,10 +1937,10 @@
   },
   {
     "id": 177,
-    "store_id": 37,
+    "storeId": 37,
     "name": "Delivery Menu -",
     "description": "inventore omnis culpa odit repellendus reiciendis ea aut cumque et consequatur at dolorum porro voluptas",
-    "working_hours": {
+    "workingHours": {
       "from": "04:19",
       "to": "20:31"
     },
@@ -1948,10 +1948,10 @@
   },
   {
     "id": 178,
-    "store_id": 37,
+    "storeId": 37,
     "name": "Hot Rocks Menu",
     "description": "aut reiciendis voluptatibus nam quis id ut vero magnam et sed laudantium qui et delectus",
-    "working_hours": {
+    "workingHours": {
       "from": "03:17",
       "to": "13:18"
     },
@@ -1959,10 +1959,10 @@
   },
   {
     "id": 179,
-    "store_id": 37,
+    "storeId": 37,
     "name": "Order Between",
     "description": "provident aspernatur voluptatem laudantium reprehenderit ex ut sed sit nam vel minima modi rerum voluptatem",
-    "working_hours": {
+    "workingHours": {
       "from": "04:19",
       "to": "14:19"
     },
@@ -1970,10 +1970,10 @@
   },
   {
     "id": 180,
-    "store_id": 37,
+    "storeId": 37,
     "name": "Picton Street Menu",
     "description": "sapiente nam dolores dolorem modi eius delectus beatae ut quisquam deserunt hic aut dolorem consequuntur",
-    "working_hours": {
+    "workingHours": {
       "from": "02:11",
       "to": "23:15"
     },
@@ -1981,10 +1981,10 @@
   },
   {
     "id": 181,
-    "store_id": 37,
+    "storeId": 37,
     "name": "Liban Tapas_POS",
     "description": "reiciendis est et impedit in natus aut reiciendis possimus eos rem optio beatae modi assumenda",
-    "working_hours": {
+    "workingHours": {
       "from": "07:19",
       "to": "13:56"
     },
@@ -1992,10 +1992,10 @@
   },
   {
     "id": 182,
-    "store_id": 37,
+    "storeId": 37,
     "name": "Lucky 7",
     "description": "cupiditate illo assumenda quia ut nemo et non a dolorum sed qui excepturi quibusdam assumenda",
-    "working_hours": {
+    "workingHours": {
       "from": "08:34",
       "to": "15:57"
     },
@@ -2003,10 +2003,10 @@
   },
   {
     "id": 183,
-    "store_id": 38,
+    "storeId": 38,
     "name": "Liverpool-Cluckers - VB Delivery",
     "description": "assumenda laboriosam quo ipsa aut dignissimos nihil corrupti sed numquam vel voluptatum dolor tempore iure",
-    "working_hours": {
+    "workingHours": {
       "from": "06:03",
       "to": "14:25"
     },
@@ -2014,10 +2014,10 @@
   },
   {
     "id": 184,
-    "store_id": 38,
+    "storeId": 38,
     "name": "Artisan Wrap Co - VB Delivery",
     "description": "iusto modi natus similique doloribus voluptatem est velit nihil exercitationem vel dolores dolor voluptate voluptas",
-    "working_hours": {
+    "workingHours": {
       "from": "10:31",
       "to": "18:53"
     },
@@ -2025,10 +2025,10 @@
   },
   {
     "id": 185,
-    "store_id": 38,
+    "storeId": 38,
     "name": "Future Day Menu",
     "description": "vitae perspiciatis beatae occaecati natus nisi rerum occaecati aut dolores eum nemo necessitatibus consequuntur iure",
-    "working_hours": {
+    "workingHours": {
       "from": "02:06",
       "to": "21:43"
     },
@@ -2036,10 +2036,10 @@
   },
   {
     "id": 186,
-    "store_id": 38,
+    "storeId": 38,
     "name": "Dumpling Shack",
     "description": "suscipit eligendi consequatur voluptatum omnis quod dicta quia neque quisquam aut explicabo repellat voluptatem atque",
-    "working_hours": {
+    "workingHours": {
       "from": "12:26",
       "to": "21:03"
     },
@@ -2047,10 +2047,10 @@
   },
   {
     "id": 187,
-    "store_id": 38,
+    "storeId": 38,
     "name": "Pizzarova menu",
     "description": "consequatur veritatis quisquam ipsa dicta quod non assumenda in quibusdam et laborum nisi laborum animi",
-    "working_hours": {
+    "workingHours": {
       "from": "09:42",
       "to": "20:06"
     },
@@ -2058,10 +2058,10 @@
   },
   {
     "id": 188,
-    "store_id": 38,
+    "storeId": 38,
     "name": "Dinner menu",
     "description": "omnis repellendus impedit illo vel hic cupiditate voluptate expedita qui voluptatem sint praesentium autem quia",
-    "working_hours": {
+    "workingHours": {
       "from": "07:59",
       "to": "19:59"
     },
@@ -2069,10 +2069,10 @@
   },
   {
     "id": 189,
-    "store_id": 38,
+    "storeId": 38,
     "name": "El Mexicana POS 2",
     "description": "consequuntur culpa quas aut sunt fugiat officiis consequuntur eveniet ut quo in enim ullam sit",
-    "working_hours": {
+    "workingHours": {
       "from": "04:28",
       "to": "19:23"
     },
@@ -2080,10 +2080,10 @@
   },
   {
     "id": 190,
-    "store_id": 39,
+    "storeId": 39,
     "name": "Lunch & Dinner",
     "description": "dignissimos rerum quia laborum sint ea magni rerum mollitia laborum provident neque sunt debitis autem",
-    "working_hours": {
+    "workingHours": {
       "from": "07:41",
       "to": "21:24"
     },
@@ -2091,10 +2091,10 @@
   },
   {
     "id": 191,
-    "store_id": 39,
+    "storeId": 39,
     "name": "Advanced Group Ordering -",
     "description": "eos eaque ipsam explicabo non dolore rerum ullam tempora autem aspernatur veritatis porro qui neque",
-    "working_hours": {
+    "workingHours": {
       "from": "07:57",
       "to": "22:40"
     },
@@ -2102,10 +2102,10 @@
   },
   {
     "id": 192,
-    "store_id": 39,
+    "storeId": 39,
     "name": "Picton Street Menu",
     "description": "nisi pariatur molestiae blanditiis eveniet molestiae eaque asperiores tempore quis ad sed molestiae quasi quos",
-    "working_hours": {
+    "workingHours": {
       "from": "08:44",
       "to": "22:15"
     },
@@ -2113,10 +2113,10 @@
   },
   {
     "id": 193,
-    "store_id": 39,
+    "storeId": 39,
     "name": "Brunch - pb1",
     "description": "ratione incidunt et voluptatem aliquam voluptas et quaerat voluptatem consectetur quas dolorem aut veniam ut",
-    "working_hours": {
+    "workingHours": {
       "from": "05:02",
       "to": "22:52"
     },
@@ -2124,10 +2124,10 @@
   },
   {
     "id": 194,
-    "store_id": 39,
+    "storeId": 39,
     "name": "Corporate Catering - Breakfast",
     "description": "illo dolorem vitae error quis et ut eos aut incidunt quae distinctio voluptatem ipsum consectetur",
-    "working_hours": {
+    "workingHours": {
       "from": "01:49",
       "to": "23:08"
     },
@@ -2135,10 +2135,10 @@
   },
   {
     "id": 195,
-    "store_id": 39,
+    "storeId": 39,
     "name": "Labe",
     "description": "porro vel nisi blanditiis ipsum iusto ipsum quisquam molestiae nam dolor officiis alias at libero",
-    "working_hours": {
+    "workingHours": {
       "from": "03:41",
       "to": "14:31"
     },
@@ -2146,10 +2146,10 @@
   },
   {
     "id": 196,
-    "store_id": 40,
+    "storeId": 40,
     "name": "Indian Menu - Delivery",
     "description": "animi et beatae qui eveniet autem itaque et itaque aut ratione recusandae eum qui tenetur",
-    "working_hours": {
+    "workingHours": {
       "from": "05:14",
       "to": "21:58"
     },
@@ -2157,10 +2157,10 @@
   },
   {
     "id": 197,
-    "store_id": 40,
+    "storeId": 40,
     "name": "Mei Mei Night Menu",
     "description": "nihil blanditiis praesentium reprehenderit similique autem pariatur aut non natus sapiente dolores est eos dicta",
-    "working_hours": {
+    "workingHours": {
       "from": "04:27",
       "to": "14:00"
     },
@@ -2168,10 +2168,10 @@
   },
   {
     "id": 198,
-    "store_id": 40,
+    "storeId": 40,
     "name": "Order at Caravan",
     "description": "ullam temporibus vitae cum sunt eius placeat est qui quae possimus aut voluptatem qui rerum",
-    "working_hours": {
+    "workingHours": {
       "from": "03:03",
       "to": "14:08"
     },
@@ -2179,10 +2179,10 @@
   },
   {
     "id": 199,
-    "store_id": 40,
+    "storeId": 40,
     "name": "Belfast Botanicals - All Day Menu",
     "description": "magnam voluptatem officia voluptate voluptates sed architecto totam sed sapiente provident aliquam illum sequi tempore",
-    "working_hours": {
+    "workingHours": {
       "from": "07:07",
       "to": "20:35"
     },
@@ -2190,10 +2190,10 @@
   },
   {
     "id": 200,
-    "store_id": 41,
+    "storeId": 41,
     "name": "fimoreandunion",
     "description": "officiis quasi explicabo aut sed molestias odio incidunt ab consequatur veniam accusamus optio laudantium sit",
-    "working_hours": {
+    "workingHours": {
       "from": "00:58",
       "to": "21:31"
     },
@@ -2201,10 +2201,10 @@
   },
   {
     "id": 201,
-    "store_id": 41,
+    "storeId": 41,
     "name": "Go Pho - VB Delivery",
     "description": "eum nihil cumque quis quod sit fugiat tempore culpa hic et magnam nesciunt id reprehenderit",
-    "working_hours": {
+    "workingHours": {
       "from": "03:19",
       "to": "14:44"
     },
@@ -2212,10 +2212,10 @@
   },
   {
     "id": 202,
-    "store_id": 41,
+    "storeId": 41,
     "name": "Advanced Group Ordering -",
     "description": "eum quae nulla in dolorem sit quaerat cum impedit ea deserunt et assumenda aut architecto",
-    "working_hours": {
+    "workingHours": {
       "from": "04:43",
       "to": "13:09"
     },
@@ -2223,10 +2223,10 @@
   },
   {
     "id": 203,
-    "store_id": 41,
+    "storeId": 41,
     "name": "Pizzarova EPOS",
     "description": "cupiditate et rem consequatur deserunt aspernatur et qui quae pariatur fugit sit porro corrupti molestias",
-    "working_hours": {
+    "workingHours": {
       "from": "05:13",
       "to": "23:02"
     },
@@ -2234,10 +2234,10 @@
   },
   {
     "id": 204,
-    "store_id": 41,
+    "storeId": 41,
     "name": "Order Here for Nationwide Delivery",
     "description": "facilis fugiat accusantium accusantium id nihil animi quae placeat assumenda et mollitia voluptatem dolore quidem",
-    "working_hours": {
+    "workingHours": {
       "from": "12:00",
       "to": "20:00"
     },
@@ -2245,10 +2245,10 @@
   },
   {
     "id": 205,
-    "store_id": 42,
+    "storeId": 42,
     "name": "BTP Deliveroo",
     "description": "fuga quis dolorem soluta rerum voluptate voluptates qui delectus molestiae ut laudantium aspernatur iure et",
-    "working_hours": {
+    "workingHours": {
       "from": "00:44",
       "to": "19:05"
     },
@@ -2256,10 +2256,10 @@
   },
   {
     "id": 206,
-    "store_id": 42,
+    "storeId": 42,
     "name": "All day - Java Roastery",
     "description": "est recusandae iusto voluptas quia nisi libero aliquam reiciendis sequi omnis inventore necessitatibus qui sit",
-    "working_hours": {
+    "workingHours": {
       "from": "02:33",
       "to": "16:55"
     },
@@ -2267,10 +2267,10 @@
   },
   {
     "id": 207,
-    "store_id": 42,
+    "storeId": 42,
     "name": "Poor Boys_POS",
     "description": "quis in numquam libero dicta aperiam unde voluptas ad vel fugiat totam voluptatem tempore aut",
-    "working_hours": {
+    "workingHours": {
       "from": "09:17",
       "to": "22:43"
     },
@@ -2278,10 +2278,10 @@
   },
   {
     "id": 208,
-    "store_id": 42,
+    "storeId": 42,
     "name": "Dinner - Bills",
     "description": "qui quod maxime voluptatibus blanditiis labore quam laborum aut non facilis eum suscipit tenetur sint",
-    "working_hours": {
+    "workingHours": {
       "from": "11:27",
       "to": "15:55"
     },
@@ -2289,10 +2289,10 @@
   },
   {
     "id": 209,
-    "store_id": 42,
+    "storeId": 42,
     "name": "Detox Menu",
     "description": "aut quis sed aperiam nesciunt et ipsum rerum voluptatem et fugiat iste deserunt quae dolore",
-    "working_hours": {
+    "workingHours": {
       "from": "11:00",
       "to": "18:56"
     },
@@ -2300,10 +2300,10 @@
   },
   {
     "id": 210,
-    "store_id": 43,
+    "storeId": 43,
     "name": "Grounded Kitchen - Breakfast Main",
     "description": "repellat molestias veritatis voluptatem officiis esse perferendis commodi in unde molestiae soluta perferendis quis impedit",
-    "working_hours": {
+    "workingHours": {
       "from": "11:30",
       "to": "17:46"
     },
@@ -2311,10 +2311,10 @@
   },
   {
     "id": 211,
-    "store_id": 43,
+    "storeId": 43,
     "name": "Bamboo Bay POS Menu",
     "description": "doloremque adipisci voluptatem autem molestias aut a provident necessitatibus ea eum assumenda blanditiis eum sit",
-    "working_hours": {
+    "workingHours": {
       "from": "07:51",
       "to": "14:26"
     },
@@ -2322,10 +2322,10 @@
   },
   {
     "id": 212,
-    "store_id": 43,
+    "storeId": 43,
     "name": "149 Dine In Menu",
     "description": "minus quia libero consectetur veritatis sunt vero corrupti a est perspiciatis fugiat commodi quod et",
-    "working_hours": {
+    "workingHours": {
       "from": "08:01",
       "to": "15:58"
     },
@@ -2333,10 +2333,10 @@
   },
   {
     "id": 213,
-    "store_id": 43,
+    "storeId": 43,
     "name": "K10_POS",
     "description": "sed ut dolorem ad et molestiae vel qui nulla sunt excepturi neque magni labore officia",
-    "working_hours": {
+    "workingHours": {
       "from": "09:39",
       "to": "16:57"
     },
@@ -2344,10 +2344,10 @@
   },
   {
     "id": 214,
-    "store_id": 43,
+    "storeId": 43,
     "name": "C+C",
     "description": "natus tempora rerum quod rerum est iste quibusdam aliquid quam odit dicta sapiente rerum assumenda",
-    "working_hours": {
+    "workingHours": {
       "from": "06:07",
       "to": "15:37"
     },
@@ -2355,10 +2355,10 @@
   },
   {
     "id": 215,
-    "store_id": 44,
+    "storeId": 44,
     "name": "Belfast Botanicals EPOS",
     "description": "sint ipsum consequuntur ipsa molestiae maxime labore qui dicta ex facere aut sit sed ut",
-    "working_hours": {
+    "workingHours": {
       "from": "09:54",
       "to": "15:17"
     },
@@ -2366,10 +2366,10 @@
   },
   {
     "id": 216,
-    "store_id": 44,
+    "storeId": 44,
     "name": "Delivery Aggregators Breakfast",
     "description": "ut sed id inventore illo quidem sequi quisquam tempora consequuntur et et sint et aliquam",
-    "working_hours": {
+    "workingHours": {
       "from": "09:40",
       "to": "16:27"
     },
@@ -2377,10 +2377,10 @@
   },
   {
     "id": 217,
-    "store_id": 44,
+    "storeId": 44,
     "name": "Pizza Hut POS",
     "description": "repudiandae veritatis possimus sequi rem quo mollitia in porro quae praesentium autem quas autem ut",
-    "working_hours": {
+    "workingHours": {
       "from": "04:34",
       "to": "20:03"
     },
@@ -2388,10 +2388,10 @@
   },
   {
     "id": 218,
-    "store_id": 44,
+    "storeId": 44,
     "name": "Breakfast - Main",
     "description": "doloribus aut eos velit est debitis dolore delectus natus non aut reprehenderit exercitationem rerum est",
-    "working_hours": {
+    "workingHours": {
       "from": "10:43",
       "to": "15:09"
     },
@@ -2399,10 +2399,10 @@
   },
   {
     "id": 219,
-    "store_id": 45,
+    "storeId": 45,
     "name": "Mai Taiko RA POS",
     "description": "cumque eum ut quod minus ab autem natus et amet neque nesciunt error qui libero",
-    "working_hours": {
+    "workingHours": {
       "from": "10:44",
       "to": "17:44"
     },
@@ -2410,10 +2410,10 @@
   },
   {
     "id": 220,
-    "store_id": 45,
+    "storeId": 45,
     "name": "All day test",
     "description": "eveniet quia nihil aliquid rerum neque sunt aut ducimus nemo nesciunt culpa tempore numquam ut",
-    "working_hours": {
+    "workingHours": {
       "from": "04:58",
       "to": "22:44"
     },
@@ -2421,10 +2421,10 @@
   },
   {
     "id": 221,
-    "store_id": 45,
+    "storeId": 45,
     "name": "Order at Old Street",
     "description": "ipsam enim blanditiis repellat sunt dolor sit aliquam voluptatem asperiores laudantium aspernatur molestiae saepe pariatur",
-    "working_hours": {
+    "workingHours": {
       "from": "04:53",
       "to": "13:51"
     },
@@ -2432,10 +2432,10 @@
   },
   {
     "id": 222,
-    "store_id": 45,
+    "storeId": 45,
     "name": "Belfast Botanicals EPOS",
     "description": "dolores sunt modi et cupiditate et et deleniti voluptate dignissimos ut culpa itaque pariatur repudiandae",
-    "working_hours": {
+    "workingHours": {
       "from": "00:26",
       "to": "18:46"
     },
@@ -2443,10 +2443,10 @@
   },
   {
     "id": 223,
-    "store_id": 45,
+    "storeId": 45,
     "name": "Chip'd Menu",
     "description": "et qui quis corporis ipsa alias corrupti culpa repellendus ea aut iure nostrum quo iusto",
-    "working_hours": {
+    "workingHours": {
       "from": "12:54",
       "to": "21:28"
     },
@@ -2454,10 +2454,10 @@
   },
   {
     "id": 224,
-    "store_id": 45,
+    "storeId": 45,
     "name": "Benugo EPOS",
     "description": "vel nam consequatur suscipit et repudiandae quaerat nemo cupiditate velit unde et delectus consectetur nihil",
-    "working_hours": {
+    "workingHours": {
       "from": "01:03",
       "to": "18:27"
     },
@@ -2465,10 +2465,10 @@
   },
   {
     "id": 225,
-    "store_id": 45,
+    "storeId": 45,
     "name": "Pizza Hut POS",
     "description": "repellendus deleniti culpa nemo tempore pariatur vel quo ea ut quibusdam dolores earum est consequatur",
-    "working_hours": {
+    "workingHours": {
       "from": "05:53",
       "to": "13:03"
     },
@@ -2476,10 +2476,10 @@
   },
   {
     "id": 226,
-    "store_id": 45,
+    "storeId": 45,
     "name": "House of Yum Coffee",
     "description": "molestiae ut dolores eum aliquam expedita culpa voluptas est sed labore velit pariatur magnam et",
-    "working_hours": {
+    "workingHours": {
       "from": "04:11",
       "to": "14:38"
     },
@@ -2487,10 +2487,10 @@
   },
   {
     "id": 227,
-    "store_id": 46,
+    "storeId": 46,
     "name": "House Of YUM 2022",
     "description": "id error at veniam quae eaque qui fugiat tenetur atque consequatur possimus rem non expedita",
-    "working_hours": {
+    "workingHours": {
       "from": "00:50",
       "to": "13:52"
     },
@@ -2498,10 +2498,10 @@
   },
   {
     "id": 228,
-    "store_id": 46,
+    "storeId": 46,
     "name": "Leeds POS",
     "description": "non autem eum iure tenetur enim ipsa sint tenetur culpa delectus deleniti ex est optio",
-    "working_hours": {
+    "workingHours": {
       "from": "10:58",
       "to": "15:31"
     },
@@ -2509,10 +2509,10 @@
   },
   {
     "id": 229,
-    "store_id": 46,
+    "storeId": 46,
     "name": "House of Yum Coffee",
     "description": "est reiciendis velit modi quisquam aspernatur quibusdam corrupti earum animi at adipisci id et et",
-    "working_hours": {
+    "workingHours": {
       "from": "00:51",
       "to": "23:56"
     },
@@ -2520,10 +2520,10 @@
   },
   {
     "id": 230,
-    "store_id": 46,
+    "storeId": 46,
     "name": "Lahpet Pantry",
     "description": "porro earum in tenetur aut cum enim at quae rem corrupti qui molestiae dolores rerum",
-    "working_hours": {
+    "workingHours": {
       "from": "05:08",
       "to": "21:05"
     },
@@ -2531,10 +2531,10 @@
   },
   {
     "id": 231,
-    "store_id": 46,
+    "storeId": 46,
     "name": "All Day - Hubbox",
     "description": "velit beatae voluptas quas quis perspiciatis libero voluptas assumenda et fuga commodi id impedit omnis",
-    "working_hours": {
+    "workingHours": {
       "from": "11:44",
       "to": "20:04"
     },
@@ -2542,10 +2542,10 @@
   },
   {
     "id": 232,
-    "store_id": 46,
+    "storeId": 46,
     "name": "Kosmos Delivery Menu",
     "description": "et sint earum voluptate reprehenderit nisi et labore soluta omnis quasi ex fugiat pariatur rerum",
-    "working_hours": {
+    "workingHours": {
       "from": "05:11",
       "to": "22:45"
     },
@@ -2553,10 +2553,10 @@
   },
   {
     "id": 233,
-    "store_id": 46,
+    "storeId": 46,
     "name": "EPOS Rest/Ta 22",
     "description": "quaerat libero temporibus quas sint temporibus repudiandae ut facilis exercitationem iure dolor voluptas cupiditate illum",
-    "working_hours": {
+    "workingHours": {
       "from": "11:17",
       "to": "16:27"
     },
@@ -2564,10 +2564,10 @@
   },
   {
     "id": 234,
-    "store_id": 47,
+    "storeId": 47,
     "name": "North RST",
     "description": "nesciunt numquam recusandae et in dignissimos rerum optio dolor quaerat ullam vel veritatis voluptatem quas",
-    "working_hours": {
+    "workingHours": {
       "from": "00:15",
       "to": "16:18"
     },
@@ -2575,10 +2575,10 @@
   },
   {
     "id": 235,
-    "store_id": 47,
+    "storeId": 47,
     "name": "Kosmos POS",
     "description": "voluptas quo et repellendus non corrupti voluptatibus nostrum fugit tempora qui sint occaecati aut et",
-    "working_hours": {
+    "workingHours": {
       "from": "01:50",
       "to": "22:34"
     },
@@ -2586,10 +2586,10 @@
   },
   {
     "id": 236,
-    "store_id": 47,
+    "storeId": 47,
     "name": "Delivery Aggregators 22",
     "description": "soluta natus voluptatem fugiat minima sapiente quod nemo ut qui vel id delectus quo cum",
-    "working_hours": {
+    "workingHours": {
       "from": "04:08",
       "to": "21:34"
     },
@@ -2597,10 +2597,10 @@
   },
   {
     "id": 237,
-    "store_id": 48,
+    "storeId": 48,
     "name": "Benugo Breakfast",
     "description": "fugiat maiores quasi quibusdam totam et qui sint voluptatem necessitatibus atque porro nihil blanditiis corrupti",
-    "working_hours": {
+    "workingHours": {
       "from": "06:01",
       "to": "13:46"
     },
@@ -2608,10 +2608,10 @@
   },
   {
     "id": 238,
-    "store_id": 48,
+    "storeId": 48,
     "name": "Future Day",
     "description": "sapiente cum dolores ut nam aut et nostrum nobis sed qui cupiditate vel nesciunt est",
-    "working_hours": {
+    "workingHours": {
       "from": "10:58",
       "to": "20:46"
     },
@@ -2619,10 +2619,10 @@
   },
   {
     "id": 239,
-    "store_id": 48,
+    "storeId": 48,
     "name": "CS Academy POS",
     "description": "sit omnis quia non quisquam aliquam ut qui occaecati nam suscipit culpa perferendis voluptatum et",
-    "working_hours": {
+    "workingHours": {
       "from": "06:52",
       "to": "18:46"
     },
@@ -2630,10 +2630,10 @@
   },
   {
     "id": 240,
-    "store_id": 48,
+    "storeId": 48,
     "name": "Order at Canary Wharf",
     "description": "aut ut quae saepe eos consectetur porro eaque blanditiis facere odio magni non quibusdam voluptas",
-    "working_hours": {
+    "workingHours": {
       "from": "08:36",
       "to": "14:16"
     },
@@ -2641,10 +2641,10 @@
   },
   {
     "id": 241,
-    "store_id": 48,
+    "storeId": 48,
     "name": "Mikos Gyros - Delivery Menu",
     "description": "nemo maiores et ipsum optio voluptas quisquam consequatur voluptatem et sequi et recusandae autem facere",
-    "working_hours": {
+    "workingHours": {
       "from": "09:04",
       "to": "22:55"
     },
@@ -2652,10 +2652,10 @@
   },
   {
     "id": 242,
-    "store_id": 48,
+    "storeId": 48,
     "name": "Order at Vardo",
     "description": "modi modi cupiditate ipsum officiis nostrum et libero voluptates eos magnam id porro aliquam eum",
-    "working_hours": {
+    "workingHours": {
       "from": "06:16",
       "to": "14:55"
     },
@@ -2663,10 +2663,10 @@
   },
   {
     "id": 243,
-    "store_id": 48,
+    "storeId": 48,
     "name": "N/a",
     "description": "ut ab sequi saepe qui dolores dolorum quis sint voluptatem voluptas rerum doloremque ratione aliquam",
-    "working_hours": {
+    "workingHours": {
       "from": "08:49",
       "to": "22:08"
     },
@@ -2674,10 +2674,10 @@
   },
   {
     "id": 244,
-    "store_id": 49,
+    "storeId": 49,
     "name": "CS Academy POS",
     "description": "consectetur ad non quia fugiat ab qui est qui neque quos magni ipsam ipsam a",
-    "working_hours": {
+    "workingHours": {
       "from": "05:28",
       "to": "22:56"
     },
@@ -2685,10 +2685,10 @@
   },
   {
     "id": 245,
-    "store_id": 49,
+    "storeId": 49,
     "name": "NBRHD Menu",
     "description": "quibusdam totam hic minima fugit veniam consequatur sint quam et deserunt cum dolores nisi omnis",
-    "working_hours": {
+    "workingHours": {
       "from": "08:47",
       "to": "14:48"
     },
@@ -2696,10 +2696,10 @@
   },
   {
     "id": 246,
-    "store_id": 49,
+    "storeId": 49,
     "name": "Order Now from St Johns Wood",
     "description": "in maxime exercitationem voluptatem facilis laborum totam sed provident perspiciatis ea doloremque ut repudiandae magnam",
-    "working_hours": {
+    "workingHours": {
       "from": "04:38",
       "to": "18:51"
     },
@@ -2707,10 +2707,10 @@
   },
   {
     "id": 247,
-    "store_id": 49,
+    "storeId": 49,
     "name": "All Day-",
     "description": "aut quae et est ab ullam quo voluptatem voluptatum quisquam deserunt ut eos autem deserunt",
-    "working_hours": {
+    "workingHours": {
       "from": "11:50",
       "to": "21:44"
     },
@@ -2718,10 +2718,10 @@
   },
   {
     "id": 248,
-    "store_id": 50,
+    "storeId": 50,
     "name": "Hot Chix - Swords",
     "description": "aut corporis reiciendis aliquid qui numquam id consequatur quia facere distinctio quos eum quisquam beatae",
-    "working_hours": {
+    "workingHours": {
       "from": "05:47",
       "to": "15:12"
     },
@@ -2729,10 +2729,10 @@
   },
   {
     "id": 249,
-    "store_id": 50,
+    "storeId": 50,
     "name": "Mildreds Brunch Menu",
     "description": "tenetur laboriosam asperiores voluptatum quam voluptas aspernatur aperiam eveniet architecto labore repellat reiciendis adipisci nam",
-    "working_hours": {
+    "workingHours": {
       "from": "11:56",
       "to": "23:50"
     },
@@ -2740,10 +2740,10 @@
   },
   {
     "id": 250,
-    "store_id": 50,
+    "storeId": 50,
     "name": "For Your Office",
     "description": "excepturi beatae facere quis quia ut et quia incidunt ut a laborum sunt soluta ut",
-    "working_hours": {
+    "workingHours": {
       "from": "10:28",
       "to": "19:02"
     },
@@ -2751,10 +2751,10 @@
   },
   {
     "id": 251,
-    "store_id": 50,
+    "storeId": 50,
     "name": "Envie",
     "description": "velit fugit voluptates animi facere et consequuntur rerum illum et aliquid est commodi commodi aspernatur",
-    "working_hours": {
+    "workingHours": {
       "from": "10:59",
       "to": "19:19"
     },
@@ -2762,10 +2762,10 @@
   },
   {
     "id": 252,
-    "store_id": 50,
+    "storeId": 50,
     "name": "All Day - Cocina",
     "description": "enim et non quos cupiditate eligendi ipsa et et repudiandae laborum nihil ipsum ut earum",
-    "working_hours": {
+    "workingHours": {
       "from": "06:27",
       "to": "18:51"
     },
@@ -2773,10 +2773,10 @@
   },
   {
     "id": 253,
-    "store_id": 50,
+    "storeId": 50,
     "name": "ABM- Breakfast Menu- C&C",
     "description": "et aut asperiores aut praesentium optio voluptates et laborum incidunt qui eum iusto commodi ullam",
-    "working_hours": {
+    "workingHours": {
       "from": "09:10",
       "to": "19:41"
     },
@@ -2784,10 +2784,10 @@
   },
   {
     "id": 254,
-    "store_id": 51,
+    "storeId": 51,
     "name": "Dumpling Shack_POS",
     "description": "placeat distinctio at delectus culpa alias quos nulla quia corrupti similique perferendis facilis id ad",
-    "working_hours": {
+    "workingHours": {
       "from": "06:00",
       "to": "21:42"
     },
@@ -2795,10 +2795,10 @@
   },
   {
     "id": 255,
-    "store_id": 51,
+    "storeId": 51,
     "name": "Autumn Future Day BE",
     "description": "deserunt velit quis ipsam exercitationem molestiae qui quos voluptas autem fugit omnis excepturi accusamus voluptatibus",
-    "working_hours": {
+    "workingHours": {
       "from": "01:50",
       "to": "18:05"
     },
@@ -2806,10 +2806,10 @@
   },
   {
     "id": 256,
-    "store_id": 51,
+    "storeId": 51,
     "name": "All Day - pb3",
     "description": "aut quas reprehenderit rem sint unde sed deleniti libero vitae autem voluptatum placeat odio aspernatur",
-    "working_hours": {
+    "workingHours": {
       "from": "06:20",
       "to": "20:07"
     },
@@ -2817,10 +2817,10 @@
   },
   {
     "id": 257,
-    "store_id": 51,
+    "storeId": 51,
     "name": "Neyba Delivery",
     "description": "perspiciatis exercitationem deleniti totam accusantium sed in ducimus corporis earum facilis consequuntur facere illum dolores",
-    "working_hours": {
+    "workingHours": {
       "from": "08:58",
       "to": "13:40"
     },
@@ -2828,10 +2828,10 @@
   },
   {
     "id": 258,
-    "store_id": 51,
+    "storeId": 51,
     "name": "All Day - Roadchef",
     "description": "sapiente neque eius illo omnis est minus aut officia magni velit quidem ducimus optio doloribus",
-    "working_hours": {
+    "workingHours": {
       "from": "08:55",
       "to": "18:38"
     },
@@ -2839,10 +2839,10 @@
   },
   {
     "id": 259,
-    "store_id": 51,
+    "storeId": 51,
     "name": "149 Delivery Aggregator",
     "description": "deserunt sunt cupiditate sint aspernatur asperiores fugiat quia qui quam labore aliquam minima ab qui",
-    "working_hours": {
+    "workingHours": {
       "from": "03:39",
       "to": "18:43"
     },
@@ -2850,10 +2850,10 @@
   },
   {
     "id": 260,
-    "store_id": 52,
+    "storeId": 52,
     "name": "Leeds POS",
     "description": "dicta voluptatem dolorem accusantium eos at a et minima ut quae in quaerat rerum necessitatibus",
-    "working_hours": {
+    "workingHours": {
       "from": "09:57",
       "to": "22:57"
     },
@@ -2861,10 +2861,10 @@
   },
   {
     "id": 261,
-    "store_id": 52,
+    "storeId": 52,
     "name": "Bournemouth Cafe",
     "description": "debitis molestiae voluptate magnam illum rerum error incidunt veritatis explicabo et fuga tenetur cupiditate quasi",
-    "working_hours": {
+    "workingHours": {
       "from": "06:02",
       "to": "15:09"
     },
@@ -2872,10 +2872,10 @@
   },
   {
     "id": 262,
-    "store_id": 52,
+    "storeId": 52,
     "name": "North Delivery Lunch",
     "description": "facilis ad dolor aut quasi odio ex sit perspiciatis quo labore officia sapiente perspiciatis ipsum",
-    "working_hours": {
+    "workingHours": {
       "from": "02:54",
       "to": "14:47"
     },
@@ -2883,10 +2883,10 @@
   },
   {
     "id": 263,
-    "store_id": 52,
+    "storeId": 52,
     "name": "Bruno’s D 2",
     "description": "a quas veniam officiis omnis qui similique fuga rerum delectus tempore aliquid et consequatur voluptatem",
-    "working_hours": {
+    "workingHours": {
       "from": "12:55",
       "to": "19:57"
     },
@@ -2894,10 +2894,10 @@
   },
   {
     "id": 264,
-    "store_id": 52,
+    "storeId": 52,
     "name": "All Day - Roadchef",
     "description": "dolore sit sit odit excepturi molestiae ut eos in voluptatem voluptate ut culpa aut ut",
-    "working_hours": {
+    "workingHours": {
       "from": "09:48",
       "to": "15:57"
     },
@@ -2905,10 +2905,10 @@
   },
   {
     "id": 265,
-    "store_id": 52,
+    "storeId": 52,
     "name": "Deliveroo Breakfast",
     "description": "enim cum numquam voluptas est inventore autem quisquam doloremque architecto fugiat commodi explicabo minima aspernatur",
-    "working_hours": {
+    "workingHours": {
       "from": "00:48",
       "to": "21:28"
     },
@@ -2916,10 +2916,10 @@
   },
   {
     "id": 266,
-    "store_id": 52,
+    "storeId": 52,
     "name": "Guidos",
     "description": "corrupti ut voluptatem rerum cumque delectus sint esse sint dolores dignissimos cum at iusto ullam",
-    "working_hours": {
+    "workingHours": {
       "from": "00:41",
       "to": "15:05"
     },
@@ -2927,10 +2927,10 @@
   },
   {
     "id": 267,
-    "store_id": 53,
+    "storeId": 53,
     "name": "CS Academy All Day",
     "description": "dolores soluta exercitationem delectus sint ut perspiciatis autem ea aut esse dolor magnam eligendi illo",
-    "working_hours": {
+    "workingHours": {
       "from": "08:33",
       "to": "14:55"
     },
@@ -2938,10 +2938,10 @@
   },
   {
     "id": 268,
-    "store_id": 53,
+    "storeId": 53,
     "name": "Honest Chicken - All Day",
     "description": "maxime et culpa vel impedit neque totam pariatur fugiat labore adipisci et et tenetur nihil",
-    "working_hours": {
+    "workingHours": {
       "from": "10:27",
       "to": "13:20"
     },
@@ -2949,10 +2949,10 @@
   },
   {
     "id": 269,
-    "store_id": 53,
+    "storeId": 53,
     "name": "Order Here",
     "description": "quas fugit excepturi rerum voluptates et ducimus enim modi optio aspernatur nesciunt sunt doloremque distinctio",
-    "working_hours": {
+    "workingHours": {
       "from": "10:51",
       "to": "15:11"
     },
@@ -2960,10 +2960,10 @@
   },
   {
     "id": 270,
-    "store_id": 54,
+    "storeId": 54,
     "name": "Miguels camden pos menu",
     "description": "in quam quam quam totam error quia aut et veritatis et vel eum nihil nesciunt",
-    "working_hours": {
+    "workingHours": {
       "from": "01:05",
       "to": "21:51"
     },
@@ -2971,10 +2971,10 @@
   },
   {
     "id": 271,
-    "store_id": 54,
+    "storeId": 54,
     "name": "Coming Soon",
     "description": "eum labore eligendi odio natus velit excepturi voluptatem aut ipsa dolores autem asperiores assumenda omnis",
-    "working_hours": {
+    "workingHours": {
       "from": "04:36",
       "to": "13:25"
     },
@@ -2982,10 +2982,10 @@
   },
   {
     "id": 272,
-    "store_id": 54,
+    "storeId": 54,
     "name": "Mildreds_POS",
     "description": "aut nam dolorem dolore aut sed omnis nam eos vitae eveniet nostrum aut voluptatem voluptatibus",
-    "working_hours": {
+    "workingHours": {
       "from": "08:17",
       "to": "22:57"
     },
@@ -2993,10 +2993,10 @@
   },
   {
     "id": 273,
-    "store_id": 54,
+    "storeId": 54,
     "name": "Delivery - Crêpeaffaire - Alcohol",
     "description": "sed architecto et numquam reprehenderit voluptatem nobis ut autem accusamus numquam voluptatibus maiores consequatur sit",
-    "working_hours": {
+    "workingHours": {
       "from": "04:00",
       "to": "17:12"
     },
@@ -3004,10 +3004,10 @@
   },
   {
     "id": 274,
-    "store_id": 54,
+    "storeId": 54,
     "name": "Menu - Crepe & Roll",
     "description": "facere nobis et quia nisi omnis ea consequuntur rerum tenetur consectetur blanditiis nihil velit pariatur",
-    "working_hours": {
+    "workingHours": {
       "from": "05:29",
       "to": "17:51"
     },
@@ -3015,10 +3015,10 @@
   },
   {
     "id": 275,
-    "store_id": 54,
+    "storeId": 54,
     "name": "North TA",
     "description": "delectus qui sed voluptatem tempore aut aut exercitationem accusamus accusantium ut amet id sit totam",
-    "working_hours": {
+    "workingHours": {
       "from": "10:17",
       "to": "18:40"
     },
@@ -3026,10 +3026,10 @@
   },
   {
     "id": 276,
-    "store_id": 55,
+    "storeId": 55,
     "name": "Mildreds - Brunch - C&C",
     "description": "iusto id iste tenetur enim ipsum occaecati ut esse aut quia sint nam dolores cumque",
-    "working_hours": {
+    "workingHours": {
       "from": "05:43",
       "to": "20:27"
     },
@@ -3037,10 +3037,10 @@
   },
   {
     "id": 277,
-    "store_id": 55,
+    "storeId": 55,
     "name": "Hot Rocks Menu",
     "description": "aut cumque repellat quia ut eius rerum aspernatur eos laudantium ea commodi nihil unde sit",
-    "working_hours": {
+    "workingHours": {
       "from": "05:56",
       "to": "18:24"
     },
@@ -3048,10 +3048,10 @@
   },
   {
     "id": 278,
-    "store_id": 55,
+    "storeId": 55,
     "name": "Five Points EPOS Menu",
     "description": "laborum vitae aut corporis saepe amet nihil a sequi explicabo ipsa et est aut id",
-    "working_hours": {
+    "workingHours": {
       "from": "07:48",
       "to": "16:29"
     },
@@ -3059,10 +3059,10 @@
   },
   {
     "id": 279,
-    "store_id": 55,
+    "storeId": 55,
     "name": "All Day-",
     "description": "enim aut qui dolore porro commodi placeat dolorem facilis odit molestias numquam fuga reiciendis non",
-    "working_hours": {
+    "workingHours": {
       "from": "02:44",
       "to": "18:44"
     },
@@ -3070,10 +3070,10 @@
   },
   {
     "id": 280,
-    "store_id": 55,
+    "storeId": 55,
     "name": "Brunch - Delivery",
     "description": "nam inventore quo ipsa veritatis ut sed rerum et ut voluptas nihil beatae aperiam non",
-    "working_hours": {
+    "workingHours": {
       "from": "07:44",
       "to": "15:04"
     },
@@ -3081,10 +3081,10 @@
   },
   {
     "id": 281,
-    "store_id": 55,
+    "storeId": 55,
     "name": "Breakfast - Bills",
     "description": "iste est eos animi totam ad nobis et iste veniam voluptas dolorem est odit aut",
-    "working_hours": {
+    "workingHours": {
       "from": "10:02",
       "to": "21:47"
     },
@@ -3092,10 +3092,10 @@
   },
   {
     "id": 282,
-    "store_id": 55,
+    "storeId": 55,
     "name": "Future Day",
     "description": "ullam fugit debitis est corrupti reiciendis voluptate aut pariatur et omnis modi qui aut delectus",
-    "working_hours": {
+    "workingHours": {
       "from": "00:33",
       "to": "21:10"
     },
@@ -3103,10 +3103,10 @@
   },
   {
     "id": 283,
-    "store_id": 56,
+    "storeId": 56,
     "name": "Breakfast Hop",
     "description": "saepe provident sint et dolor officiis qui sed dolor optio aut veritatis officia omnis adipisci",
-    "working_hours": {
+    "workingHours": {
       "from": "10:30",
       "to": "23:27"
     },
@@ -3114,10 +3114,10 @@
   },
   {
     "id": 284,
-    "store_id": 56,
+    "storeId": 56,
     "name": "All (Smashed) POS",
     "description": "excepturi magni quia aut nulla perferendis voluptatum qui aliquid possimus et beatae consequatur possimus soluta",
-    "working_hours": {
+    "workingHours": {
       "from": "08:41",
       "to": "17:33"
     },
@@ -3125,10 +3125,10 @@
   },
   {
     "id": 285,
-    "store_id": 56,
+    "storeId": 56,
     "name": "Dine in FSR/ASR 22",
     "description": "ullam cum a sit suscipit iusto consequuntur optio architecto non consequatur eligendi eveniet adipisci alias",
-    "working_hours": {
+    "workingHours": {
       "from": "06:39",
       "to": "17:43"
     },
@@ -3136,10 +3136,10 @@
   },
   {
     "id": 286,
-    "store_id": 56,
+    "storeId": 56,
     "name": "Olivocracy",
     "description": "voluptas dolor distinctio quis excepturi dolores eos quasi est asperiores deleniti explicabo modi voluptatem et",
-    "working_hours": {
+    "workingHours": {
       "from": "08:15",
       "to": "23:23"
     },
@@ -3147,10 +3147,10 @@
   },
   {
     "id": 287,
-    "store_id": 56,
+    "storeId": 56,
     "name": "Lucky 7",
     "description": "odit ipsam sequi et sed esse ab libero fugit nam quidem veritatis illum labore sit",
-    "working_hours": {
+    "workingHours": {
       "from": "11:51",
       "to": "16:04"
     },
@@ -3158,10 +3158,10 @@
   },
   {
     "id": 288,
-    "store_id": 56,
+    "storeId": 56,
     "name": "Null",
     "description": "voluptas sint vero doloremque exercitationem sint et eum eos ex rerum ex dolorum beatae tempore",
-    "working_hours": {
+    "workingHours": {
       "from": "12:43",
       "to": "19:39"
     },
@@ -3169,10 +3169,10 @@
   },
   {
     "id": 289,
-    "store_id": 56,
+    "storeId": 56,
     "name": "EM EPOS",
     "description": "quisquam aperiam accusantium ducimus dignissimos maiores consequuntur blanditiis rerum porro praesentium asperiores nesciunt voluptatem sit",
-    "working_hours": {
+    "workingHours": {
       "from": "07:11",
       "to": "23:04"
     },
@@ -3180,10 +3180,10 @@
   },
   {
     "id": 290,
-    "store_id": 57,
+    "storeId": 57,
     "name": "149 Dine In Menu",
     "description": "possimus occaecati voluptas dolore eos totam laboriosam et placeat molestias sed harum sequi eaque sit",
-    "working_hours": {
+    "workingHours": {
       "from": "11:06",
       "to": "23:24"
     },
@@ -3191,10 +3191,10 @@
   },
   {
     "id": 291,
-    "store_id": 57,
+    "storeId": 57,
     "name": "Broadgate Breakfast",
     "description": "modi quis excepturi ullam sit laudantium tenetur inventore iste porro quisquam eum autem excepturi est",
-    "working_hours": {
+    "workingHours": {
       "from": "10:25",
       "to": "20:21"
     },
@@ -3202,10 +3202,10 @@
   },
   {
     "id": 292,
-    "store_id": 57,
+    "storeId": 57,
     "name": "Bruno’s Cafe",
     "description": "omnis autem sed soluta sunt inventore sequi consequatur unde autem quod sed ut ut sit",
-    "working_hours": {
+    "workingHours": {
       "from": "08:03",
       "to": "23:58"
     },
@@ -3213,10 +3213,10 @@
   },
   {
     "id": 293,
-    "store_id": 57,
+    "storeId": 57,
     "name": "NOT IN USE",
     "description": "esse corporis dolore qui tenetur magni qui voluptatem quidem qui sit magni voluptatem voluptatem tenetur",
-    "working_hours": {
+    "workingHours": {
       "from": "02:28",
       "to": "17:19"
     },
@@ -3224,10 +3224,10 @@
   },
   {
     "id": 294,
-    "store_id": 57,
+    "storeId": 57,
     "name": "Bad Vegan EPOS",
     "description": "temporibus facilis atque dolore ducimus eos expedita molestiae rerum dolor voluptatibus nihil at est quis",
-    "working_hours": {
+    "workingHours": {
       "from": "05:02",
       "to": "19:06"
     },
@@ -3235,10 +3235,10 @@
   },
   {
     "id": 295,
-    "store_id": 58,
+    "storeId": 58,
     "name": "Dinner Hop",
     "description": "et culpa cum praesentium sed in odit consectetur aut id ipsum quidem facilis aspernatur labore",
-    "working_hours": {
+    "workingHours": {
       "from": "06:59",
       "to": "19:27"
     },
@@ -3246,10 +3246,10 @@
   },
   {
     "id": 296,
-    "store_id": 58,
+    "storeId": 58,
     "name": "Biju Bubble Tea POS",
     "description": "sint rem temporibus eum explicabo eum delectus quo aut sit ut quod laudantium qui molestias",
-    "working_hours": {
+    "workingHours": {
       "from": "02:01",
       "to": "22:56"
     },
@@ -3257,10 +3257,10 @@
   },
   {
     "id": 297,
-    "store_id": 58,
+    "storeId": 58,
     "name": "Olive",
     "description": "facilis id quibusdam impedit dicta expedita qui totam veniam cum delectus quae iusto nostrum quis",
-    "working_hours": {
+    "workingHours": {
       "from": "11:48",
       "to": "13:00"
     },
@@ -3268,10 +3268,10 @@
   },
   {
     "id": 298,
-    "store_id": 59,
+    "storeId": 59,
     "name": "Chip'd Delivery",
     "description": "neque ut autem ut aut ea animi blanditiis non sint molestiae aliquam rerum maxime sequi",
-    "working_hours": {
+    "workingHours": {
       "from": "00:23",
       "to": "17:45"
     },
@@ -3279,10 +3279,10 @@
   },
   {
     "id": 299,
-    "store_id": 59,
+    "storeId": 59,
     "name": "EPOS - QSR Only",
     "description": "saepe et saepe eligendi tenetur in laudantium earum minima culpa assumenda nihil est et aut",
-    "working_hours": {
+    "workingHours": {
       "from": "06:54",
       "to": "14:39"
     },
@@ -3290,10 +3290,10 @@
   },
   {
     "id": 300,
-    "store_id": 59,
+    "storeId": 59,
     "name": "Dumpling Shack_POS",
     "description": "sunt laborum quis iste rerum perspiciatis sunt maxime sit voluptatem ut consequatur nam aut incidunt",
-    "working_hours": {
+    "workingHours": {
       "from": "11:16",
       "to": "16:42"
     },
@@ -3301,10 +3301,10 @@
   },
   {
     "id": 301,
-    "store_id": 59,
+    "storeId": 59,
     "name": "Order at Bermondsey",
     "description": "id ut suscipit ipsum cumque error sit veritatis tempore veritatis qui repellat ratione tempora amet",
-    "working_hours": {
+    "workingHours": {
       "from": "00:55",
       "to": "22:01"
     },
@@ -3312,10 +3312,10 @@
   },
   {
     "id": 302,
-    "store_id": 59,
+    "storeId": 59,
     "name": "Lunchtime pre-order by 1115 menu",
     "description": "qui beatae dolorem ut nam et corrupti consequuntur quia laboriosam consectetur pariatur dolore rerum suscipit",
-    "working_hours": {
+    "workingHours": {
       "from": "00:15",
       "to": "17:40"
     },
@@ -3323,10 +3323,10 @@
   },
   {
     "id": 303,
-    "store_id": 59,
+    "storeId": 59,
     "name": "Do Not Use Yokocho",
     "description": "repellendus nesciunt sint molestiae veritatis enim et est dolorem aperiam ipsam corrupti deserunt eius et",
-    "working_hours": {
+    "workingHours": {
       "from": "06:37",
       "to": "19:07"
     },
@@ -3334,10 +3334,10 @@
   },
   {
     "id": 304,
-    "store_id": 59,
+    "storeId": 59,
     "name": "london wall",
     "description": "consequuntur dignissimos alias quia qui vero illum eum id voluptatibus sunt adipisci aliquam nisi distinctio",
-    "working_hours": {
+    "workingHours": {
       "from": "02:09",
       "to": "13:53"
     },
@@ -3345,10 +3345,10 @@
   },
   {
     "id": 305,
-    "store_id": 60,
+    "storeId": 60,
     "name": "Honest Chicken - All Day",
     "description": "voluptatem aliquid sit aut magni in cum tenetur est placeat porro ipsa et pariatur voluptas",
-    "working_hours": {
+    "workingHours": {
       "from": "10:29",
       "to": "13:29"
     },
@@ -3356,10 +3356,10 @@
   },
   {
     "id": 306,
-    "store_id": 60,
+    "storeId": 60,
     "name": "Dinner - Delivery",
     "description": "quidem dolores ab doloremque maiores adipisci aperiam voluptatem velit qui nihil et earum et doloribus",
-    "working_hours": {
+    "workingHours": {
       "from": "09:35",
       "to": "17:45"
     },
@@ -3367,10 +3367,10 @@
   },
   {
     "id": 307,
-    "store_id": 60,
+    "storeId": 60,
     "name": "Chickaboomboom All Day Menu",
     "description": "temporibus aut hic ut velit id porro non animi debitis suscipit omnis error inventore perferendis",
-    "working_hours": {
+    "workingHours": {
       "from": "00:07",
       "to": "23:20"
     },
@@ -3378,10 +3378,10 @@
   },
   {
     "id": 308,
-    "store_id": 60,
+    "storeId": 60,
     "name": "K10Menu",
     "description": "odit voluptas ullam similique quia optio dignissimos sunt dolor dignissimos sunt molestias ad veritatis quos",
-    "working_hours": {
+    "workingHours": {
       "from": "02:16",
       "to": "15:04"
     },
@@ -3389,10 +3389,10 @@
   },
   {
     "id": 309,
-    "store_id": 60,
+    "storeId": 60,
     "name": "Benugo Breakfast",
     "description": "reprehenderit ipsum quo labore aut nihil ab qui placeat sint et modi sapiente et dolorem",
-    "working_hours": {
+    "workingHours": {
       "from": "11:37",
       "to": "18:50"
     },
@@ -3400,10 +3400,10 @@
   },
   {
     "id": 310,
-    "store_id": 60,
+    "storeId": 60,
     "name": "Guidos",
     "description": "quo et aut repellat numquam consequuntur quis sapiente et modi aut sint ut impedit voluptas",
-    "working_hours": {
+    "workingHours": {
       "from": "05:42",
       "to": "22:10"
     },
@@ -3411,10 +3411,10 @@
   },
   {
     "id": 311,
-    "store_id": 60,
+    "storeId": 60,
     "name": "Dirty Bones OPAT 2-Ignore",
     "description": "voluptatum eaque est unde officia molestiae corrupti quidem velit vero vero omnis molestiae quod accusamus",
-    "working_hours": {
+    "workingHours": {
       "from": "02:01",
       "to": "17:35"
     },
@@ -3422,10 +3422,10 @@
   },
   {
     "id": 312,
-    "store_id": 61,
+    "storeId": 61,
     "name": "Iberica_POS",
     "description": "in possimus nemo occaecati rerum ut mollitia officiis id est architecto in dignissimos praesentium voluptatem",
-    "working_hours": {
+    "workingHours": {
       "from": "10:44",
       "to": "17:22"
     },
@@ -3433,10 +3433,10 @@
   },
   {
     "id": 313,
-    "store_id": 61,
+    "storeId": 61,
     "name": "N/a",
     "description": "magnam tempora odio sit fugit dolor voluptatem incidunt dolorem blanditiis maiores itaque corrupti totam ut",
-    "working_hours": {
+    "workingHours": {
       "from": "02:05",
       "to": "15:12"
     },
@@ -3444,10 +3444,10 @@
   },
   {
     "id": 314,
-    "store_id": 61,
+    "storeId": 61,
     "name": "DO NOT USE Pizza Hut All Day",
     "description": "dolores nisi repellat enim velit sed quo impedit enim possimus illo vero delectus sint aliquam",
-    "working_hours": {
+    "workingHours": {
       "from": "10:22",
       "to": "19:54"
     },
@@ -3455,10 +3455,10 @@
   },
   {
     "id": 315,
-    "store_id": 61,
+    "storeId": 61,
     "name": "knightfrank",
     "description": "accusantium consequuntur voluptas voluptas nostrum beatae iste voluptates non nobis voluptatem vitae et molestias sit",
-    "working_hours": {
+    "workingHours": {
       "from": "01:47",
       "to": "16:50"
     },
@@ -3466,10 +3466,10 @@
   },
   {
     "id": 316,
-    "store_id": 61,
+    "storeId": 61,
     "name": "Lunch Menu- Dirty Bones",
     "description": "nesciunt laboriosam delectus rerum ipsa impedit sed non pariatur animi explicabo repudiandae est rem id",
-    "working_hours": {
+    "workingHours": {
       "from": "00:58",
       "to": "16:50"
     },
@@ -3477,10 +3477,10 @@
   },
   {
     "id": 317,
-    "store_id": 61,
+    "storeId": 61,
     "name": "Biju Bubble Tea POS",
     "description": "sit hic sapiente non impedit ipsum sit est deserunt ducimus corrupti rem illum rerum aut",
-    "working_hours": {
+    "workingHours": {
       "from": "07:48",
       "to": "22:16"
     },
@@ -3488,10 +3488,10 @@
   },
   {
     "id": 318,
-    "store_id": 62,
+    "storeId": 62,
     "name": "EPOS - Dine In",
     "description": "quia ab quaerat qui nulla explicabo ut qui iste nobis officia eum sunt ea quia",
-    "working_hours": {
+    "workingHours": {
       "from": "07:11",
       "to": "15:12"
     },
@@ -3499,10 +3499,10 @@
   },
   {
     "id": 319,
-    "store_id": 62,
+    "storeId": 62,
     "name": "Garbanzos - Online Menu",
     "description": "omnis et et quia optio labore quia et pariatur consequatur est dicta dolorem qui sint",
-    "working_hours": {
+    "workingHours": {
       "from": "12:05",
       "to": "14:50"
     },
@@ -3510,10 +3510,10 @@
   },
   {
     "id": 320,
-    "store_id": 62,
+    "storeId": 62,
     "name": "gunpowder Menu",
     "description": "dolores et voluptate eum dolorem sunt iusto qui cumque expedita dignissimos enim vel impedit nobis",
-    "working_hours": {
+    "workingHours": {
       "from": "11:45",
       "to": "19:23"
     },
@@ -3521,10 +3521,10 @@
   },
   {
     "id": 321,
-    "store_id": 62,
+    "storeId": 62,
     "name": "Pos menu training store 2",
     "description": "sunt eum dolorem sed est excepturi et reprehenderit quae modi praesentium quia quia est illo",
-    "working_hours": {
+    "workingHours": {
       "from": "01:12",
       "to": "14:50"
     },
@@ -3532,10 +3532,10 @@
   },
   {
     "id": 322,
-    "store_id": 63,
+    "storeId": 63,
     "name": "Nescafé_POS",
     "description": "non voluptates et eius quis inventore occaecati soluta dolores perspiciatis quos cumque provident dolor animi",
-    "working_hours": {
+    "workingHours": {
       "from": "04:12",
       "to": "21:05"
     },
@@ -3543,10 +3543,10 @@
   },
   {
     "id": 323,
-    "store_id": 63,
+    "storeId": 63,
     "name": "Eat In",
     "description": "voluptatem qui consequatur aut sed ea numquam possimus totam et nulla est iusto maxime unde",
-    "working_hours": {
+    "workingHours": {
       "from": "03:37",
       "to": "21:32"
     },
@@ -3554,10 +3554,10 @@
   },
   {
     "id": 324,
-    "store_id": 63,
+    "storeId": 63,
     "name": "Pali Kitchen_PoS",
     "description": "consectetur cupiditate quisquam earum corporis et laboriosam est quis voluptates aut aliquam alias incidunt alias",
-    "working_hours": {
+    "workingHours": {
       "from": "11:25",
       "to": "13:38"
     },
@@ -3565,10 +3565,10 @@
   },
   {
     "id": 325,
-    "store_id": 63,
+    "storeId": 63,
     "name": "Delivery Menu",
     "description": "facere praesentium sequi et voluptatem omnis similique autem eum atque illo consequatur molestiae dicta voluptas",
-    "working_hours": {
+    "workingHours": {
       "from": "08:15",
       "to": "13:36"
     },
@@ -3576,10 +3576,10 @@
   },
   {
     "id": 326,
-    "store_id": 63,
+    "storeId": 63,
     "name": "DO NOT USE Pizza Hut All Day",
     "description": "quia praesentium impedit laudantium facere non corrupti sit quidem libero eum eum voluptas neque at",
-    "working_hours": {
+    "workingHours": {
       "from": "00:12",
       "to": "22:59"
     },
@@ -3587,10 +3587,10 @@
   },
   {
     "id": 327,
-    "store_id": 64,
+    "storeId": 64,
     "name": "Garbanzos - POS",
     "description": "unde rerum consequatur atque vero velit sed aut est vitae nemo esse unde eius ut",
-    "working_hours": {
+    "workingHours": {
       "from": "06:35",
       "to": "23:50"
     },
@@ -3598,10 +3598,10 @@
   },
   {
     "id": 328,
-    "store_id": 64,
+    "storeId": 64,
     "name": "Leon POS Menu",
     "description": "deleniti iure placeat voluptas tenetur hic illo aperiam cum voluptas quisquam sed perspiciatis nulla consectetur",
-    "working_hours": {
+    "workingHours": {
       "from": "04:57",
       "to": "14:04"
     },
@@ -3609,10 +3609,10 @@
   },
   {
     "id": 329,
-    "store_id": 64,
+    "storeId": 64,
     "name": "Dinner -",
     "description": "aliquam quia nihil velit adipisci non necessitatibus rerum dolores laboriosam odio consequatur fugiat explicabo aut",
-    "working_hours": {
+    "workingHours": {
       "from": "05:33",
       "to": "19:48"
     },
@@ -3620,10 +3620,10 @@
   },
   {
     "id": 330,
-    "store_id": 64,
+    "storeId": 64,
     "name": "Drinks - not in use",
     "description": "sapiente vel sequi id aut a sapiente quam quis in id hic quia voluptatibus architecto",
-    "working_hours": {
+    "workingHours": {
       "from": "12:25",
       "to": "14:08"
     },
@@ -3631,10 +3631,10 @@
   },
   {
     "id": 331,
-    "store_id": 64,
+    "storeId": 64,
     "name": "Nescafé_POS",
     "description": "eaque tempore saepe sunt veritatis quia necessitatibus dolorem nemo quidem veritatis quidem accusamus dolorem id",
-    "working_hours": {
+    "workingHours": {
       "from": "01:06",
       "to": "23:31"
     },
@@ -3642,10 +3642,10 @@
   },
   {
     "id": 332,
-    "store_id": 64,
+    "storeId": 64,
     "name": "ABM- Breakfast Menu- C&C",
     "description": "fuga in commodi voluptas sequi facere sunt illum eius sit quis qui tempore explicabo debitis",
-    "working_hours": {
+    "workingHours": {
       "from": "08:15",
       "to": "22:00"
     },
@@ -3653,10 +3653,10 @@
   },
   {
     "id": 333,
-    "store_id": 64,
+    "storeId": 64,
     "name": "Order Benito's",
     "description": "ea ex earum blanditiis sit eius et earum et non deleniti asperiores dolore deserunt occaecati",
-    "working_hours": {
+    "workingHours": {
       "from": "12:43",
       "to": "16:24"
     },
@@ -3664,10 +3664,10 @@
   },
   {
     "id": 334,
-    "store_id": 65,
+    "storeId": 65,
     "name": "Eddie Rockets OPAT",
     "description": "velit eos quisquam optio fugit aspernatur aspernatur at voluptatem voluptatibus qui est recusandae quas sequi",
-    "working_hours": {
+    "workingHours": {
       "from": "04:29",
       "to": "21:55"
     },
@@ -3675,10 +3675,10 @@
   },
   {
     "id": 335,
-    "store_id": 65,
+    "storeId": 65,
     "name": "Nescafé_POS",
     "description": "maxime distinctio possimus dolore corporis dignissimos quasi sit dicta non tenetur ipsam ratione tempore odit",
-    "working_hours": {
+    "workingHours": {
       "from": "10:01",
       "to": "13:21"
     },
@@ -3686,10 +3686,10 @@
   },
   {
     "id": 336,
-    "store_id": 65,
+    "storeId": 65,
     "name": "El Mexicana POS",
     "description": "illum ut autem pariatur et qui fuga sapiente esse qui dolor asperiores ratione ut nisi",
-    "working_hours": {
+    "workingHours": {
       "from": "02:29",
       "to": "17:38"
     },
@@ -3697,10 +3697,10 @@
   },
   {
     "id": 337,
-    "store_id": 66,
+    "storeId": 66,
     "name": "House of Yum Weekend -Archieve",
     "description": "cum suscipit nihil ipsum veniam tempore temporibus tempore quibusdam est et doloribus expedita voluptatem aut",
-    "working_hours": {
+    "workingHours": {
       "from": "06:08",
       "to": "23:25"
     },
@@ -3708,10 +3708,10 @@
   },
   {
     "id": 338,
-    "store_id": 66,
+    "storeId": 66,
     "name": "Menu",
     "description": "molestiae consequatur totam odio pariatur corporis perferendis est magni eaque ea ea rerum optio sed",
-    "working_hours": {
+    "workingHours": {
       "from": "02:24",
       "to": "20:11"
     },
@@ -3719,10 +3719,10 @@
   },
   {
     "id": 339,
-    "store_id": 66,
+    "storeId": 66,
     "name": "Breakfast - Bills",
     "description": "eos temporibus officiis ipsa accusamus iusto et et rerum et repellat molestias dolor laborum dolores",
-    "working_hours": {
+    "workingHours": {
       "from": "11:03",
       "to": "22:13"
     },
@@ -3730,10 +3730,10 @@
   },
   {
     "id": 340,
-    "store_id": 66,
+    "storeId": 66,
     "name": "Jack Burrito - VB Delivery",
     "description": "laborum quae quo molestiae et deserunt non quos cum dolorem non illo sed eveniet modi",
-    "working_hours": {
+    "workingHours": {
       "from": "08:58",
       "to": "18:24"
     },
@@ -3741,10 +3741,10 @@
   },
   {
     "id": 341,
-    "store_id": 66,
+    "storeId": 66,
     "name": "Click & Collect",
     "description": "sit quibusdam sint et dolore voluptatum placeat mollitia quam quod et libero autem dignissimos harum",
-    "working_hours": {
+    "workingHours": {
       "from": "06:15",
       "to": "21:00"
     },
@@ -3752,10 +3752,10 @@
   },
   {
     "id": 342,
-    "store_id": 67,
+    "storeId": 67,
     "name": "knightfrank",
     "description": "pariatur aspernatur qui earum autem quo sit eaque asperiores non sequi quis dolores et ex",
-    "working_hours": {
+    "workingHours": {
       "from": "00:39",
       "to": "16:32"
     },
@@ -3763,10 +3763,10 @@
   },
   {
     "id": 343,
-    "store_id": 67,
+    "storeId": 67,
     "name": "Order at Canary Wharf",
     "description": "nihil aut non doloribus sed et ut quam nihil labore vel accusantium culpa quod et",
-    "working_hours": {
+    "workingHours": {
       "from": "03:43",
       "to": "21:17"
     },
@@ -3774,10 +3774,10 @@
   },
   {
     "id": 344,
-    "store_id": 67,
+    "storeId": 67,
     "name": "HR EPOS 22",
     "description": "ut voluptatibus et et omnis et animi laboriosam hic cum rerum modi nostrum voluptatibus sequi",
-    "working_hours": {
+    "workingHours": {
       "from": "06:42",
       "to": "14:09"
     },
@@ -3785,10 +3785,10 @@
   },
   {
     "id": 345,
-    "store_id": 67,
+    "storeId": 67,
     "name": "Brunch & Lunch Suningdale",
     "description": "nihil culpa mollitia eum eos omnis quo in odio voluptas laborum sapiente vel iure explicabo",
-    "working_hours": {
+    "workingHours": {
       "from": "09:30",
       "to": "22:45"
     },
@@ -3796,10 +3796,10 @@
   },
   {
     "id": 346,
-    "store_id": 68,
+    "storeId": 68,
     "name": "LeedsCentreMenu",
     "description": "qui debitis commodi est id aut et enim ab qui non natus autem neque voluptatem",
-    "working_hours": {
+    "workingHours": {
       "from": "12:53",
       "to": "13:11"
     },
@@ -3807,10 +3807,10 @@
   },
   {
     "id": 347,
-    "store_id": 68,
+    "storeId": 68,
     "name": "DF Tacos_POS",
     "description": "omnis iusto perferendis harum ipsum voluptatem nihil atque non quos nihil incidunt perferendis aut non",
-    "working_hours": {
+    "workingHours": {
       "from": "08:43",
       "to": "19:33"
     },
@@ -3818,10 +3818,10 @@
   },
   {
     "id": 348,
-    "store_id": 68,
+    "storeId": 68,
     "name": "Grounded Kitchen - Breakfast Main",
     "description": "inventore fuga consectetur quia ut est sunt ab quod expedita quibusdam qui corrupti voluptatem molestiae",
-    "working_hours": {
+    "workingHours": {
       "from": "00:58",
       "to": "23:14"
     },
@@ -3829,10 +3829,10 @@
   },
   {
     "id": 349,
-    "store_id": 68,
+    "storeId": 68,
     "name": "Click and Collect",
     "description": "quia sit perferendis velit ex et laboriosam aperiam sunt modi ut est unde repellat culpa",
-    "working_hours": {
+    "workingHours": {
       "from": "03:11",
       "to": "20:05"
     },
@@ -3840,10 +3840,10 @@
   },
   {
     "id": 350,
-    "store_id": 69,
+    "storeId": 69,
     "name": "ER Collection Menu",
     "description": "consequatur facilis corrupti consequatur consectetur temporibus fugiat enim quia autem iste repudiandae molestias est nisi",
-    "working_hours": {
+    "workingHours": {
       "from": "05:14",
       "to": "21:47"
     },
@@ -3851,10 +3851,10 @@
   },
   {
     "id": 351,
-    "store_id": 69,
+    "storeId": 69,
     "name": "Dirty Bones OPAT 2-Ignore",
     "description": "est aspernatur sit eos dolor in earum quae voluptas consequatur nisi optio esse vero sed",
-    "working_hours": {
+    "workingHours": {
       "from": "10:29",
       "to": "16:30"
     },
@@ -3862,10 +3862,10 @@
   },
   {
     "id": 352,
-    "store_id": 69,
+    "storeId": 69,
     "name": "Brunch - pb0",
     "description": "facilis nulla sapiente et consequuntur nemo voluptatem reprehenderit sit ipsum eveniet est dolore voluptatem error",
-    "working_hours": {
+    "workingHours": {
       "from": "10:12",
       "to": "21:55"
     },
@@ -3873,10 +3873,10 @@
   },
   {
     "id": 353,
-    "store_id": 69,
+    "storeId": 69,
     "name": "Dinner - Delivery",
     "description": "omnis quod et incidunt ab et sit deleniti aperiam error libero debitis ea reiciendis odit",
-    "working_hours": {
+    "workingHours": {
       "from": "03:07",
       "to": "23:54"
     },
@@ -3884,10 +3884,10 @@
   },
   {
     "id": 354,
-    "store_id": 70,
+    "storeId": 70,
     "name": "MDK POS",
     "description": "inventore labore porro est et sit porro cum fuga magni debitis atque necessitatibus repellendus laboriosam",
-    "working_hours": {
+    "workingHours": {
       "from": "10:12",
       "to": "19:01"
     },
@@ -3895,10 +3895,10 @@
   },
   {
     "id": 355,
-    "store_id": 70,
+    "storeId": 70,
     "name": "Delivery - Crêpeaffaire - No Alcohol",
     "description": "cupiditate qui quae quia commodi enim in sequi quidem eum non accusamus possimus accusamus voluptatem",
-    "working_hours": {
+    "workingHours": {
       "from": "01:15",
       "to": "13:51"
     },
@@ -3906,10 +3906,10 @@
   },
   {
     "id": 356,
-    "store_id": 70,
+    "storeId": 70,
     "name": "Flamingo - EPOS",
     "description": "autem quidem vel eligendi vero ea nemo ea voluptatem aliquam maxime quia doloremque est voluptas",
-    "working_hours": {
+    "workingHours": {
       "from": "09:37",
       "to": "13:36"
     },
@@ -3917,10 +3917,10 @@
   },
   {
     "id": 357,
-    "store_id": 70,
+    "storeId": 70,
     "name": "EP EPOS",
     "description": "quo dolorem iure vel aut id tenetur temporibus voluptatem possimus et ea soluta qui vel",
-    "working_hours": {
+    "workingHours": {
       "from": "08:50",
       "to": "20:40"
     },
@@ -3928,10 +3928,10 @@
   },
   {
     "id": 358,
-    "store_id": 70,
+    "storeId": 70,
     "name": "Liverpool-Go Pho-VB Delivery",
     "description": "porro sed amet atque nemo fugiat facilis voluptatibus sed libero quod sit ratione aut non",
-    "working_hours": {
+    "workingHours": {
       "from": "00:20",
       "to": "13:59"
     },
@@ -3939,10 +3939,10 @@
   },
   {
     "id": 359,
-    "store_id": 70,
+    "storeId": 70,
     "name": "Dine In",
     "description": "id quia enim omnis maxime perspiciatis exercitationem voluptatibus voluptate voluptas incidunt facere magni laboriosam dolorem",
-    "working_hours": {
+    "workingHours": {
       "from": "02:28",
       "to": "19:58"
     },
@@ -3950,10 +3950,10 @@
   },
   {
     "id": 360,
-    "store_id": 70,
+    "storeId": 70,
     "name": "Mildreds - Brunch - C&C",
     "description": "sunt omnis magnam dolor aspernatur maxime enim totam ullam in non illum odit voluptas ad",
-    "working_hours": {
+    "workingHours": {
       "from": "03:25",
       "to": "20:51"
     },
@@ -3961,10 +3961,10 @@
   },
   {
     "id": 361,
-    "store_id": 70,
+    "storeId": 70,
     "name": "Order at Old Street",
     "description": "quas earum reprehenderit est aut impedit consequatur natus et aut nostrum qui laboriosam labore officia",
-    "working_hours": {
+    "workingHours": {
       "from": "01:46",
       "to": "20:49"
     },
@@ -3972,10 +3972,10 @@
   },
   {
     "id": 362,
-    "store_id": 71,
+    "storeId": 71,
     "name": "Deliveroo Breakfast",
     "description": "aliquam sequi blanditiis deserunt asperiores totam a sunt sint id voluptas sed odit perspiciatis aut",
-    "working_hours": {
+    "workingHours": {
       "from": "04:15",
       "to": "18:51"
     },
@@ -3983,10 +3983,10 @@
   },
   {
     "id": 363,
-    "store_id": 71,
+    "storeId": 71,
     "name": "Order Here - Poor Boys",
     "description": "tempore dolorem esse qui necessitatibus dolore adipisci ut quia a quo rem molestiae provident labore",
-    "working_hours": {
+    "workingHours": {
       "from": "12:15",
       "to": "18:58"
     },
@@ -3994,10 +3994,10 @@
   },
   {
     "id": 364,
-    "store_id": 71,
+    "storeId": 71,
     "name": "Graine",
     "description": "officiis assumenda totam voluptate veritatis odio quis at totam corrupti quia similique in eligendi omnis",
-    "working_hours": {
+    "workingHours": {
       "from": "06:43",
       "to": "21:46"
     },
@@ -4005,10 +4005,10 @@
   },
   {
     "id": 365,
-    "store_id": 71,
+    "storeId": 71,
     "name": "Benugo Afternoon",
     "description": "voluptatem facere dolore quis qui ut tenetur quibusdam minima molestiae cupiditate ducimus similique officia consequatur",
-    "working_hours": {
+    "workingHours": {
       "from": "10:51",
       "to": "19:36"
     },
@@ -4016,10 +4016,10 @@
   },
   {
     "id": 366,
-    "store_id": 72,
+    "storeId": 72,
     "name": "Neat Burger_POS",
     "description": "sunt ullam inventore omnis et vel quam necessitatibus vitae alias ducimus quod sed esse deserunt",
-    "working_hours": {
+    "workingHours": {
       "from": "09:09",
       "to": "21:11"
     },
@@ -4027,10 +4027,10 @@
   },
   {
     "id": 367,
-    "store_id": 72,
+    "storeId": 72,
     "name": "Delivery - Crepe & Roll",
     "description": "et omnis dolorem repellat dolor quae quaerat quidem placeat veniam aliquam aperiam saepe voluptate velit",
-    "working_hours": {
+    "workingHours": {
       "from": "01:16",
       "to": "18:12"
     },
@@ -4038,10 +4038,10 @@
   },
   {
     "id": 368,
-    "store_id": 72,
+    "storeId": 72,
     "name": "Dirty Vegan-All Day",
     "description": "quam perspiciatis doloribus eius sequi veritatis nihil mollitia corrupti mollitia et mollitia rerum sit magnam",
-    "working_hours": {
+    "workingHours": {
       "from": "01:43",
       "to": "16:00"
     },
@@ -4049,10 +4049,10 @@
   },
   {
     "id": 369,
-    "store_id": 73,
+    "storeId": 73,
     "name": "Brunch - pb1",
     "description": "sint dolore hic quia assumenda blanditiis quia amet asperiores dolorem voluptatem sed est iste ut",
-    "working_hours": {
+    "workingHours": {
       "from": "05:44",
       "to": "22:53"
     },
@@ -4060,10 +4060,10 @@
   },
   {
     "id": 370,
-    "store_id": 73,
+    "storeId": 73,
     "name": "Granger and Co_POS",
     "description": "et qui laborum in asperiores quis et explicabo sunt culpa dolor et consequuntur est quae",
-    "working_hours": {
+    "workingHours": {
       "from": "02:52",
       "to": "14:20"
     },
@@ -4071,10 +4071,10 @@
   },
   {
     "id": 371,
-    "store_id": 73,
+    "storeId": 73,
     "name": "Lazeez Tapas",
     "description": "adipisci expedita ipsa architecto delectus fugit blanditiis placeat quia ipsam corporis sit consequuntur temporibus et",
-    "working_hours": {
+    "workingHours": {
       "from": "01:50",
       "to": "16:50"
     },
@@ -4082,10 +4082,10 @@
   },
   {
     "id": 372,
-    "store_id": 73,
+    "storeId": 73,
     "name": "Order Here",
     "description": "quia libero sunt omnis voluptatem consequatur ut commodi ut ipsam sequi et commodi fugit consequatur",
-    "working_hours": {
+    "workingHours": {
       "from": "00:05",
       "to": "17:31"
     },
@@ -4093,10 +4093,10 @@
   },
   {
     "id": 373,
-    "store_id": 73,
+    "storeId": 73,
     "name": "Delivery at Marylebone",
     "description": "repudiandae dolorem doloribus quod eum quasi autem excepturi qui aut in unde ullam natus eum",
-    "working_hours": {
+    "workingHours": {
       "from": "01:12",
       "to": "21:59"
     },
@@ -4104,10 +4104,10 @@
   },
   {
     "id": 374,
-    "store_id": 73,
+    "storeId": 73,
     "name": "North TA EPOS",
     "description": "ex mollitia ab explicabo ut qui aut est quisquam commodi vel consequatur modi laudantium sunt",
-    "working_hours": {
+    "workingHours": {
       "from": "09:46",
       "to": "19:30"
     },
@@ -4115,10 +4115,10 @@
   },
   {
     "id": 375,
-    "store_id": 73,
+    "storeId": 73,
     "name": "EP EPOS",
     "description": "quis et et quisquam quia ut ex iusto quod sunt molestiae quibusdam quo harum nihil",
-    "working_hours": {
+    "workingHours": {
       "from": "10:34",
       "to": "23:14"
     },
@@ -4126,10 +4126,10 @@
   },
   {
     "id": 376,
-    "store_id": 74,
+    "storeId": 74,
     "name": "Lucky 7",
     "description": "placeat ratione repellat facere numquam quia corporis eum aut soluta neque accusamus ratione totam quis",
-    "working_hours": {
+    "workingHours": {
       "from": "07:21",
       "to": "19:20"
     },
@@ -4137,10 +4137,10 @@
   },
   {
     "id": 377,
-    "store_id": 74,
+    "storeId": 74,
     "name": "Collection",
     "description": "exercitationem quia pariatur hic sequi id saepe non consequatur voluptates vel quae ea rerum ea",
-    "working_hours": {
+    "workingHours": {
       "from": "10:25",
       "to": "23:07"
     },
@@ -4148,10 +4148,10 @@
   },
   {
     "id": 378,
-    "store_id": 74,
+    "storeId": 74,
     "name": "Kingly Street",
     "description": "magnam incidunt velit et rerum neque quo aut quae aliquam inventore ab quas aut voluptatibus",
-    "working_hours": {
+    "workingHours": {
       "from": "05:14",
       "to": "15:21"
     },
@@ -4159,10 +4159,10 @@
   },
   {
     "id": 379,
-    "store_id": 74,
+    "storeId": 74,
     "name": "Menu 2",
     "description": "a reiciendis esse reprehenderit commodi ut molestiae sed a similique omnis rem magni molestias repudiandae",
-    "working_hours": {
+    "workingHours": {
       "from": "11:39",
       "to": "18:57"
     },
@@ -4170,10 +4170,10 @@
   },
   {
     "id": 380,
-    "store_id": 74,
+    "storeId": 74,
     "name": "Appetite_POS",
     "description": "quaerat autem est ducimus aut sed dolor sit voluptatem aut natus aperiam quaerat in est",
-    "working_hours": {
+    "workingHours": {
       "from": "10:57",
       "to": "18:05"
     },
@@ -4181,10 +4181,10 @@
   },
   {
     "id": 381,
-    "store_id": 75,
+    "storeId": 75,
     "name": "Grounded Kitchen - Breakfast Main",
     "description": "officiis eius dolores blanditiis assumenda tempora sit tenetur corrupti omnis et maiores ipsum animi laborum",
-    "working_hours": {
+    "workingHours": {
       "from": "06:48",
       "to": "13:09"
     },
@@ -4192,10 +4192,10 @@
   },
   {
     "id": 382,
-    "store_id": 75,
+    "storeId": 75,
     "name": "Dash Lunch",
     "description": "suscipit iure eligendi molestiae assumenda nihil laudantium et voluptates sint at tempore repellat maiores ut",
-    "working_hours": {
+    "workingHours": {
       "from": "03:33",
       "to": "20:23"
     },
@@ -4203,10 +4203,10 @@
   },
   {
     "id": 383,
-    "store_id": 75,
+    "storeId": 75,
     "name": "Envie",
     "description": "architecto id hic tempore sed id tempore odit ipsa temporibus labore consequatur ut aut explicabo",
-    "working_hours": {
+    "workingHours": {
       "from": "04:30",
       "to": "15:30"
     },
@@ -4214,10 +4214,10 @@
   },
   {
     "id": 384,
-    "store_id": 75,
+    "storeId": 75,
     "name": "Pizza Hut All Day",
     "description": "debitis nemo magni eligendi dicta quibusdam minus id sint nam quos error quo illum qui",
-    "working_hours": {
+    "workingHours": {
       "from": "01:26",
       "to": "22:47"
     },
@@ -4225,10 +4225,10 @@
   },
   {
     "id": 385,
-    "store_id": 75,
+    "storeId": 75,
     "name": "Dim Sum",
     "description": "consectetur omnis magnam quae autem ut totam doloribus aut dolor et et itaque voluptatem at",
-    "working_hours": {
+    "workingHours": {
       "from": "10:03",
       "to": "21:49"
     },
@@ -4236,10 +4236,10 @@
   },
   {
     "id": 386,
-    "store_id": 75,
+    "storeId": 75,
     "name": "Olive",
     "description": "eligendi quasi rerum ad ad harum facere hic qui atque tempora qui qui accusamus aut",
-    "working_hours": {
+    "workingHours": {
       "from": "05:22",
       "to": "15:34"
     },
@@ -4247,10 +4247,10 @@
   },
   {
     "id": 387,
-    "store_id": 76,
+    "storeId": 76,
     "name": "Grounded Kitchen - All Day",
     "description": "aut doloribus expedita corporis dolorem sapiente natus dolorum facilis minus ad amet perspiciatis neque eum",
-    "working_hours": {
+    "workingHours": {
       "from": "05:49",
       "to": "17:32"
     },
@@ -4258,10 +4258,10 @@
   },
   {
     "id": 388,
-    "store_id": 76,
+    "storeId": 76,
     "name": "Almost Famous Menu - All Day",
     "description": "ad fugiat sed quia quisquam atque excepturi ut et illum possimus fugit sed et ut",
-    "working_hours": {
+    "workingHours": {
       "from": "03:29",
       "to": "22:27"
     },
@@ -4269,10 +4269,10 @@
   },
   {
     "id": 389,
-    "store_id": 76,
+    "storeId": 76,
     "name": "Mei Mei Menu",
     "description": "quam vero temporibus voluptatibus aut qui sed id officia dolores molestias suscipit eum odit qui",
-    "working_hours": {
+    "workingHours": {
       "from": "12:35",
       "to": "13:10"
     },
@@ -4280,10 +4280,10 @@
   },
   {
     "id": 390,
-    "store_id": 76,
+    "storeId": 76,
     "name": "LPQ_NL Future Day Menu",
     "description": "et ipsam sit omnis quia in earum soluta omnis unde voluptas officiis non aut architecto",
-    "working_hours": {
+    "workingHours": {
       "from": "01:12",
       "to": "14:26"
     },
@@ -4291,10 +4291,10 @@
   },
   {
     "id": 391,
-    "store_id": 76,
+    "storeId": 76,
     "name": "MDK POS",
     "description": "ea laboriosam esse porro et est voluptatibus excepturi ut nostrum nihil sint dolorem nam quos",
-    "working_hours": {
+    "workingHours": {
       "from": "04:03",
       "to": "15:17"
     },
@@ -4302,10 +4302,10 @@
   },
   {
     "id": 392,
-    "store_id": 76,
+    "storeId": 76,
     "name": "BUN_POS",
     "description": "sit veniam consequatur numquam maiores unde non pariatur molestiae ut laboriosam aut excepturi consequuntur ea",
-    "working_hours": {
+    "workingHours": {
       "from": "00:34",
       "to": "15:06"
     },
@@ -4313,10 +4313,10 @@
   },
   {
     "id": 393,
-    "store_id": 77,
+    "storeId": 77,
     "name": "Delivery at Victoria",
     "description": "voluptas saepe alias odio et doloribus id ipsa rerum consequatur sunt corporis nemo mollitia enim",
-    "working_hours": {
+    "workingHours": {
       "from": "10:59",
       "to": "23:34"
     },
@@ -4324,10 +4324,10 @@
   },
   {
     "id": 394,
-    "store_id": 77,
+    "storeId": 77,
     "name": "ABM_POS",
     "description": "id saepe quisquam eaque assumenda commodi dolor aut sit odio dolorem expedita in vero quae",
-    "working_hours": {
+    "workingHours": {
       "from": "11:15",
       "to": "20:49"
     },
@@ -4335,10 +4335,10 @@
   },
   {
     "id": 395,
-    "store_id": 77,
+    "storeId": 77,
     "name": "Pizza Hut All Day",
     "description": "laudantium voluptatem vel quod sit omnis eos itaque totam et eligendi enim est voluptas voluptatum",
-    "working_hours": {
+    "workingHours": {
       "from": "12:50",
       "to": "15:33"
     },
@@ -4346,10 +4346,10 @@
   },
   {
     "id": 396,
-    "store_id": 77,
+    "storeId": 77,
     "name": "Hala Wala Menu_General",
     "description": "omnis repellendus harum a autem non explicabo deserunt ut maxime cupiditate impedit temporibus dolores fugit",
-    "working_hours": {
+    "workingHours": {
       "from": "01:58",
       "to": "20:52"
     },
@@ -4357,10 +4357,10 @@
   },
   {
     "id": 397,
-    "store_id": 77,
+    "storeId": 77,
     "name": "All Day - Main",
     "description": "nisi eum blanditiis ipsum aut rem nobis sunt ducimus omnis omnis aut aut ut dignissimos",
-    "working_hours": {
+    "workingHours": {
       "from": "00:44",
       "to": "14:49"
     },
@@ -4368,10 +4368,10 @@
   },
   {
     "id": 398,
-    "store_id": 77,
+    "storeId": 77,
     "name": "HeadingleyHarrogateMenu",
     "description": "eaque beatae voluptatibus vel dolore ipsum in quasi facere sit aperiam nobis dolor deserunt fugiat",
-    "working_hours": {
+    "workingHours": {
       "from": "07:08",
       "to": "19:02"
     },
@@ -4379,10 +4379,10 @@
   },
   {
     "id": 399,
-    "store_id": 78,
+    "storeId": 78,
     "name": "gunpowder Menu",
     "description": "ducimus autem sint nemo officia eligendi rerum eos sint qui adipisci magni quia necessitatibus ut",
-    "working_hours": {
+    "workingHours": {
       "from": "12:54",
       "to": "17:24"
     },
@@ -4390,10 +4390,10 @@
   },
   {
     "id": 400,
-    "store_id": 78,
+    "storeId": 78,
     "name": "All Day - Roadchef",
     "description": "ipsam asperiores molestiae consequatur sint deserunt quod modi illum labore qui et blanditiis eos ea",
-    "working_hours": {
+    "workingHours": {
       "from": "07:05",
       "to": "21:02"
     },
@@ -4401,10 +4401,10 @@
   },
   {
     "id": 401,
-    "store_id": 78,
+    "storeId": 78,
     "name": "Doritos",
     "description": "quia et eos dolorem nemo similique voluptas nostrum doloremque et sed quia rem nihil quis",
-    "working_hours": {
+    "workingHours": {
       "from": "01:15",
       "to": "22:34"
     },
@@ -4412,10 +4412,10 @@
   },
   {
     "id": 402,
-    "store_id": 78,
+    "storeId": 78,
     "name": "Hala Wala Menu_General",
     "description": "doloremque dolores totam optio qui sed dicta eveniet ut sit laudantium rerum corrupti minima reiciendis",
-    "working_hours": {
+    "workingHours": {
       "from": "12:45",
       "to": "20:34"
     },
@@ -4423,10 +4423,10 @@
   },
   {
     "id": 403,
-    "store_id": 79,
+    "storeId": 79,
     "name": "Evening Menu",
     "description": "doloremque autem accusantium eveniet distinctio nihil ea est ea mollitia sapiente doloribus consequatur repudiandae est",
-    "working_hours": {
+    "workingHours": {
       "from": "11:01",
       "to": "18:05"
     },
@@ -4434,10 +4434,10 @@
   },
   {
     "id": 404,
-    "store_id": 79,
+    "storeId": 79,
     "name": "ABM_POS",
     "description": "ducimus maxime perferendis consectetur placeat aut dolores ea ut qui soluta commodi dolorem consequuntur necessitatibus",
-    "working_hours": {
+    "workingHours": {
       "from": "12:21",
       "to": "13:38"
     },
@@ -4445,10 +4445,10 @@
   },
   {
     "id": 405,
-    "store_id": 79,
+    "storeId": 79,
     "name": "Neat Burger_POS",
     "description": "ut aut sit rerum quia debitis aliquam sunt ut eveniet ducimus consequatur et qui cupiditate",
-    "working_hours": {
+    "workingHours": {
       "from": "10:15",
       "to": "21:53"
     },
@@ -4456,10 +4456,10 @@
   },
   {
     "id": 406,
-    "store_id": 79,
+    "storeId": 79,
     "name": "El Mexicana POS",
     "description": "omnis eligendi et voluptas quia optio et excepturi autem mollitia quam fuga molestias aliquid culpa",
-    "working_hours": {
+    "workingHours": {
       "from": "06:02",
       "to": "19:58"
     },
@@ -4467,10 +4467,10 @@
   },
   {
     "id": 407,
-    "store_id": 79,
+    "storeId": 79,
     "name": "Liverpool-Go Pho-VB Delivery",
     "description": "consequuntur vitae quia exercitationem sint distinctio commodi recusandae nihil doloribus veniam voluptatem distinctio et facere",
-    "working_hours": {
+    "workingHours": {
       "from": "05:06",
       "to": "22:39"
     },
@@ -4478,10 +4478,10 @@
   },
   {
     "id": 408,
-    "store_id": 80,
+    "storeId": 80,
     "name": "Delivery - Crepe & Roll",
     "description": "maxime labore et sequi sint ipsa iusto saepe at perspiciatis debitis rem impedit animi libero",
-    "working_hours": {
+    "workingHours": {
       "from": "02:26",
       "to": "15:45"
     },
@@ -4489,10 +4489,10 @@
   },
   {
     "id": 409,
-    "store_id": 80,
+    "storeId": 80,
     "name": "Eggs n Stuff Breakfast",
     "description": "optio dolores non et a nihil sit consequuntur maiores non dolore alias explicabo nesciunt qui",
-    "working_hours": {
+    "workingHours": {
       "from": "12:07",
       "to": "19:52"
     },
@@ -4500,10 +4500,10 @@
   },
   {
     "id": 410,
-    "store_id": 80,
+    "storeId": 80,
     "name": "Cowdray Farm Shop Lunch Menu",
     "description": "voluptate sit qui dolores aut voluptas voluptas non mollitia esse et deleniti aut vero itaque",
-    "working_hours": {
+    "workingHours": {
       "from": "03:19",
       "to": "16:21"
     },
@@ -4511,10 +4511,10 @@
   },
   {
     "id": 411,
-    "store_id": 80,
+    "storeId": 80,
     "name": "Breakfast - Main",
     "description": "eum quo quo laborum est ipsa vel quia rerum nulla consequatur reprehenderit in veniam voluptas",
-    "working_hours": {
+    "workingHours": {
       "from": "11:15",
       "to": "18:08"
     },
@@ -4522,10 +4522,10 @@
   },
   {
     "id": 412,
-    "store_id": 81,
+    "storeId": 81,
     "name": "Menu - Crêpeaffaire",
     "description": "aliquam dolor ut porro iste error earum voluptatem doloremque voluptatum consectetur neque ratione saepe debitis",
-    "working_hours": {
+    "workingHours": {
       "from": "04:51",
       "to": "13:06"
     },
@@ -4533,10 +4533,10 @@
   },
   {
     "id": 413,
-    "store_id": 81,
+    "storeId": 81,
     "name": "Lunchtime pre-order by 1115 menu",
     "description": "et aliquam vel repudiandae tenetur explicabo voluptatum labore ullam est ipsam et aut itaque consectetur",
-    "working_hours": {
+    "workingHours": {
       "from": "12:44",
       "to": "20:35"
     },
@@ -4544,10 +4544,10 @@
   },
   {
     "id": 414,
-    "store_id": 81,
+    "storeId": 81,
     "name": "Mildreds - Brunch & Main OPAT",
     "description": "non eveniet perferendis impedit et fugit explicabo a tempore neque vel aliquid ratione et sed",
-    "working_hours": {
+    "workingHours": {
       "from": "02:52",
       "to": "22:34"
     },
@@ -4555,10 +4555,10 @@
   },
   {
     "id": 415,
-    "store_id": 81,
+    "storeId": 81,
     "name": "Arabica",
     "description": "minima dicta ad voluptas cumque nihil placeat facilis et ea asperiores voluptate commodi aspernatur rerum",
-    "working_hours": {
+    "workingHours": {
       "from": "05:06",
       "to": "23:15"
     },
@@ -4566,10 +4566,10 @@
   },
   {
     "id": 416,
-    "store_id": 81,
+    "storeId": 81,
     "name": "oliveandsquash Great New St",
     "description": "qui qui dolor autem excepturi id vitae et atque nam fuga quam atque fugiat dicta",
-    "working_hours": {
+    "workingHours": {
       "from": "08:51",
       "to": "15:07"
     },
@@ -4577,10 +4577,10 @@
   },
   {
     "id": 417,
-    "store_id": 81,
+    "storeId": 81,
     "name": "oliveandsquash2 Monument",
     "description": "vel sit sequi enim veritatis quibusdam aut enim vero ratione rerum consequatur ea aut quis",
-    "working_hours": {
+    "workingHours": {
       "from": "01:20",
       "to": "20:01"
     },
@@ -4588,10 +4588,10 @@
   },
   {
     "id": 418,
-    "store_id": 81,
+    "storeId": 81,
     "name": "Biju Bubble Tea POS",
     "description": "doloremque sed nulla accusantium eos vitae illum nobis non blanditiis sit voluptatem qui dicta explicabo",
-    "working_hours": {
+    "workingHours": {
       "from": "09:28",
       "to": "20:09"
     },
@@ -4599,10 +4599,10 @@
   },
   {
     "id": 419,
-    "store_id": 81,
+    "storeId": 81,
     "name": "Autumn Future Day BE",
     "description": "consequatur qui sit quasi doloremque voluptate eligendi sint ratione labore fugit molestiae qui voluptatem consequatur",
-    "working_hours": {
+    "workingHours": {
       "from": "01:42",
       "to": "13:50"
     },
@@ -4610,10 +4610,10 @@
   },
   {
     "id": 420,
-    "store_id": 82,
+    "storeId": 82,
     "name": "Deliveroo Breakfast",
     "description": "neque est hic et qui fugiat dolores exercitationem accusantium consequuntur repudiandae a velit sit voluptas",
-    "working_hours": {
+    "workingHours": {
       "from": "02:02",
       "to": "17:34"
     },
@@ -4621,10 +4621,10 @@
   },
   {
     "id": 421,
-    "store_id": 82,
+    "storeId": 82,
     "name": "MCR EPOS",
     "description": "sed fugit maxime sequi id perspiciatis tenetur omnis nesciunt illum et dignissimos minus qui odit",
-    "working_hours": {
+    "workingHours": {
       "from": "12:26",
       "to": "18:08"
     },
@@ -4632,10 +4632,10 @@
   },
   {
     "id": 422,
-    "store_id": 82,
+    "storeId": 82,
     "name": "oliveandsquash Great New St",
     "description": "quae ex ipsam maiores optio laudantium neque ducimus consequatur magni harum perferendis earum illo quis",
-    "working_hours": {
+    "workingHours": {
       "from": "03:06",
       "to": "23:56"
     },
@@ -4643,10 +4643,10 @@
   },
   {
     "id": 423,
-    "store_id": 82,
+    "storeId": 82,
     "name": "Croydon + Birmingham Menu",
     "description": "eum sunt est voluptas dolor aut asperiores minus sequi sunt corporis ex aut a aut",
-    "working_hours": {
+    "workingHours": {
       "from": "06:51",
       "to": "19:13"
     },
@@ -4654,10 +4654,10 @@
   },
   {
     "id": 424,
-    "store_id": 82,
+    "storeId": 82,
     "name": "Advanced Group Ordering -",
     "description": "labore et quaerat nisi mollitia asperiores voluptas enim necessitatibus et quam ipsa animi amet iusto",
-    "working_hours": {
+    "workingHours": {
       "from": "02:41",
       "to": "15:12"
     },
@@ -4665,10 +4665,10 @@
   },
   {
     "id": 425,
-    "store_id": 82,
+    "storeId": 82,
     "name": "Benugo EPOS",
     "description": "alias ullam est non sed magni ut ut et laboriosam at nam aut vitae et",
-    "working_hours": {
+    "workingHours": {
       "from": "02:08",
       "to": "23:52"
     },
@@ -4676,10 +4676,10 @@
   },
   {
     "id": 426,
-    "store_id": 82,
+    "storeId": 82,
     "name": "Dash All Day",
     "description": "maxime est aliquam aliquam qui molestiae ipsum tempore sed aut itaque pariatur neque et laboriosam",
-    "working_hours": {
+    "workingHours": {
       "from": "11:51",
       "to": "20:57"
     },
@@ -4687,10 +4687,10 @@
   },
   {
     "id": 427,
-    "store_id": 82,
+    "storeId": 82,
     "name": "Japanese Street Food",
     "description": "hic ut aperiam laudantium et sit voluptatem tenetur expedita laudantium est labore fuga asperiores explicabo",
-    "working_hours": {
+    "workingHours": {
       "from": "06:47",
       "to": "23:21"
     },
@@ -4698,10 +4698,10 @@
   },
   {
     "id": 428,
-    "store_id": 82,
+    "storeId": 82,
     "name": "Breakfast (UU)",
     "description": "ratione eligendi qui repellendus assumenda quas rem quibusdam perferendis voluptas ut officiis enim nam est",
-    "working_hours": {
+    "workingHours": {
       "from": "07:28",
       "to": "21:54"
     },
@@ -4709,10 +4709,10 @@
   },
   {
     "id": 429,
-    "store_id": 83,
+    "storeId": 83,
     "name": "IAD Menu",
     "description": "aperiam et veniam fugit provident possimus sit quia neque animi repellendus dolorem blanditiis et assumenda",
-    "working_hours": {
+    "workingHours": {
       "from": "01:44",
       "to": "14:49"
     },
@@ -4720,10 +4720,10 @@
   },
   {
     "id": 430,
-    "store_id": 83,
+    "storeId": 83,
     "name": "Breakfast Hop",
     "description": "numquam consequatur laborum optio ex quisquam deserunt ipsum autem quo velit quas magni vitae est",
-    "working_hours": {
+    "workingHours": {
       "from": "01:12",
       "to": "17:33"
     },
@@ -4731,10 +4731,10 @@
   },
   {
     "id": 431,
-    "store_id": 83,
+    "storeId": 83,
     "name": "Lunch Hop",
     "description": "sunt molestiae quis eum labore quas molestiae vero debitis voluptatum nihil nam architecto quae doloremque",
-    "working_hours": {
+    "workingHours": {
       "from": "00:42",
       "to": "13:15"
     },
@@ -4742,10 +4742,10 @@
   },
   {
     "id": 432,
-    "store_id": 83,
+    "storeId": 83,
     "name": "Food Labs- All Day",
     "description": "architecto quis saepe et est et dolor voluptates quo veritatis at culpa soluta nisi aspernatur",
-    "working_hours": {
+    "workingHours": {
       "from": "08:00",
       "to": "13:30"
     },
@@ -4753,10 +4753,10 @@
   },
   {
     "id": 433,
-    "store_id": 83,
+    "storeId": 83,
     "name": "Mildreds - Brunch & Main OPAT",
     "description": "in ipsa ea sequi fuga et qui animi voluptates quo excepturi qui voluptatibus sint dignissimos",
-    "working_hours": {
+    "workingHours": {
       "from": "06:49",
       "to": "14:52"
     },
@@ -4764,10 +4764,10 @@
   },
   {
     "id": 434,
-    "store_id": 84,
+    "storeId": 84,
     "name": "Pizzarova EPOS",
     "description": "ut laboriosam dolores quia sit qui officiis et facilis est qui rem quod dolorem veritatis",
-    "working_hours": {
+    "workingHours": {
       "from": "11:40",
       "to": "19:07"
     },
@@ -4775,10 +4775,10 @@
   },
   {
     "id": 435,
-    "store_id": 84,
+    "storeId": 84,
     "name": "Kosmos Delivery Menu",
     "description": "eos molestiae omnis et optio voluptatem dolor ipsam eos quia ullam fugit molestias sit dolore",
-    "working_hours": {
+    "workingHours": {
       "from": "09:36",
       "to": "13:37"
     },
@@ -4786,10 +4786,10 @@
   },
   {
     "id": 436,
-    "store_id": 84,
+    "storeId": 84,
     "name": "Leon POS Menu",
     "description": "vero aut cumque qui est non consectetur et dolores dolor exercitationem et et laudantium consequatur",
-    "working_hours": {
+    "workingHours": {
       "from": "01:12",
       "to": "17:43"
     },
@@ -4797,10 +4797,10 @@
   },
   {
     "id": 437,
-    "store_id": 84,
+    "storeId": 84,
     "name": "Hotboxd Lunch",
     "description": "qui molestiae earum ut eos vel odio corporis inventore excepturi assumenda architecto quas dolore eius",
-    "working_hours": {
+    "workingHours": {
       "from": "07:57",
       "to": "17:32"
     },
@@ -4808,10 +4808,10 @@
   },
   {
     "id": 438,
-    "store_id": 84,
+    "storeId": 84,
     "name": "House of Yum Breakfast",
     "description": "corporis veritatis sunt consequatur maxime atque accusantium dignissimos non voluptatem et esse fugit eos facilis",
-    "working_hours": {
+    "workingHours": {
       "from": "11:26",
       "to": "22:08"
     },
@@ -4819,10 +4819,10 @@
   },
   {
     "id": 439,
-    "store_id": 85,
+    "storeId": 85,
     "name": "Evening - Bleecker Burger",
     "description": "voluptatem pariatur fuga a qui inventore deleniti optio ut deleniti qui dicta totam exercitationem cum",
-    "working_hours": {
+    "workingHours": {
       "from": "11:29",
       "to": "18:11"
     },
@@ -4830,10 +4830,10 @@
   },
   {
     "id": 440,
-    "store_id": 85,
+    "storeId": 85,
     "name": "Cowdray Farm Shop Lunch Menu",
     "description": "omnis eum adipisci est ipsa provident nisi aliquid provident dolor illo pariatur aut ipsam aut",
-    "working_hours": {
+    "workingHours": {
       "from": "10:48",
       "to": "19:41"
     },
@@ -4841,10 +4841,10 @@
   },
   {
     "id": 441,
-    "store_id": 85,
+    "storeId": 85,
     "name": "HonipokeMenu",
     "description": "facere fugiat voluptatem atque doloremque fugit deserunt in iure labore nemo fugit magni nam autem",
-    "working_hours": {
+    "workingHours": {
       "from": "04:47",
       "to": "13:04"
     },
@@ -4852,10 +4852,10 @@
   },
   {
     "id": 442,
-    "store_id": 85,
+    "storeId": 85,
     "name": "POS - Crepe & Roll",
     "description": "odio enim dolorem odio vel ut voluptas laudantium veniam ut odit aut magni odit mollitia",
-    "working_hours": {
+    "workingHours": {
       "from": "00:07",
       "to": "18:53"
     },
@@ -4863,10 +4863,10 @@
   },
   {
     "id": 443,
-    "store_id": 86,
+    "storeId": 86,
     "name": "Dash All Day",
     "description": "quia rerum ipsa facere sed et quis accusamus commodi aut assumenda nihil consequatur reprehenderit iste",
-    "working_hours": {
+    "workingHours": {
       "from": "03:35",
       "to": "20:51"
     },
@@ -4874,10 +4874,10 @@
   },
   {
     "id": 444,
-    "store_id": 86,
+    "storeId": 86,
     "name": "ABM Catering 1",
     "description": "magni dolores ad laboriosam numquam enim omnis magnam architecto animi unde vel tempora dolores et",
-    "working_hours": {
+    "workingHours": {
       "from": "09:24",
       "to": "20:14"
     },
@@ -4885,10 +4885,10 @@
   },
   {
     "id": 445,
-    "store_id": 86,
+    "storeId": 86,
     "name": "Leon Ireland - All Day",
     "description": "dignissimos minus doloremque facere qui recusandae assumenda culpa nobis ratione aliquid ratione impedit molestiae dolores",
-    "working_hours": {
+    "workingHours": {
       "from": "06:18",
       "to": "17:20"
     },
@@ -4896,10 +4896,10 @@
   },
   {
     "id": 446,
-    "store_id": 87,
+    "storeId": 87,
     "name": "Food Labs- All Day",
     "description": "dolorum eaque natus qui laboriosam vitae nulla id et ullam dignissimos quam ex sit inventore",
-    "working_hours": {
+    "workingHours": {
       "from": "01:44",
       "to": "16:05"
     },
@@ -4907,10 +4907,10 @@
   },
   {
     "id": 447,
-    "store_id": 87,
+    "storeId": 87,
     "name": "Evening - Bleecker Burger",
     "description": "tempore delectus dicta tempore quasi repellendus sunt ipsum vel vel deserunt similique recusandae natus sed",
-    "working_hours": {
+    "workingHours": {
       "from": "05:08",
       "to": "15:45"
     },
@@ -4918,10 +4918,10 @@
   },
   {
     "id": 448,
-    "store_id": 87,
+    "storeId": 87,
     "name": "Brunch & Lunch Suningdale",
     "description": "beatae dolorem dolor nisi commodi impedit nihil perspiciatis ducimus beatae et aut inventore hic et",
-    "working_hours": {
+    "workingHours": {
       "from": "00:28",
       "to": "22:50"
     },
@@ -4929,10 +4929,10 @@
   },
   {
     "id": 449,
-    "store_id": 87,
+    "storeId": 87,
     "name": "Jay Store Menu",
     "description": "qui laudantium atque dolorem qui quasi quis sunt accusamus enim harum perspiciatis id commodi maiores",
-    "working_hours": {
+    "workingHours": {
       "from": "06:47",
       "to": "19:53"
     },
@@ -4940,10 +4940,10 @@
   },
   {
     "id": 450,
-    "store_id": 87,
+    "storeId": 87,
     "name": "Dash Lunch",
     "description": "veritatis esse aut enim ad consequuntur qui sapiente quod odit nemo rem neque consequatur officia",
-    "working_hours": {
+    "workingHours": {
       "from": "09:52",
       "to": "21:54"
     },
@@ -4951,10 +4951,10 @@
   },
   {
     "id": 451,
-    "store_id": 88,
+    "storeId": 88,
     "name": "Benugo C+C Menu",
     "description": "natus maiores libero aut ea provident qui harum in dicta voluptatem assumenda quis eaque non",
-    "working_hours": {
+    "workingHours": {
       "from": "08:14",
       "to": "22:12"
     },
@@ -4962,10 +4962,10 @@
   },
   {
     "id": 452,
-    "store_id": 88,
+    "storeId": 88,
     "name": "cocodimama all day",
     "description": "et quam labore accusantium eaque ut excepturi sed eveniet possimus hic blanditiis assumenda omnis repellat",
-    "working_hours": {
+    "workingHours": {
       "from": "03:47",
       "to": "13:12"
     },
@@ -4973,10 +4973,10 @@
   },
   {
     "id": 453,
-    "store_id": 88,
+    "storeId": 88,
     "name": "Poor Boys_POS",
     "description": "temporibus doloribus quia veniam enim quasi reprehenderit facilis et soluta consequatur sunt voluptatem ad harum",
-    "working_hours": {
+    "workingHours": {
       "from": "03:14",
       "to": "18:50"
     },
@@ -4984,10 +4984,10 @@
   },
   {
     "id": 454,
-    "store_id": 88,
+    "storeId": 88,
     "name": "Leon Ireland - All Day",
     "description": "voluptas quis quas est dignissimos dignissimos voluptas nesciunt sed et maxime aliquam iste aut consequatur",
-    "working_hours": {
+    "workingHours": {
       "from": "02:54",
       "to": "14:28"
     },
@@ -4995,10 +4995,10 @@
   },
   {
     "id": 455,
-    "store_id": 88,
+    "storeId": 88,
     "name": "All Day - pb3",
     "description": "aspernatur sed ut repellat facilis iure dicta esse aut inventore vel ut excepturi dolor commodi",
-    "working_hours": {
+    "workingHours": {
       "from": "11:43",
       "to": "21:29"
     },
@@ -5006,10 +5006,10 @@
   },
   {
     "id": 456,
-    "store_id": 89,
+    "storeId": 89,
     "name": "All Day - KGX-EUS-STN-HTR",
     "description": "optio qui explicabo deleniti aliquid enim quia eos hic cum in nostrum esse fugit illum",
-    "working_hours": {
+    "workingHours": {
       "from": "07:57",
       "to": "20:58"
     },
@@ -5017,10 +5017,10 @@
   },
   {
     "id": 457,
-    "store_id": 89,
+    "storeId": 89,
     "name": "Nyokee_POS",
     "description": "dignissimos at sint voluptatem ratione nesciunt eos corporis blanditiis vel repellat ullam velit velit magni",
-    "working_hours": {
+    "workingHours": {
       "from": "01:53",
       "to": "18:28"
     },
@@ -5028,10 +5028,10 @@
   },
   {
     "id": 458,
-    "store_id": 89,
+    "storeId": 89,
     "name": "Bamboo Bay POS Menu",
     "description": "est eligendi accusamus praesentium necessitatibus quia voluptatibus corrupti voluptates qui ad omnis et repudiandae aut",
-    "working_hours": {
+    "workingHours": {
       "from": "08:19",
       "to": "14:52"
     },
@@ -5039,10 +5039,10 @@
   },
   {
     "id": 459,
-    "store_id": 89,
+    "storeId": 89,
     "name": "Order Now from St Johns Wood",
     "description": "facere sit ut nisi commodi nemo ad optio ullam sed unde magnam rem corporis explicabo",
-    "working_hours": {
+    "workingHours": {
       "from": "12:19",
       "to": "18:52"
     },
@@ -5050,10 +5050,10 @@
   },
   {
     "id": 460,
-    "store_id": 89,
+    "storeId": 89,
     "name": "Breakfast - KGX-EUS-STN-HTR",
     "description": "suscipit praesentium accusamus quae dolor minus culpa reprehenderit omnis non ab id et voluptate animi",
-    "working_hours": {
+    "workingHours": {
       "from": "08:24",
       "to": "21:24"
     },
@@ -5061,10 +5061,10 @@
   },
   {
     "id": 461,
-    "store_id": 89,
+    "storeId": 89,
     "name": "Null",
     "description": "officia repudiandae optio beatae repudiandae minus sequi beatae aliquam impedit ratione autem eos corporis iusto",
-    "working_hours": {
+    "workingHours": {
       "from": "04:57",
       "to": "14:09"
     },
@@ -5072,10 +5072,10 @@
   },
   {
     "id": 462,
-    "store_id": 89,
+    "storeId": 89,
     "name": "Melt EPOS",
     "description": "aut qui rerum consequatur in corporis repellendus eos quas non animi rerum labore quasi ut",
-    "working_hours": {
+    "workingHours": {
       "from": "04:57",
       "to": "23:45"
     },
@@ -5083,10 +5083,10 @@
   },
   {
     "id": 463,
-    "store_id": 90,
+    "storeId": 90,
     "name": "Hot Rocks Menu",
     "description": "est quia hic earum consectetur id minus neque sequi et recusandae et iusto maiores earum",
-    "working_hours": {
+    "workingHours": {
       "from": "05:34",
       "to": "21:58"
     },
@@ -5094,10 +5094,10 @@
   },
   {
     "id": 464,
-    "store_id": 90,
+    "storeId": 90,
     "name": "Dinner - Delivery",
     "description": "nesciunt autem nesciunt facere ut numquam temporibus illo autem iusto commodi quia natus ut sequi",
-    "working_hours": {
+    "workingHours": {
       "from": "10:57",
       "to": "23:35"
     },
@@ -5105,10 +5105,10 @@
   },
   {
     "id": 465,
-    "store_id": 90,
+    "storeId": 90,
     "name": "Eddie Rockets OPAT",
     "description": "quis quisquam est esse et vel a quam et dolore voluptates pariatur consequuntur sint quaerat",
-    "working_hours": {
+    "workingHours": {
       "from": "04:17",
       "to": "19:56"
     },
@@ -5116,10 +5116,10 @@
   },
   {
     "id": 466,
-    "store_id": 90,
+    "storeId": 90,
     "name": "All Day - pb1",
     "description": "perferendis ex autem assumenda qui laborum fuga delectus aliquam enim corrupti commodi optio dolores numquam",
-    "working_hours": {
+    "workingHours": {
       "from": "00:01",
       "to": "19:33"
     },
@@ -5127,10 +5127,10 @@
   },
   {
     "id": 467,
-    "store_id": 91,
+    "storeId": 91,
     "name": "Delivery - Bleecker Burger",
     "description": "maiores minima perferendis ratione vitae ut sed natus vitae voluptatem veritatis tempore quo aut porro",
-    "working_hours": {
+    "workingHours": {
       "from": "01:11",
       "to": "14:51"
     },
@@ -5138,10 +5138,10 @@
   },
   {
     "id": 468,
-    "store_id": 91,
+    "storeId": 91,
     "name": "Chip'd Menu",
     "description": "sint molestiae modi ex aspernatur aut ut ratione minima est deleniti accusamus unde voluptates repudiandae",
-    "working_hours": {
+    "workingHours": {
       "from": "10:29",
       "to": "14:35"
     },
@@ -5149,10 +5149,10 @@
   },
   {
     "id": 469,
-    "store_id": 91,
+    "storeId": 91,
     "name": "Liverpool-Jack Burrito - VB Delivery",
     "description": "sed cupiditate alias enim beatae hic dolores quia in totam sit consectetur sapiente omnis repudiandae",
-    "working_hours": {
+    "workingHours": {
       "from": "04:43",
       "to": "22:25"
     },
@@ -5160,10 +5160,10 @@
   },
   {
     "id": 470,
-    "store_id": 91,
+    "storeId": 91,
     "name": "DF Tacos_POS",
     "description": "ducimus quaerat sed harum hic aliquid autem quas maxime qui sunt voluptatibus odit modi rerum",
-    "working_hours": {
+    "workingHours": {
       "from": "05:43",
       "to": "23:46"
     },
@@ -5171,10 +5171,10 @@
   },
   {
     "id": 471,
-    "store_id": 91,
+    "storeId": 91,
     "name": "honipoke2",
     "description": "accusamus numquam dolores voluptatem aliquid qui numquam quisquam nihil praesentium rerum occaecati ullam ex occaecati",
-    "working_hours": {
+    "workingHours": {
       "from": "11:23",
       "to": "16:15"
     },
@@ -5182,10 +5182,10 @@
   },
   {
     "id": 472,
-    "store_id": 91,
+    "storeId": 91,
     "name": "Hot Chick",
     "description": "earum quam praesentium aperiam itaque voluptatum quasi repudiandae dolore ex perferendis et et placeat reprehenderit",
-    "working_hours": {
+    "workingHours": {
       "from": "02:43",
       "to": "15:01"
     },
@@ -5193,10 +5193,10 @@
   },
   {
     "id": 473,
-    "store_id": 92,
+    "storeId": 92,
     "name": "Dinner - Bills",
     "description": "tempora voluptates eligendi ab earum nobis consectetur quibusdam necessitatibus quos quaerat eos nulla minima consequuntur",
-    "working_hours": {
+    "workingHours": {
       "from": "04:32",
       "to": "14:45"
     },
@@ -5204,10 +5204,10 @@
   },
   {
     "id": 474,
-    "store_id": 92,
+    "storeId": 92,
     "name": "Honest Burgers- Test Kitchen",
     "description": "eos numquam quis atque nihil atque quasi ut et fugit vel recusandae et asperiores non",
-    "working_hours": {
+    "workingHours": {
       "from": "02:46",
       "to": "22:19"
     },
@@ -5215,10 +5215,10 @@
   },
   {
     "id": 475,
-    "store_id": 92,
+    "storeId": 92,
     "name": "Belfast Botanicals EPOS",
     "description": "delectus occaecati animi voluptatem labore facilis ut aut qui aut optio laudantium id fuga modi",
-    "working_hours": {
+    "workingHours": {
       "from": "05:41",
       "to": "23:04"
     },
@@ -5226,10 +5226,10 @@
   },
   {
     "id": 476,
-    "store_id": 92,
+    "storeId": 92,
     "name": "Deliveroo Hop Menu",
     "description": "quo quia aut et reiciendis veritatis aliquid soluta minima animi tenetur quis autem rerum aspernatur",
-    "working_hours": {
+    "workingHours": {
       "from": "07:36",
       "to": "19:19"
     },
@@ -5237,10 +5237,10 @@
   },
   {
     "id": 477,
-    "store_id": 92,
+    "storeId": 92,
     "name": "ABM_POS",
     "description": "sit repellendus sunt deleniti voluptas voluptate itaque ipsa eveniet ab ipsam pariatur est et maxime",
-    "working_hours": {
+    "workingHours": {
       "from": "02:40",
       "to": "18:42"
     },
@@ -5248,10 +5248,10 @@
   },
   {
     "id": 478,
-    "store_id": 93,
+    "storeId": 93,
     "name": "Lunch Hop",
     "description": "alias voluptatem qui id omnis ut illum voluptas quos et maiores molestiae et assumenda dolores",
-    "working_hours": {
+    "workingHours": {
       "from": "12:07",
       "to": "16:45"
     },
@@ -5259,10 +5259,10 @@
   },
   {
     "id": 479,
-    "store_id": 93,
+    "storeId": 93,
     "name": "Dash All Day",
     "description": "soluta commodi adipisci architecto voluptatem rerum quo blanditiis libero aut rem nihil qui illo quibusdam",
-    "working_hours": {
+    "workingHours": {
       "from": "08:44",
       "to": "17:16"
     },
@@ -5270,10 +5270,10 @@
   },
   {
     "id": 480,
-    "store_id": 93,
+    "storeId": 93,
     "name": "All Day - Cocina",
     "description": "ducimus in et incidunt facilis accusantium sint repellat ut aut vel reprehenderit ullam non quam",
-    "working_hours": {
+    "workingHours": {
       "from": "00:04",
       "to": "18:33"
     },
@@ -5281,10 +5281,10 @@
   },
   {
     "id": 481,
-    "store_id": 93,
+    "storeId": 93,
     "name": "Benugo Breakfast",
     "description": "culpa velit repudiandae in cupiditate sunt iure veritatis ut officia omnis vero sapiente facere itaque",
-    "working_hours": {
+    "workingHours": {
       "from": "00:04",
       "to": "16:31"
     },
@@ -5292,10 +5292,10 @@
   },
   {
     "id": 482,
-    "store_id": 93,
+    "storeId": 93,
     "name": "ABM- Breakfast Menu- C&C",
     "description": "voluptatem repudiandae sit aut aut magni deserunt et qui minus quo eum molestias eum inventore",
-    "working_hours": {
+    "workingHours": {
       "from": "11:27",
       "to": "20:47"
     },
@@ -5303,10 +5303,10 @@
   },
   {
     "id": 483,
-    "store_id": 94,
+    "storeId": 94,
     "name": "Barbican",
     "description": "voluptate expedita aliquid voluptate ullam asperiores rerum qui cumque veritatis eligendi alias qui eius repellendus",
-    "working_hours": {
+    "workingHours": {
       "from": "06:27",
       "to": "13:27"
     },
@@ -5314,10 +5314,10 @@
   },
   {
     "id": 484,
-    "store_id": 94,
+    "storeId": 94,
     "name": "All Day - Cocina",
     "description": "qui et sit exercitationem rem eum aut est expedita inventore modi unde nisi non occaecati",
-    "working_hours": {
+    "workingHours": {
       "from": "10:29",
       "to": "19:35"
     },
@@ -5325,10 +5325,10 @@
   },
   {
     "id": 485,
-    "store_id": 94,
+    "storeId": 94,
     "name": "Dinner - Bills",
     "description": "sed eaque tenetur enim enim sequi quia ratione rerum ratione corporis aut reiciendis est enim",
-    "working_hours": {
+    "workingHours": {
       "from": "03:59",
       "to": "19:49"
     },
@@ -5336,10 +5336,10 @@
   },
   {
     "id": 486,
-    "store_id": 94,
+    "storeId": 94,
     "name": "Liverpool-Artisan Wrap Co - VB Delivery",
     "description": "totam consequatur assumenda est quisquam odio doloremque qui aspernatur at sed et sed et cum",
-    "working_hours": {
+    "workingHours": {
       "from": "06:15",
       "to": "23:07"
     },
@@ -5347,10 +5347,10 @@
   },
   {
     "id": 487,
-    "store_id": 94,
+    "storeId": 94,
     "name": "K10 Kiosk - NOT IN USE",
     "description": "laborum et omnis dolores consequatur cumque et esse nulla sint repellat et ea odit aut",
-    "working_hours": {
+    "workingHours": {
       "from": "06:35",
       "to": "20:42"
     },
@@ -5358,10 +5358,10 @@
   },
   {
     "id": 488,
-    "store_id": 95,
+    "storeId": 95,
     "name": "ER Collection Menu",
     "description": "doloremque non alias doloribus dolor nobis aut et itaque accusantium excepturi natus ut velit consequatur",
-    "working_hours": {
+    "workingHours": {
       "from": "03:19",
       "to": "21:54"
     },
@@ -5369,10 +5369,10 @@
   },
   {
     "id": 489,
-    "store_id": 95,
+    "storeId": 95,
     "name": "All Day - Cocina",
     "description": "ullam rem architecto est omnis optio quo nisi nihil dolor ratione consequuntur consequuntur aspernatur quaerat",
-    "working_hours": {
+    "workingHours": {
       "from": "00:47",
       "to": "19:49"
     },
@@ -5380,10 +5380,10 @@
   },
   {
     "id": 490,
-    "store_id": 95,
+    "storeId": 95,
     "name": "Garbanzos - Online Menu",
     "description": "dignissimos autem qui eligendi quae provident consequatur aut qui pariatur accusamus reiciendis maiores est tempora",
-    "working_hours": {
+    "workingHours": {
       "from": "05:07",
       "to": "22:28"
     },
@@ -5391,10 +5391,10 @@
   },
   {
     "id": 491,
-    "store_id": 95,
+    "storeId": 95,
     "name": "Bournemouth Cafe",
     "description": "neque non praesentium magnam rerum voluptas voluptatem assumenda aut dolorum eius cumque eius repudiandae velit",
-    "working_hours": {
+    "workingHours": {
       "from": "09:20",
       "to": "22:36"
     },
@@ -5402,10 +5402,10 @@
   },
   {
     "id": 492,
-    "store_id": 95,
+    "storeId": 95,
     "name": "Ekraze -  All Day Menu",
     "description": "est expedita aspernatur voluptatem autem assumenda expedita sit excepturi sit aut ut aperiam dolores cumque",
-    "working_hours": {
+    "workingHours": {
       "from": "00:51",
       "to": "23:23"
     },
@@ -5413,10 +5413,10 @@
   },
   {
     "id": 493,
-    "store_id": 96,
+    "storeId": 96,
     "name": "Dumpling Shack_POS",
     "description": "consequuntur accusantium itaque quia ducimus qui numquam maxime minus accusantium est harum nisi et similique",
-    "working_hours": {
+    "workingHours": {
       "from": "03:08",
       "to": "13:34"
     },
@@ -5424,10 +5424,10 @@
   },
   {
     "id": 494,
-    "store_id": 96,
+    "storeId": 96,
     "name": "Delivery - Bleecker Burger",
     "description": "velit odio rem nihil consequuntur reprehenderit consequatur dignissimos sunt ut fuga est natus eos et",
-    "working_hours": {
+    "workingHours": {
       "from": "01:40",
       "to": "23:16"
     },
@@ -5435,10 +5435,10 @@
   },
   {
     "id": 495,
-    "store_id": 96,
+    "storeId": 96,
     "name": "All Day - pb1",
     "description": "non omnis totam accusamus eos ut ea quos quasi voluptas tenetur possimus consequatur quas laboriosam",
-    "working_hours": {
+    "workingHours": {
       "from": "08:58",
       "to": "19:37"
     },
@@ -5446,10 +5446,10 @@
   },
   {
     "id": 496,
-    "store_id": 96,
+    "storeId": 96,
     "name": "Delivery - Bleecker Burger",
     "description": "veritatis distinctio deserunt quibusdam impedit mollitia rerum consequuntur architecto aut impedit sit voluptate voluptatibus aut",
-    "working_hours": {
+    "workingHours": {
       "from": "04:00",
       "to": "18:39"
     },
@@ -5457,10 +5457,10 @@
   },
   {
     "id": 497,
-    "store_id": 96,
+    "storeId": 96,
     "name": "Bamboo Bay POS Menu",
     "description": "aut pariatur dicta nulla qui ut accusantium in itaque non blanditiis repellendus voluptatem et error",
-    "working_hours": {
+    "workingHours": {
       "from": "03:47",
       "to": "17:21"
     },
@@ -5468,10 +5468,10 @@
   },
   {
     "id": 498,
-    "store_id": 97,
+    "storeId": 97,
     "name": "Dim Sum",
     "description": "quas consequatur doloremque voluptatem harum dolore et est illum distinctio doloribus temporibus officia et rerum",
-    "working_hours": {
+    "workingHours": {
       "from": "05:38",
       "to": "17:56"
     },
@@ -5479,10 +5479,10 @@
   },
   {
     "id": 499,
-    "store_id": 97,
+    "storeId": 97,
     "name": "Guidos",
     "description": "cupiditate odio molestiae reiciendis aliquid ipsa vel libero accusamus explicabo voluptas consequuntur nobis aut quisquam",
-    "working_hours": {
+    "workingHours": {
       "from": "02:26",
       "to": "21:16"
     },
@@ -5490,10 +5490,10 @@
   },
   {
     "id": 500,
-    "store_id": 97,
+    "storeId": 97,
     "name": "DO NOT USE",
     "description": "maiores quo molestiae omnis ratione qui ut occaecati voluptatem quia cumque inventore error omnis qui",
-    "working_hours": {
+    "workingHours": {
       "from": "02:34",
       "to": "18:57"
     },
@@ -5501,10 +5501,10 @@
   },
   {
     "id": 501,
-    "store_id": 97,
+    "storeId": 97,
     "name": "Express",
     "description": "dolore ipsam molestias et omnis distinctio sunt neque at neque cupiditate laboriosam laudantium qui ea",
-    "working_hours": {
+    "workingHours": {
       "from": "00:31",
       "to": "15:53"
     },
@@ -5512,10 +5512,10 @@
   },
   {
     "id": 502,
-    "store_id": 97,
+    "storeId": 97,
     "name": "Five Points EPOS Menu",
     "description": "labore dolorem ipsam error in debitis aut dolorem voluptatem iusto veniam ad neque velit hic",
-    "working_hours": {
+    "workingHours": {
       "from": "11:45",
       "to": "15:19"
     },
@@ -5523,10 +5523,10 @@
   },
   {
     "id": 503,
-    "store_id": 98,
+    "storeId": 98,
     "name": "Express",
     "description": "ipsa ad dolorum fuga vitae eaque et reprehenderit nostrum aspernatur sit et molestias nihil qui",
-    "working_hours": {
+    "workingHours": {
       "from": "04:23",
       "to": "14:26"
     },
@@ -5534,10 +5534,10 @@
   },
   {
     "id": 504,
-    "store_id": 98,
+    "storeId": 98,
     "name": "CHILANGO_POS",
     "description": "molestias earum voluptas labore hic vel provident et quis accusamus in dicta quidem dignissimos quos",
-    "working_hours": {
+    "workingHours": {
       "from": "02:47",
       "to": "21:41"
     },
@@ -5545,10 +5545,10 @@
   },
   {
     "id": 505,
-    "store_id": 98,
+    "storeId": 98,
     "name": "Hot Rocks Menu",
     "description": "ullam ducimus a earum quaerat et sed quis quibusdam distinctio rerum ex vel consequatur reprehenderit",
-    "working_hours": {
+    "workingHours": {
       "from": "02:46",
       "to": "20:12"
     },
@@ -5556,10 +5556,10 @@
   },
   {
     "id": 506,
-    "store_id": 98,
+    "storeId": 98,
     "name": "Neyba Pos",
     "description": "qui vitae consectetur qui id eius numquam et amet aspernatur molestiae eos cupiditate modi et",
-    "working_hours": {
+    "workingHours": {
       "from": "03:18",
       "to": "13:17"
     },
@@ -5567,10 +5567,10 @@
   },
   {
     "id": 507,
-    "store_id": 98,
+    "storeId": 98,
     "name": "Dinner Menu - Java and Jazz",
     "description": "a laborum repellat esse quo cupiditate eaque nesciunt consequatur ipsum iusto illo voluptas amet dolore",
-    "working_hours": {
+    "workingHours": {
       "from": "08:39",
       "to": "21:49"
     },
@@ -5578,10 +5578,10 @@
   },
   {
     "id": 508,
-    "store_id": 98,
+    "storeId": 98,
     "name": "149 TA EPOS Menu",
     "description": "ducimus quo vero suscipit vel itaque qui reiciendis veritatis dolorum ullam sapiente soluta illum recusandae",
-    "working_hours": {
+    "workingHours": {
       "from": "05:19",
       "to": "15:54"
     },
@@ -5589,10 +5589,10 @@
   },
   {
     "id": 509,
-    "store_id": 98,
+    "storeId": 98,
     "name": "Delivery Aggregators Breakfast",
     "description": "pariatur dolorem itaque labore iusto eos quas quis culpa delectus debitis exercitationem quae sit facilis",
-    "working_hours": {
+    "workingHours": {
       "from": "02:15",
       "to": "16:39"
     },
@@ -5600,10 +5600,10 @@
   },
   {
     "id": 510,
-    "store_id": 98,
+    "storeId": 98,
     "name": "All Day-",
     "description": "quasi ratione quod rem repellat reprehenderit quidem delectus sed aut quis fuga expedita sed autem",
-    "working_hours": {
+    "workingHours": {
       "from": "03:14",
       "to": "20:48"
     },
@@ -5611,10 +5611,10 @@
   },
   {
     "id": 511,
-    "store_id": 98,
+    "storeId": 98,
     "name": "Afternoon Tea Delivery",
     "description": "animi in sequi eum reprehenderit omnis rerum est iure voluptas consequatur expedita nobis dignissimos sapiente",
-    "working_hours": {
+    "workingHours": {
       "from": "06:11",
       "to": "19:29"
     },
@@ -5622,10 +5622,10 @@
   },
   {
     "id": 512,
-    "store_id": 99,
+    "storeId": 99,
     "name": "ABM- Breakfast Menu- C&C",
     "description": "et aperiam sequi impedit magnam velit et nesciunt voluptatem veritatis perferendis velit aspernatur quae ut",
-    "working_hours": {
+    "workingHours": {
       "from": "07:18",
       "to": "16:47"
     },
@@ -5633,10 +5633,10 @@
   },
   {
     "id": 513,
-    "store_id": 99,
+    "storeId": 99,
     "name": "Liverpool - Ramen Company - VB",
     "description": "atque omnis et qui in itaque pariatur perferendis rerum non aperiam consequatur exercitationem incidunt qui",
-    "working_hours": {
+    "workingHours": {
       "from": "08:46",
       "to": "18:59"
     },
@@ -5644,10 +5644,10 @@
   },
   {
     "id": 514,
-    "store_id": 99,
+    "storeId": 99,
     "name": "EM EPOS",
     "description": "aliquam rerum voluptatem quidem at voluptas fugiat velit mollitia fugit eaque omnis officiis nesciunt rem",
-    "working_hours": {
+    "workingHours": {
       "from": "05:07",
       "to": "15:54"
     },
@@ -5655,10 +5655,10 @@
   },
   {
     "id": 515,
-    "store_id": 99,
+    "storeId": 99,
     "name": "BLF EPOS",
     "description": "reprehenderit et tempore consectetur aut nihil exercitationem facere minus vel inventore ducimus culpa vitae repellat",
-    "working_hours": {
+    "workingHours": {
       "from": "05:25",
       "to": "14:02"
     },
@@ -5666,10 +5666,10 @@
   },
   {
     "id": 516,
-    "store_id": 100,
+    "storeId": 100,
     "name": "Pizza Hut POS",
     "description": "aperiam iste et consequuntur architecto ut dolorem voluptatem atque ex recusandae sit vel laudantium mollitia",
-    "working_hours": {
+    "workingHours": {
       "from": "02:13",
       "to": "16:36"
     },
@@ -5677,10 +5677,10 @@
   },
   {
     "id": 517,
-    "store_id": 100,
+    "storeId": 100,
     "name": "All Day POS (BKM)",
     "description": "ipsum modi expedita at quia voluptatem pariatur repellat suscipit ea officia quas exercitationem assumenda necessitatibus",
-    "working_hours": {
+    "workingHours": {
       "from": "02:47",
       "to": "18:05"
     },
@@ -5688,10 +5688,10 @@
   },
   {
     "id": 518,
-    "store_id": 100,
+    "storeId": 100,
     "name": "Hotboxd Delivery Aggregator",
     "description": "consequatur eius possimus beatae neque dolorum quos omnis alias doloribus quia corporis non accusantium beatae",
-    "working_hours": {
+    "workingHours": {
       "from": "05:51",
       "to": "19:53"
     },

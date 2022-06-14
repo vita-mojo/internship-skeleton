@@ -10,7 +10,7 @@ import {
 import { Modifiers } from './modifiers';
 import { Product } from './product';
 
-@Entity()
+@Entity({ name: 'modifier-category' })
 export class ModifierCategory {
   @PrimaryGeneratedColumn({ type: 'int' })
   id: number;
