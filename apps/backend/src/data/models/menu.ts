@@ -1,6 +1,7 @@
 import {
   Column,
   Entity,
+  JoinColumn,
   ManyToOne,
   OneToMany,
   PrimaryGeneratedColumn
@@ -9,7 +10,7 @@ import {
 import { Product } from './product';
 import { Store } from './store';
 
-export type channelType = 'DELIVERY' | 'PICK_UP' | 'EAT_IN';
+// export type channelType = 'DELIVERY' | 'PICK_UP' | 'EAT_IN';
 
 @Entity()
 export class Menu {
@@ -29,9 +30,10 @@ export class Menu {
   workingHours: { from: string; to: string };
 
   @Column({ type: 'enum', enum: ['DELIVERY', 'PICK_UP', 'EAT_IN'] })
-  channel: channelType;
+  channel: string;
 
   @ManyToOne(() => Store, (store) => store.menus)
+  @JoinColumn({ name: 'store_id', referencedColumnName: 'id' })
   store: Store;
 
   @OneToMany(() => Product, (product) => product.menu)

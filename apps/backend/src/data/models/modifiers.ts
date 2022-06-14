@@ -1,4 +1,10 @@
-import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
+import {
+  Column,
+  Entity,
+  JoinColumn,
+  ManyToOne,
+  PrimaryGeneratedColumn
+} from 'typeorm';
 
 import { ModifierCategory } from './modifierCategory';
 
@@ -7,7 +13,7 @@ export class Modifiers {
   @PrimaryGeneratedColumn('increment')
   id: number;
 
-  @Column({ type: 'int', name: 'working_hours' })
+  @Column({ type: 'int', name: 'modifier_cateogory_id' })
   modifierCateogoryId: number;
 
   @Column({ type: 'varchar', length: 255 })
@@ -26,5 +32,6 @@ export class Modifiers {
     () => ModifierCategory,
     (modifierCategory) => modifierCategory.modifiers
   )
+  @JoinColumn({ name: 'modifier_category_id', referencedColumnName: 'id' })
   modifierCategory: ModifierCategory;
 }
