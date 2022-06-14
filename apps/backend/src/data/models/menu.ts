@@ -16,13 +16,13 @@ export class Menu {
   @PrimaryGeneratedColumn('increment')
   id: number;
 
-  @Column({ type: 'int' })
+  @Column({ type: 'int', name: 'store_id' })
   storeId: number;
 
   @Column({ type: 'varchar', length: 255 })
   name: string;
 
-  @Column({ type: 'text', length: 2000 })
+  @Column({ type: 'text' })
   description: string;
 
   @Column({ type: 'json', name: 'working_hours' })
