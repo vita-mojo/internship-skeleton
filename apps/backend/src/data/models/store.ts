@@ -10,7 +10,7 @@ export class Store {
   @Column({ type: 'varchar', length: 255 })
   name: string;
 
-  @Column({ type: 'text', length: 1000 })
+  @Column({ type: 'text' })
   description: string;
 
   @Column({ type: 'json' })

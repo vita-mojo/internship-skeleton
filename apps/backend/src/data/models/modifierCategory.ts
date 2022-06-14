@@ -1,6 +1,7 @@
 import {
   Column,
   Entity,
+  JoinColumn,
   ManyToOne,
   OneToMany,
   PrimaryGeneratedColumn
@@ -9,7 +10,7 @@ import {
 import { Modifiers } from './modifiers';
 import { Product } from './product';
 
-@Entity()
+@Entity({ name: 'modifier-category' })
 export class ModifierCategory {
   @PrimaryGeneratedColumn({ type: 'int' })
   id: number;
@@ -27,6 +28,7 @@ export class ModifierCategory {
   productId: number;
 
   @ManyToOne(() => Product, (product: Product) => product.modifierCategories)
+  @JoinColumn({ name: 'product_id', referencedColumnName: 'id' })
   product: Product;
 
   @OneToMany(
