@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
+    "start:backend": "nx serve backend",
     "build": "nx build",
     "test": "nx test",
     "db:migrate": "ts-node -P apps/backend/tsconfig.app.json ./node_modules/typeorm/cli.js migration:run -f apps/backend/ormconfig.js",
