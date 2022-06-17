@@ -1,3 +1,4 @@
+import cors from 'cors';
 import express from 'express';
 import { Connection } from 'typeorm';
 
@@ -11,6 +12,8 @@ import productRouter from './routes/product.route';
 
 const app = express();
 const port = process.env.port || 3333;
+
+app.use(cors({ origin: 'http://localhost:4200' }));
 
 export const connection = new Connection({
   type: 'mysql',

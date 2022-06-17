@@ -4,8 +4,8 @@ import { createTheme } from '@mui/material/styles';
 export const theme = createTheme({
   palette: {
     primary: blue,
-    secondary: pink,
-  },
+    secondary: pink
+  }
 });
 
 declare module '@mui/material/styles' {
