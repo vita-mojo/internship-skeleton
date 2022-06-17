@@ -3,8 +3,9 @@ import { Request, Response } from 'express';
 import service from '../services/product.service';
 
 const getProducts = async (req: Request, res: Response) => {
+  const { id, page } = req.params;
   try {
-    const products = await service.getAllProducts(req.params.id);
+    const products = await service.getAllProducts(id, page);
     return res.json({
       data: products
     });

@@ -1,12 +1,17 @@
 import { Product } from '../data/models/product';
 import { connection } from '../main';
 
-const getAllProducts = async (params: string): Promise<Product[] | null> => {
+const getAllProducts = async (
+  params: string,
+  page: string
+): Promise<Product[] | null> => {
   try {
     const products = await connection
       .getRepository(Product)
       .createQueryBuilder('product')
       .where('product.menuId = :id', { id: params })
+      .skip((~~page - 1) * 10)
+      .take(10)
       .getMany();
     return products;
   } catch (err) {
