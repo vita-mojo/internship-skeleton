@@ -1,3 +1,4 @@
+import cors from 'cors';
 import express from 'express';
 import { Connection } from 'typeorm';
 
@@ -7,6 +8,13 @@ import { Modifiers } from './data/models/modifiers';
 import { Product } from './data/models/product';
 import { Store } from './data/models/store';
 import storeRoutes from './routes/store';
+
+const app = express();
+const port = process.env.port || 3333;
+
+const corsOptions = {
+  origin: 'http://localhost:4200'
+};
 
 export const connection = new Connection({
   type: 'mysql',
@@ -18,9 +26,7 @@ export const connection = new Connection({
   entities: [Store, Menu, Product, ModifierCategory, Modifiers]
 }); //establish connection with database
 
-const app = express();
-const port = process.env.port || 3333;
-
+app.use(cors(corsOptions));
 app.use('/api', storeRoutes);
 
 app.get('/api', (req, res) => {
