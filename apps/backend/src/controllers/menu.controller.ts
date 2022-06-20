@@ -3,9 +3,9 @@ import { Request, Response } from 'express';
 import getMenus from '../services/menu.service';
 
 const getMenu = async (req: Request, res: Response) => {
-  const { id, page } = req.params;
+  const { storeId } = req.params;
   try {
-    const menus = await getMenus(id, page);
+    const menus = await getMenus(storeId);
     return res.json({
       data: menus
     });
