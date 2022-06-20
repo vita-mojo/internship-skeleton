@@ -1,19 +1,28 @@
 import { Product } from '../data/models/product';
 import { connection } from '../main';
 
-const getAllProducts = async (
-  menuId: string,
-  page: string
-): Promise<Product[] | null> => {
+const getAllProducts = async (menuId: string, page: number) => {
   try {
-    const products = await connection
+    const perPage = 12;
+
+    const builder = connection
       .getRepository(Product)
       .createQueryBuilder('product')
-      .where('product.menuId = :menuId', { menuId })
-      .skip((~~page - 1) * 10)
-      .take(10)
+      .where('product.menuId = :menuId', { menuId });
+
+    const products = await builder
+      .skip((page - 1) * perPage)
+      .take(perPage)
       .getMany();
-    return products;
+
+    const totalProducts = await builder.getCount();
+
+    return {
+      data: products,
+      totalProducts,
+      page,
+      howManyPages: Math.ceil(totalProducts / perPage)
+    };
   } catch (err) {
     throw Error('Products not found');
   }

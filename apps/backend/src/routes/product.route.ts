@@ -7,6 +7,6 @@ const productRouter = Router();
 //GET specific product by ID
 productRouter.get('/product/:productId', controller.getProductById);
 //GET all products from a specific menu by menuId
-productRouter.get('/menu/products/:menuId/:page', controller.getProducts);
+productRouter.get('/menu/products/:menuId', controller.getProducts);
 
 export default productRouter;
