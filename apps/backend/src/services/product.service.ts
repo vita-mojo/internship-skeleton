@@ -2,14 +2,14 @@ import { Product } from '../data/models/product';
 import { connection } from '../main';
 
 const getAllProducts = async (
-  params: string,
+  menuId: string,
   page: string
 ): Promise<Product[] | null> => {
   try {
     const products = await connection
       .getRepository(Product)
       .createQueryBuilder('product')
-      .where('product.menuId = :id', { id: params })
+      .where('product.menuId = :menuId', { menuId })
       .skip((~~page - 1) * 10)
       .take(10)
       .getMany();
@@ -19,12 +19,14 @@ const getAllProducts = async (
   }
 };
 
-const getOneProductById = async (params: string): Promise<Product | null> => {
+const getOneProductById = async (
+  productId: string
+): Promise<Product | null> => {
   try {
     const products = await connection
       .getRepository(Product)
       .createQueryBuilder('product')
-      .where('product.id = :id', { id: params })
+      .where('product.id = :productId', { productId })
       .getOne();
     return products;
   } catch (err) {

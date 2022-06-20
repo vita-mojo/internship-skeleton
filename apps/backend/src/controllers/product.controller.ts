@@ -3,9 +3,9 @@ import { Request, Response } from 'express';
 import service from '../services/product.service';
 
 const getProducts = async (req: Request, res: Response) => {
-  const { id, page } = req.params;
+  const { menuId, page } = req.params;
   try {
-    const products = await service.getAllProducts(id, page);
+    const products = await service.getAllProducts(menuId, page);
     return res.json({
       data: products
     });
@@ -15,8 +15,9 @@ const getProducts = async (req: Request, res: Response) => {
 };
 
 const getProductById = async (req: Request, res: Response) => {
+  const { productId } = req.params;
   try {
-    const product = await service.getOneProductById(req.params.id);
+    const product = await service.getOneProductById(productId);
     return res.json({
       data: product
     });

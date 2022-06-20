@@ -1,12 +1,12 @@
 import { Menu } from '../data/models/menu';
 import { connection } from '../main';
 
-const getMenus = async (params: string): Promise<Menu[] | null> => {
+const getMenus = async (storeId: string): Promise<Menu[] | null> => {
   try {
     const menus = await connection
       .getRepository(Menu)
       .createQueryBuilder('menu')
-      .where('menu.storeId = :id', { id: params })
+      .where('menu.storeId = :storeId', { storeId })
       .getMany();
     return menus;
   } catch (err) {
