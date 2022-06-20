@@ -11,7 +11,6 @@ const modifierCategoryService = async (req: Request) => {
     .where('modifier-category.productId = :product_id', {
       product_id: req.params.product_id
     })
-    .printSql()
     .getMany();
   return modifierCategoty;
 };
