@@ -3,6 +3,7 @@
   "version": 2,
   "projects": {
     "backend": "apps/backend",
+    "header": "libs/header",
     "item-customization": "libs/item-customization",
     "menu": "libs/menu",
     "online-store": "apps/online-store",

@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@internship-skeleton/header": ["libs/header/src/index.ts"],
       "@internship-skeleton/item-customization": [
         "libs/item-customization/src/index.ts"
       ],

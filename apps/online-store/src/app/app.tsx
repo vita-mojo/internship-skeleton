@@ -1,3 +1,6 @@
+import '../styles.css';
+
+import { Header } from '@internship-skeleton/header';
 import { ItemCustomization } from '@internship-skeleton/item-customization';
 import { Menu } from '@internship-skeleton/menu';
 import { StoreSelection } from '@internship-skeleton/store-selection';
@@ -15,6 +18,7 @@ export function App() {
   return (
     <StyledApp>
       <ThemeProvider theme={theme}>
+        <Header />
         <Routes>
           <Route path="store-selection" element={<StoreSelection />} />
           <Route path="menu" element={<Menu />} />
