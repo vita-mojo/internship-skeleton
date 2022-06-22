@@ -1,10 +1,10 @@
 import { Request } from 'express';
 
 import { ModifierCategory } from '../data/models/modifierCategory';
-import { myConnection } from '../main';
+import { connection } from '../main';
 
 const modifierCategoryService = async (req: Request) => {
-  const modifierCategoty = await myConnection
+  const modifierCategoty = await connection
     .getRepository(ModifierCategory)
     .createQueryBuilder('modifier-category')
     .leftJoinAndSelect('modifier-category.modifiers', 'modifier')

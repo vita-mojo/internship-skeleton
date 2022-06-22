@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 
-import modifierCategoryService from '../services/modifierCategory';
+import modifierCategoryService from '../services/modifierCategory.service';
 
 async function getModifierCategory(req: Request, res: Response) {
   try {

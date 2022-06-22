@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 
-import { getStores } from '../services/store';
+import { getStores } from '../services/store.service';
 
 export const getStoresAndMenus = async (req: Request, res: Response) => {
   try {

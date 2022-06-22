@@ -1,6 +1,6 @@
 import express from 'express';
 
-import { getStoresAndMenus } from '../controllers/store';
+import { getStoresAndMenus } from '../controllers/store.controller';
 
 const router = express.Router();
 
