@@ -9,6 +9,7 @@ import { Product } from './data/models/product';
 import { Store } from './data/models/store';
 import menuRouter from './routes/menu.route';
 import productRouter from './routes/product.route';
+import storeRoutes from './routes/store';
 
 const app = express();
 const port = process.env.port || 3333;
@@ -23,14 +24,10 @@ export const connection = new Connection({
   password: 'root',
   database: 'vitaSQL',
   entities: [Store, Menu, Product, ModifierCategory, Modifiers]
-});
+}); //establish connection with database
 
-connection
-  .connect()
-  .then(() => {
-    console.log('database connecteded');
-  })
-  .catch((err) => console.log(err));
+app.use(cors(corsOptions));
+app.use('/api', storeRoutes);
 
 app.get('/api', (req, res) => {
   res.send({ message: 'Welcome to backend!' });
@@ -43,3 +40,17 @@ const server = app.listen(port, () => {
   console.log(`Listening at http://localhost:${port}/api`);
 });
 server.on('error', console.error);
+const start = async () => {
+  try {
+    await connection.connect();
+    console.log('Successfully connected to the database');
+    const server = app.listen(port, () => {
+      console.log(`Listening at http://localhost:${port}`);
+    });
+    server.on('error', console.error);
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+start();
