@@ -1,9 +1,16 @@
 import { Store } from '../data/models/store';
 import { connection } from '../main';
 
-export const getAllStores = async (page: string) => {
+export const getStores = async (page: string) => {
   try {
     const pageNum = parseInt(page);
+
+    const allStores = await connection
+      .getRepository(Store)
+      .createQueryBuilder('store')
+      .getCount();
+
+    console.log(allStores);
 
     const stores = await connection
       .getRepository(Store)
@@ -23,7 +30,7 @@ export const getAllStores = async (page: string) => {
       })
     );
 
-    return storeAndItsMenus;
+    return { storeAndItsMenus, allStores };
   } catch (err) {
     return err;
   }
