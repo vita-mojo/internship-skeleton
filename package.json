@@ -4,7 +4,11 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
+<<<<<<< HEAD
     "start:backend": "nx serve backend",
+=======
+    "start-backend": "nx serve backend",
+>>>>>>> VMOS-6881
     "build": "nx build",
     "test": "nx test",
     "db:migrate": "ts-node -P apps/backend/tsconfig.app.json ./node_modules/typeorm/cli.js migration:run -f apps/backend/ormconfig.js",
