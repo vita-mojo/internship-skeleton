@@ -4,11 +4,7 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve",
-<<<<<<< HEAD
     "start:backend": "nx serve backend",
-=======
-    "start-backend": "nx serve backend",
->>>>>>> VMOS-6881
     "build": "nx build",
     "test": "nx test",
     "db:migrate": "ts-node -P apps/backend/tsconfig.app.json ./node_modules/typeorm/cli.js migration:run -f apps/backend/ormconfig.js",
@@ -28,6 +24,7 @@
     "mysql": "^2.18.1",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-icons": "^4.4.0",
     "react-is": "18.1.0",
     "react-router-dom": "^6.3.0",
     "regenerator-runtime": "0.13.7",

@@ -4,6 +4,7 @@ import { connection } from '../main';
 export const getStores = async (page: string) => {
   try {
     const pageNum = parseInt(page);
+    const itemsPerPage = 10;
 
     const allStores = await connection
       .getRepository(Store)
@@ -15,7 +16,7 @@ export const getStores = async (page: string) => {
     const stores = await connection
       .getRepository(Store)
       .createQueryBuilder('store')
-      .skip((pageNum - 1) * 10)
+      .skip((pageNum - 1) * itemsPerPage)
       .take(10)
       .getMany();
 
@@ -30,7 +31,7 @@ export const getStores = async (page: string) => {
       })
     );
 
-    return { storeAndItsMenus, allStores };
+    return { storeAndItsMenus, allStores, itemsPerPage };
   } catch (err) {
     return err;
   }

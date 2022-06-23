@@ -8,15 +8,15 @@ import { Modifiers } from './data/models/modifiers';
 import { Product } from './data/models/product';
 import { Store } from './data/models/store';
 import menuRouter from './routes/menu.route';
+import modifierCategoryRouter from './routes/modifierCategory.route';
 import productRouter from './routes/product.route';
 import storeRoutes from './routes/store.route';
-import modifierCategoryRouter from './routes/modifierCategory.route';
 
 const app = express();
 const port = process.env.port || 3333;
 const corsOptions = {
   origin: 'http://localhost:4200'
-}
+};
 
 export const connection = new Connection({
   type: 'mysql',

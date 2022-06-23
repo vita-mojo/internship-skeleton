@@ -21,7 +21,8 @@ export function App() {
         <Header />
         <Routes>
           <Route path="store-selection" element={<StoreSelection />} />
-          <Route path="menu" element={<Menu />} />
+          <Route path="store-selection/:page" element={<StoreSelection />} />
+          <Route path="menu/:menuId/:pageNumber/*" element={<Menu />} />
           <Route path="item-customization" element={<ItemCustomization />} />
           <Route
             path="*"
