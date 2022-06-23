@@ -21,8 +21,11 @@ export function App() {
         <Header />
         <Routes>
           <Route path="store-selection" element={<StoreSelection />} />
-          <Route path="menu" element={<Menu />} />
-          <Route path="item-customization" element={<ItemCustomization />} />
+          <Route path="menu/:menuId/:pageNumber/*" element={<Menu />} />
+          <Route
+            path="item-customization/:id"
+            element={<ItemCustomization />}
+          />
           <Route
             path="*"
             element={<Navigate to="/store-selection" replace />}
