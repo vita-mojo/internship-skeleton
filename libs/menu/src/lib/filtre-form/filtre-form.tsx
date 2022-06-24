@@ -1,4 +1,8 @@
 import { useState } from 'react';
+import { FaFilter } from 'react-icons/fa';
+
+import InputForm from '../input-form/input-form';
+
 /* eslint-disable-next-line */
 export interface FiltreFormProps {}
 
@@ -6,8 +10,18 @@ export const FiltreForm = (props: FiltreFormProps) => {
   const [open, setOpen] = useState(false as boolean);
 
   return (
-    <div>
-      <button></button>
+    <div className="pt-10">
+      <button
+        className="flex bg-amber-300 hover:bg-amber-200 text-black font-bold py-2 px-4 rounded"
+        onClick={() => {
+          setOpen(!open);
+        }}
+      >
+        <FaFilter /> <span>Filter</span>
+      </button>
+      <div>
+        <InputForm isOpen={open} />
+      </div>
     </div>
   );
 };
