@@ -1,25 +1,8 @@
 import { Link } from 'react-router-dom';
 
+import { Menu, StoreInfo } from '../../variables-interfaces/store-interfaces';
 /* eslint-disable-next-line */
-import {
-  openType1,
-  openType2,
-  openType3
-} from '../../store-variables/store-variables';
-
-interface Geo {
-  lat: string;
-  long: string;
-  address: string;
-}
-
-interface StoreInfo {
-  id: string;
-  name: string;
-  description: string;
-  geo: Geo;
-  menus: any[];
-}
+import { isOpenStore } from '../../variables-interfaces/store-variables';
 
 export interface StoreCardProps {
   storesInfo: StoreInfo;
@@ -30,30 +13,7 @@ export function StoreCard(props: StoreCardProps) {
     hour: new Date().getHours(),
     minutes: new Date().getMinutes()
   };
-  const isOpenStore = (from: string, to: string) => {
-    const hourFrom = from.split(':');
-    const hourTo = to.split(':');
-    const toIntHourFrom = hourFrom.map((item: string) => parseInt(item));
-    const toIntHourTo = hourTo.map((item: string) => parseInt(item));
 
-    if (toIntHourFrom[0] < date.hour && date.hour < toIntHourTo[0]) {
-      return openType1;
-    } else if (date.hour === toIntHourFrom[0]) {
-      if (toIntHourFrom[1] > date.minutes) {
-        return openType2;
-      } else {
-        return openType1;
-      }
-    } else if (date.hour === toIntHourTo[0]) {
-      if (toIntHourTo[1] > date.minutes) {
-        return openType1;
-      } else {
-        return openType3;
-      }
-    } else {
-      return openType3;
-    }
-  };
   return (
     <div className="menucard w-3/4 mx-auto m-3 p-3 bg-white">
       <div className="m-2">
@@ -63,20 +23,26 @@ export function StoreCard(props: StoreCardProps) {
       {!props.storesInfo.menus.length ? (
         <div className="flex justify-between m-2">Nothing found</div>
       ) : (
-        props.storesInfo.menus.map((menu: any) => (
+        props.storesInfo.menus.map((menu: Menu) => (
           <div key={menu.id} className="flex justify-between m-2">
             <div className="w-2/3">
               <h1 className="font-bold  m-2">{menu.name}</h1>
               <h3 className="font-thin  m-2">
                 <span
                   className={
-                    isOpenStore(menu.workingHours.from, menu.workingHours.to)
-                      .spanStyle
+                    isOpenStore(
+                      menu.workingHours.from,
+                      menu.workingHours.to,
+                      date
+                    ).spanStyle
                   }
                 >
                   {
-                    isOpenStore(menu.workingHours.from, menu.workingHours.to)
-                      .status
+                    isOpenStore(
+                      menu.workingHours.from,
+                      menu.workingHours.to,
+                      date
+                    ).status
                   }
                 </span>
                 &nbsp;From {menu.workingHours.from}- To
@@ -87,13 +53,19 @@ export function StoreCard(props: StoreCardProps) {
               <Link
                 to={`/menu/${menu.id}/1`}
                 className={
-                  isOpenStore(menu.workingHours.from, menu.workingHours.to)
-                    .buttonStyle
+                  isOpenStore(
+                    menu.workingHours.from,
+                    menu.workingHours.to,
+                    date
+                  ).buttonStyle
                 }
               >
                 {
-                  isOpenStore(menu.workingHours.from, menu.workingHours.to)
-                    .action
+                  isOpenStore(
+                    menu.workingHours.from,
+                    menu.workingHours.to,
+                    date
+                  ).action
                 }
               </Link>
             </div>

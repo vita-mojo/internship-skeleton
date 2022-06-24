@@ -1,4 +1,4 @@
-import { services } from '../../store-variables/store-variables';
+import { services } from '../../variables-interfaces/store-variables';
 
 /* eslint-disable-next-line */
 export interface FilterMenusProps {

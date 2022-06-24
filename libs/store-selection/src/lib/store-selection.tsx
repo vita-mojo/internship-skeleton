@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import { getData } from '../../../../apps/online-store/src/utils/APIrequest';
+import { Menu, StoreInfo } from '../variables-interfaces/store-interfaces';
 import { FilterMenus } from './filter-menus/filter-menus';
+import { PageButtons } from './page-buttons/page-buttons';
 import { StoreCard } from './store-card/store-card';
 /* eslint-disable-next-line */
 export interface StoreSelectionProps {}
@@ -28,7 +30,6 @@ export function StoreSelection(props: StoreSelectionProps) {
   };
 
   const filterByMenuType = (event: React.MouseEvent<HTMLButtonElement>) => {
-    console.log(event.currentTarget.name);
     let menutype = event.currentTarget.name;
     if (menutype === 'Pickup') {
       menutype = 'PICK_UP';
@@ -37,9 +38,9 @@ export function StoreSelection(props: StoreSelectionProps) {
     } else if (menutype === 'Delivery') {
       menutype = 'DELIVERY';
     }
-    const filteredMenus = storesAndMenus.map((item: any) => {
+    const filteredMenus = storesAndMenus.map((item: StoreInfo) => {
       const filter = item.menus.filter(
-        (type: any) => type.channel === menutype
+        (type: Menu) => type.channel === menutype
       );
       const filteredData = { ...item, menus: filter };
       return filteredData;
@@ -51,7 +52,6 @@ export function StoreSelection(props: StoreSelectionProps) {
   useEffect(() => {
     !page
       ? getData(`/api/stores/${1}`).then((newData: any) => {
-          console.log(newData.data.itemsPerPage);
           setStoresAndMenus(newData.data.storeAndItsMenus);
           setFilteredStoresAndMenus(newData.data.storeAndItsMenus);
           setItemsAndPages({
@@ -110,22 +110,12 @@ export function StoreSelection(props: StoreSelectionProps) {
         {/* ------------------------------ Page buttons ----------------------------------------*/}
 
         <div className="card w-3/4 mx-auto text-center m-3 p-3">
-          {storesAndMenus.length &&
-            Array.from(
-              Array(
-                Math.ceil(itemsAndPages.allStores / itemsAndPages.itemsPerPage)
-              ),
-              (_, index) => index + 1
-            ).map((item) => (
-              <Link key={item} to={`/store-selection/${item}`}>
-                <button
-                  value={item}
-                  className="w-4 hover:scale-105 transition ease-in-out duration-200 font-bold"
-                >
-                  {item}
-                </button>
-              </Link>
-            ))}
+          {storesAndMenus.length && (
+            <PageButtons
+              allStores={itemsAndPages.allStores}
+              itemsPerPage={itemsAndPages.itemsPerPage}
+            />
+          )}
         </div>
       </div>
 
