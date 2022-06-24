@@ -3,26 +3,31 @@ import 'react-tabs/style/react-tabs.css';
 import { useState } from 'react';
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
 
+// eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
+import capitalizeFirstLetter from '../../../../../apps/online-store/src/utils/capitalizeFirstLetter';
+
 /* eslint-disable-next-line */
 export interface ProductSideProps {
-  id: number;
-  name: string;
-  price: number;
-  description: string;
-  image: string;
-  metadata: {
-    dietary?: string;
-    ingredients: string;
-    nutrition: {
-      [key: string]: number;
+  product: {
+    id: number;
+    name: string;
+    price: number;
+    description: string;
+    image: string;
+    metadata: {
+      dietary?: string;
+      ingredients: string;
+      nutrition: {
+        [key: string]: number;
+      };
     };
   };
 }
 
-export function ProductSide({ ...product }: ProductSideProps) {
-  const [tabIndex, setTabIndex] = useState(2);
+export function ProductSide({ product }: ProductSideProps) {
+  const [tabIndex, setTabIndex] = useState(0);
 
-  const { id, name, price, image, description, metadata } = product;
+  const { name, image, description, metadata } = product;
 
   const entries: [string, number][] = Object.entries(metadata.nutrition);
   return (
@@ -34,8 +39,12 @@ export function ProductSide({ ...product }: ProductSideProps) {
         height="400"
         className="image mb-3 mx-auto"
       />
-      <p className="product-name text-2xl mb-3 font-semibold">{name}</p>
-      <p className="product-description mb-3 font-medium">{description}</p>
+      <p className="product-name text-2xl mb-3 font-semibold">
+        {capitalizeFirstLetter(name)}
+      </p>
+      <p className="product-description mb-3 font-medium">
+        {capitalizeFirstLetter(description)}
+      </p>
       <p className="info mb-3 text-zinc-700">Adults need 2000 kcal / day</p>
       <Tabs onSelect={(index) => setTabIndex(index)}>
         <TabList>
@@ -44,13 +53,13 @@ export function ProductSide({ ...product }: ProductSideProps) {
           <Tab style={{ backgroundColor: 'transparent' }}>Nutrition</Tab>
         </TabList>
         <TabPanel>
-          <p>Sorry, no informmation about it</p>
+          <p>Sorry, no informmation about dietary info</p>
         </TabPanel>
         <TabPanel>
           {metadata.ingredients ? (
             <p className="px-7"> {metadata.ingredients}</p>
           ) : (
-            <p>Sorry, no informmation about it</p>
+            <p>Sorry, no informmation about ingredients</p>
           )}
         </TabPanel>
         <TabPanel>

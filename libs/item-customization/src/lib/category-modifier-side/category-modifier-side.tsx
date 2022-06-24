@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { useParams } from 'react-router-dom';
 
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import { getData } from '../../../../../apps/online-store/src/utils/APIrequest';
@@ -8,34 +9,42 @@ import capitalizeFirstLetter from '../../../../../apps/online-store/src/utils/ca
 /* eslint-disable-next-line */
 export interface CategoryModifierSideProps {}
 
-type MyGroupType = {
+type ModifiersType = {
   [index: string]: Array<number>;
 };
 
-export function CategoryModifierSide(props: CategoryModifierSideProps) {
+interface CategoryModifiersProps {
+  productPrice: number;
+}
+
+export function CategoryModifierSide({ productPrice }: CategoryModifiersProps) {
+  const [countPrice, setCountPrice] = useState(0);
+  const [sizePrice, setSizePrice] = useState(0);
   const [selectedModifiers, setSelectedModifiers] = useState<{
-    [Size: string]: MyGroupType;
-    Supplements: MyGroupType;
-    Options: MyGroupType;
+    [Size: string]: ModifiersType;
+    Supplements: ModifiersType;
+    Options: ModifiersType;
   }>({
     Size: { modifiers: [] },
     Supplements: { modifiers: [] },
     Options: { modifiers: [] }
   });
   const [categoryMods, setcategoryMods] = useState<any>([]);
+  const { productId } = useParams();
 
   useEffect(() => {
-    getData(`/api/modifierCategory/${1}`).then((res: any) => {
+    getData(`/api/modifierCategory/${productId}`).then((res: any) => {
       setcategoryMods(res.data);
-      res.data.forEach((el: any) => {
-        el.modifiers.forEach((el1: any) => {
-          if (el1.isDefault) {
+      res.data.forEach((catMod: any) => {
+        catMod.modifiers.forEach((mod: any) => {
+          if (mod.isDefault) {
             setSelectedModifiers((prevState: any) => ({
               ...prevState,
-              [el.name]: {
-                modifiers: [el1.id]
+              [catMod.name]: {
+                modifiers: [mod.id]
               }
             }));
+            setSizePrice(mod.price);
           }
         });
       });
@@ -44,7 +53,7 @@ export function CategoryModifierSide(props: CategoryModifierSideProps) {
 
   console.log('catmod', categoryMods);
 
-  const handleClick = (catModName: string, modId: number) => {
+  const handleClick = (catModName: string, modId: number, price: number) => {
     if (catModName === 'Size') {
       setSelectedModifiers((prevState: any) => ({
         ...prevState,
@@ -52,15 +61,17 @@ export function CategoryModifierSide(props: CategoryModifierSideProps) {
           modifiers: [modId]
         }
       }));
+      setSizePrice(price);
     } else if (selectedModifiers[catModName]['modifiers'].includes(modId)) {
       setSelectedModifiers((prevState: any) => ({
         ...prevState,
         [catModName]: {
           modifiers: prevState[catModName].modifiers.filter(
-            (el: any) => el !== modId
+            (el: number) => el !== modId
           )
         }
       }));
+      deccraiseCalculationPrice(modId);
     } else {
       setSelectedModifiers((prevState: any) => ({
         ...prevState,
@@ -68,7 +79,28 @@ export function CategoryModifierSide(props: CategoryModifierSideProps) {
           modifiers: [...prevState[catModName].modifiers, modId]
         }
       }));
+      increaseCalculationPrice(modId);
     }
+  };
+
+  const increaseCalculationPrice = (modId: number) => {
+    categoryMods.forEach((catMod: any) => {
+      catMod.modifiers.forEach((mod: any) => {
+        if (mod.id === modId) {
+          setCountPrice(countPrice + mod.price);
+        }
+      });
+    });
+  };
+
+  const deccraiseCalculationPrice = (modId: number) => {
+    categoryMods.forEach((catMod: any) => {
+      catMod.modifiers.forEach((mod: any) => {
+        if (mod.id === modId) {
+          setCountPrice(countPrice - mod.price);
+        }
+      });
+    });
   };
 
   console.log(selectedModifiers);
@@ -86,7 +118,9 @@ export function CategoryModifierSide(props: CategoryModifierSideProps) {
                   {catMod.modifiers.map((mod: any) => {
                     return (
                       <button
-                        onClick={() => handleClick(catMod.name, mod.id)}
+                        onClick={() =>
+                          handleClick(catMod.name, mod.id, mod.price)
+                        }
                         key={mod.id}
                         className={
                           selectedModifiers[catMod.name]['modifiers'].includes(
@@ -109,11 +143,13 @@ export function CategoryModifierSide(props: CategoryModifierSideProps) {
           })}
       </ul>
       <button
-        className="w-[50%] bg-black text-white rounded-xl flex justify-between p-3 ml-[50%] hover:bg-zinc-700"
-        type="button"
+        className="w-[50%] bg-black text-white rounded-xl flex justify-between py-3 px-9 ml-[50%] hover:bg-zinc-700"
+        type="submit"
       >
         <span>Add to order</span>
-        {/* //<span>{price}</span> */}
+        {productPrice > 0 && (
+          <span>{(countPrice + productPrice + sizePrice).toFixed(2)}</span>
+        )}
       </button>
     </div>
   );
