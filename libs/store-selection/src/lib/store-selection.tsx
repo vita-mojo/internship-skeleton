@@ -23,6 +23,7 @@ export function StoreSelection(props: StoreSelectionProps) {
     itemsPerPage: 0
   });
   const [storeName, setStoreName] = useState<string>('');
+  const [activeBtn, setActiveBtn] = useState<string>('');
   const { page } = useParams();
 
   const handleStoreInput = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -31,12 +32,16 @@ export function StoreSelection(props: StoreSelectionProps) {
 
   const filterByMenuType = (event: React.MouseEvent<HTMLButtonElement>) => {
     let menutype = event.currentTarget.name;
+    console.log(menutype);
     if (menutype === 'Pickup') {
       menutype = 'PICK_UP';
+      setActiveBtn('Pickup');
     } else if (menutype === 'Eat In') {
       menutype = 'EAT_IN';
+      setActiveBtn('Eat In');
     } else if (menutype === 'Delivery') {
       menutype = 'DELIVERY';
+      setActiveBtn('Delivery');
     }
     const filteredMenus = storesAndMenus.map((item: StoreInfo) => {
       const filter = item.menus.filter(
@@ -82,7 +87,7 @@ export function StoreSelection(props: StoreSelectionProps) {
         {/* ------------------------------ Select field ----------------------------------------*/}
 
         <div className="card w-3/4 mx-auto text-center m-3 p-3">
-          <FilterMenus handleFilter={filterByMenuType} />
+          <FilterMenus handleFilter={filterByMenuType} isActive={activeBtn} />
         </div>
 
         {/* ------------------------------ Input field ----------------------------------------*/}

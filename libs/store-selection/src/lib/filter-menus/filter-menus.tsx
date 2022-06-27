@@ -3,9 +3,11 @@ import { services } from '../../variables-interfaces/store-variables';
 /* eslint-disable-next-line */
 export interface FilterMenusProps {
   handleFilter: (event: React.MouseEvent<HTMLButtonElement>) => void;
+  isActive: string;
 }
 
 export function FilterMenus(props: FilterMenusProps) {
+  console.log(props.isActive);
   return (
     <>
       <div>
@@ -20,7 +22,11 @@ export function FilterMenus(props: FilterMenusProps) {
             onClick={props.handleFilter}
             name={item.text}
             key={item.id}
-            className="p-3 w-1/4 bg-white text-zinc-500 border hover:text-zinc-900 hover:scale-110 hover:border hover:rounded-lg hover:border-zinc-900  active:text-zinc-900 active:scale-110  active:border active:rounded-lg active:border-zinc-900 transition ease-in-out duration-300 cursor-pointer"
+            className={`p-3 w-1/4 bg-white text-zinc-500 border hover:text-zinc-900 hover:scale-110 hover:border hover:rounded-lg hover:border-zinc-900 transition ease-in-out duration-100 cursor-pointer  ${
+              props.isActive === item.text &&
+              'focus:text-zinc-900 focus:border-zinc-900 focus:scale-110 focus:border focus:rounded-lg'
+            }
+            `}
           >
             <div className="flex justify-center text-2xl ">{item.type}</div>
             <h4 className="text-base font-bold">{item.text}</h4>
