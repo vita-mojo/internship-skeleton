@@ -5,31 +5,16 @@ import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
 
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import capitalizeFirstLetter from '../../../../../apps/online-store/src/utils/capitalizeFirstLetter';
-
-/* eslint-disable-next-line */
-export interface ProductSideProps {
-  product: {
-    id: number;
-    name: string;
-    price: number;
-    description: string;
-    image: string;
-    metadata: {
-      dietary?: string;
-      ingredients: string;
-      nutrition: {
-        [key: string]: number;
-      };
-    };
-  };
-}
+import { ProductSideProps } from '../variables-interfaces/variables-interfaces';
 
 export function ProductSide({ product }: ProductSideProps) {
   const [tabIndex, setTabIndex] = useState(0);
 
   const { name, image, description, metadata } = product;
 
-  const entries: [string, number][] = Object.entries(metadata.nutrition);
+  const metadataNutritionEntries: [string, number][] = Object.entries(
+    metadata.nutrition
+  );
   return (
     <div className="p-5 bg-yellow-300 max-w-[35%]">
       <img
@@ -53,7 +38,11 @@ export function ProductSide({ product }: ProductSideProps) {
           <Tab style={{ backgroundColor: 'transparent' }}>Nutrition</Tab>
         </TabList>
         <TabPanel>
-          <p>Sorry, no informmation about dietary info</p>
+          {metadata.dietary ? (
+            <p className="px-7"> {metadata.dietary}</p>
+          ) : (
+            <p>Sorry, no informmation about dietary info</p>
+          )}
         </TabPanel>
         <TabPanel>
           {metadata.ingredients ? (
@@ -63,7 +52,7 @@ export function ProductSide({ product }: ProductSideProps) {
           )}
         </TabPanel>
         <TabPanel>
-          {entries.map((el) => {
+          {metadataNutritionEntries.map((el) => {
             return (
               <p className="px-7" key={el[0]}>
                 <span className="mr-4"> {el[0]}</span>

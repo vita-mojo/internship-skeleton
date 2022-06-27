@@ -6,38 +6,19 @@ import { Link, useParams } from 'react-router-dom';
 import { getData } from '../../../../apps/online-store/src/utils/APIrequest';
 import CategoryModifierSide from './category-modifier-side/category-modifier-side';
 import ProductSide from './product-side/product-side';
+import { ProductDetails } from './variables-interfaces/variables-interfaces';
 
-/* eslint-disable-next-line */
-export interface ItemCustomizationProps {}
+const initialState = {
+  id: 0,
+  price: 0,
+  description: '',
+  metadata: { dietary: '', ingredients: '', nutrition: {} },
+  image: '',
+  name: ''
+};
 
-interface ProductNutrition {
-  [index: string]: number;
-}
-
-interface ProductMetadata {
-  dietary: undefined;
-  ingredients: '';
-  nutrition: ProductNutrition;
-}
-
-interface ProductDetails {
-  id: number;
-  price: number;
-  description: string;
-  metadata: ProductMetadata;
-  image: string;
-  name: string;
-}
-
-export function ItemCustomization(props: ItemCustomizationProps) {
-  const [product, setProduct] = useState<ProductDetails>({
-    id: 0,
-    price: 0,
-    description: '',
-    metadata: { dietary: undefined, ingredients: '', nutrition: {} },
-    image: '',
-    name: ''
-  });
+export function ItemCustomization() {
+  const [product, setProduct] = useState<ProductDetails>(initialState);
 
   const { productId } = useParams();
 
@@ -45,10 +26,7 @@ export function ItemCustomization(props: ItemCustomizationProps) {
     getData(`/api/product/${productId}`).then((res: any) => {
       setProduct({ ...res.data.data });
     });
-    console.log('product', product);
-  }, []);
-
-  console.log(product);
+  }, [productId]);
 
   return (
     <div className="flex relative min-h-[100vh]">
