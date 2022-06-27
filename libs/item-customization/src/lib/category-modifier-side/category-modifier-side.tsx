@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
@@ -14,7 +14,7 @@ import {
 } from '../variables-interfaces/variables-interfaces';
 
 export function CategoryModifierSide({ productPrice }: CategoryModifierProps) {
-  const [countPrice, setCountPrice] = useState(0);
+  const [modifiersPrice, setModifiersPrice] = useState(0);
   const [onePriceCategory, setOnePriceCategory] = useState(0);
   const [selectedModifiers, setSelectedModifiers] =
     useState<SelectedCategoryModifierType>({});
@@ -91,7 +91,7 @@ export function CategoryModifierSide({ productPrice }: CategoryModifierProps) {
     categoryModifier.forEach((catMod: CategoryModifier) => {
       catMod.modifiers.forEach(({ id, price }: Modifiers) => {
         if (id === modId) {
-          setCountPrice(countPrice + price);
+          setModifiersPrice(modifiersPrice + price);
         }
       });
     });
@@ -101,17 +101,28 @@ export function CategoryModifierSide({ productPrice }: CategoryModifierProps) {
     categoryModifier.forEach((catMod: CategoryModifier) => {
       catMod.modifiers.forEach(({ id, price }: Modifiers) => {
         if (id === modId) {
-          setCountPrice(countPrice - price);
+          setModifiersPrice(modifiersPrice - price);
         }
       });
     });
   };
 
-  const totalPrice: string = (
-    countPrice +
-    productPrice +
-    onePriceCategory
-  ).toFixed(2);
+  const calculationTotalPrice = (
+    modifiersPrice: number,
+    productPrice: number,
+    onePriceCategory: number
+  ) => {
+    const result = (modifiersPrice + productPrice + onePriceCategory).toFixed(
+      2
+    );
+    return result;
+  };
+
+  const totalPrice = useMemo(
+    () => calculationTotalPrice(modifiersPrice, productPrice, onePriceCategory),
+    [modifiersPrice, onePriceCategory, productPrice]
+  );
+
   return (
     <div className="bg-amber-100 p-5 grow">
       <p className="mb-9 text-3xl font-semibold">How would you like it?</p>
