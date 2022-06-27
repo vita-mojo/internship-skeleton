@@ -8,7 +8,7 @@ import capitalizeFirstLetter from '../../../../../apps/online-store/src/utils/ca
 import { ProductSideProps } from '../variables-interfaces/variables-interfaces';
 
 export function ProductSide({ product }: ProductSideProps) {
-  const [tabIndex, setTabIndex] = useState(0);
+  const [, setTabIndex] = useState(0);
 
   const { name, image, description, metadata } = product;
 
@@ -16,7 +16,7 @@ export function ProductSide({ product }: ProductSideProps) {
     metadata.nutrition
   );
   return (
-    <div className="p-5 bg-yellow-300 max-w-[35%]">
+    <div className="p-5 bg-yellow-300 w-[30%]">
       <img
         src={image}
         alt={name}

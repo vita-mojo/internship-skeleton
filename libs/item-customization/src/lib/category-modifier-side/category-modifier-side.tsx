@@ -22,6 +22,7 @@ export function CategoryModifierSide({ productPrice }: CategoryModifierProps) {
   const { productId } = useParams();
 
   useEffect(() => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     getData(`/api/modifierCategory/${productId}`).then((res: any) => {
       setcategoryModifier(res.data);
       res.data.forEach(({ modifiers, name }: CategoryModifier) => {
@@ -124,9 +125,9 @@ export function CategoryModifierSide({ productPrice }: CategoryModifierProps) {
   );
 
   return (
-    <div className="bg-amber-100 p-5 grow">
+    <div className="bg-amber-100 p-5 grow relative">
       <p className="mb-9 text-3xl font-semibold">How would you like it?</p>
-      <ul className="px-[55px] mb-12">
+      <ul className="px-[55px]">
         {categoryModifier &&
           categoryModifier.map(
             ({
@@ -159,8 +160,8 @@ export function CategoryModifierSide({ productPrice }: CategoryModifierProps) {
                             selectedModifiers[catModName]['modifiers'].includes(
                               id
                             )
-                              ? 'bg-gray-300 border-solid border-2 border-zinc-300 rounded-md m-5 p-6 min-w-min w-[15%] hover:bg-zinc-500 hover:cursor-pointer'
-                              : 'bg-white border-solid border-2 border-zinc-300 rounded-md m-5 p-6 min-w-min w-[15%] hover:bg-zinc-500 hover:cursor-pointer'
+                              ? 'bg-gray-300 border-solid border-2 border-zinc-300 rounded-md m-5 p-6 min-w-min w-[15%] hover:bg-zinc-500 hover:cursor-pointer focus:border-solid focus:border-2 focus:border-black'
+                              : 'bg-white border-solid border-2 border-zinc-300 rounded-md m-5 p-6 min-w-min w-[15%] hover:bg-zinc-500 hover:cursor-pointer focus:border-solid focus:border-2 focus:border-black'
                           }
                         >
                           <span className="block text font-medium">
@@ -177,7 +178,7 @@ export function CategoryModifierSide({ productPrice }: CategoryModifierProps) {
           )}
       </ul>
       <Button
-        className="w-[50%] bg-black text-white rounded-xl flex justify-between py-3 px-9 ml-[50%] hover:bg-zinc-700"
+        className="absolute bottom-14 right-2 w-[50%] bg-black text-white rounded-xl flex justify-between py-3 px-9 hover:bg-zinc-700"
         type="submit"
       >
         <span>Add to order</span>

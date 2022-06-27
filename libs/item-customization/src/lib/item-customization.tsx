@@ -23,13 +23,14 @@ export function ItemCustomization() {
   const { productId } = useParams();
 
   useEffect(() => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     getData(`/api/product/${productId}`).then((res: any) => {
       setProduct({ ...res.data.data });
     });
   }, [productId]);
 
   return (
-    <div className="flex relative min-h-[100vh]">
+    <div className="flex relative min-h-[calc(100vh-74px)]">
       <Link className="absolute right-3 top-3" to="/menu">
         <AiOutlineClose size="38" className="hover:fill-zinc-300" />
       </Link>
