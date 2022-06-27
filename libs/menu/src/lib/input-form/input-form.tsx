@@ -23,9 +23,10 @@ export const InputForm = (props: InputFormProps) => {
     <div>
       {isOpen && (
         <div>
-          <form className="flex flex-col">
-            <label>
+          <form className="flex flex-col gap-y-4 w-1/2">
+            <label className="pt-4">
               <input
+                className="w-full p-2 border bg-gray-100 rounded-lg"
                 type="text"
                 placeholder="Search by product name"
                 onChange={(e) => {
@@ -34,25 +35,32 @@ export const InputForm = (props: InputFormProps) => {
                 }}
               />
             </label>
-            <label>
-              <span>Min price: {minPrice}</span>
-              <input
-                className="range"
-                type="range"
-                min={minPrice}
-                max={maxPrice}
-                step="0.01"
-                onChange={(e) => {
-                  setMaximumPrice(parseFloat(e.target.value));
-                  setPrice(parseFloat(e.target.value));
-                  navigate(`/menu/${menuId}/1`);
-                }}
-              />
-              <span>Max price: {!maximumPrice ? maxPrice : maximumPrice}</span>
+            <label className="relative mt-10">
+              <span className="absolute left-24 -top-10 text-center border border-black rounded p-1.5 w-[60px]">
+                {minPrice}
+              </span>
+              <div className="flex">
+                <span className="font-bold w-28">Price range:</span>
+                <input
+                  className="w-full"
+                  type="range"
+                  min={minPrice}
+                  max={maxPrice}
+                  step="0.01"
+                  onChange={(e) => {
+                    setMaximumPrice(parseFloat(e.target.value));
+                    setPrice(parseFloat(e.target.value));
+                    navigate(`/menu/${menuId}/1`);
+                  }}
+                />
+              </div>
+              <span className="absolute right-0 -top-10 text-center border border-black rounded p-1.5 w-[60px]">
+                {!maximumPrice ? maxPrice : maximumPrice}
+              </span>
             </label>
             <label className="block mb-2 text-sm font-medium text-gray-900">
               <select
-                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5"
+                className="w-full mt-10 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5"
                 onChange={(e) => setSort(e.target.value)}
               >
                 <option value="" selected>

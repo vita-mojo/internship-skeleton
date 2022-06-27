@@ -57,11 +57,11 @@ export const Menu = () => {
   ]);
 
   return (
-    <div>
+    <div className="bg-amber-100">
       <Routes>
         <Route path=":product/:id" element={<Portal />} />
       </Routes>
-      <div className="bg-amber-100">
+      <div className="container mx-auto">
         <FiltreForm
           searchName={setSearchData}
           setPrice={setPrice}
@@ -70,7 +70,7 @@ export const Menu = () => {
           maxPrice={maxPrice}
         />
         <div className="min-h-screen flex justify-center py-10">
-          <div className="container mx-auto p-12 bg-gray-100 rounded-xl">
+          <div className="p-12 bg-gray-100 rounded-xl">
             <div className="sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-8 space-y-4 sm:space-y-0">
               {data &&
                 data.map((product) => (
