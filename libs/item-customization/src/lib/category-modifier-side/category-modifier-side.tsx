@@ -65,7 +65,7 @@ export function CategoryModifierSide({ productPrice }: CategoryModifierProps) {
           )
         }
       }));
-      deccraiseCalculationPrice(modId);
+      decreaseCalculationPrice(modId);
     } else if (selectedModifiers[catModName] && select > 0) {
       length > maxSelect
         ? alert(`Sorry, you can select only ${maxSelect} modifiers`)
@@ -97,7 +97,7 @@ export function CategoryModifierSide({ productPrice }: CategoryModifierProps) {
     });
   };
 
-  const deccraiseCalculationPrice = (modId: number) => {
+  const decreaseCalculationPrice = (modId: number) => {
     categoryModifier.forEach((catMod: CategoryModifier) => {
       catMod.modifiers.forEach(({ id, price }: Modifiers) => {
         if (id === modId) {
