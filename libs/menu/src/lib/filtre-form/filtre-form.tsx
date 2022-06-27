@@ -4,9 +4,17 @@ import { FaFilter } from 'react-icons/fa';
 import InputForm from '../input-form/input-form';
 
 /* eslint-disable-next-line */
-export interface FiltreFormProps {}
+export interface FiltreFormProps {
+  searchName: any;
+  setPrice: any;
+  setSort: any;
+  minPrice: number;
+  maxPrice: number;
+}
 
 export const FiltreForm = (props: FiltreFormProps) => {
+  const { searchName, setPrice, setSort, minPrice, maxPrice } = props;
+
   const [open, setOpen] = useState(false as boolean);
 
   return (
@@ -20,7 +28,14 @@ export const FiltreForm = (props: FiltreFormProps) => {
         <FaFilter /> <span>Filter</span>
       </button>
       <div>
-        <InputForm isOpen={open} />
+        <InputForm
+          searchName={searchName}
+          setPrice={setPrice}
+          setSort={setSort}
+          minPrice={minPrice}
+          maxPrice={maxPrice}
+          isOpen={open}
+        />
       </div>
     </div>
   );

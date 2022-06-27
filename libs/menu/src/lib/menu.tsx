@@ -11,6 +11,8 @@ import ProductCard from './product-card/product-card';
 /* eslint-disable-next-line */
 export interface MenuDataProps {
   data: any[];
+  maxPrice: number;
+  minPrice: number;
   howManyPages: number;
   page: number;
   totalProducts: number;
@@ -19,19 +21,40 @@ export interface MenuDataProps {
 export const Menu = () => {
   const [menuData, setMenuData] = useState({} as MenuDataProps);
   const [page, setPage] = useState([] as number[]);
+  const [search, setSearch] = useState('' as string);
+  const [maximumPrice, setMaximumPrice] = useState<number>();
+  const [selectedOption, setSelectedOption] = useState<string>('');
+
+  const { data, maxPrice, minPrice, howManyPages } = menuData;
 
   const { menuId, pageNumber } = useParams();
 
-  useEffect(() => {
-    getData(`/api/menu/products/${menuId}?page=${pageNumber}`).then(
-      (data: any) => setMenuData(data.data)
-    );
+  const setSearchData = (value: string) => setSearch(value);
+  const setPrice = (maxValue: number) => setMaximumPrice(maxValue);
+  const setSort = (sort: string) => setSelectedOption(sort);
 
-    const pages: number[] = [...Array(menuData.howManyPages)].map(
+  useEffect(() => {
+    maximumPrice
+      ? getData(
+          `/api/menu/products/${menuId}?page=${pageNumber}&name=${search}&sort=${selectedOption}&min_price=${minPrice}&max_price=${maximumPrice}`
+        ).then((data: any) => setMenuData(data.data))
+      : getData(
+          `/api/menu/products/${menuId}?page=${pageNumber}&name=${search}&sort=${selectedOption}`
+        ).then((data: any) => setMenuData(data.data));
+
+    const pages: number[] = [...Array(howManyPages)].map(
       (x, index) => (x = index + 1)
     );
     setPage(pages);
-  }, [menuData.howManyPages, menuId, pageNumber]);
+  }, [
+    howManyPages,
+    maximumPrice,
+    menuId,
+    minPrice,
+    pageNumber,
+    search,
+    selectedOption
+  ]);
 
   return (
     <div>
@@ -39,12 +62,18 @@ export const Menu = () => {
         <Route path=":product/:id" element={<Portal />} />
       </Routes>
       <div className="bg-amber-100">
-        <FiltreForm />
-        <div className="min-h-screen flex justify-center items-center py-10">
+        <FiltreForm
+          searchName={setSearchData}
+          setPrice={setPrice}
+          setSort={setSort}
+          minPrice={minPrice}
+          maxPrice={maxPrice}
+        />
+        <div className="min-h-screen flex justify-center py-10">
           <div className="container mx-auto p-12 bg-gray-100 rounded-xl">
             <div className="sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-8 space-y-4 sm:space-y-0">
-              {menuData.data &&
-                menuData.data.map((product) => (
+              {data &&
+                data.map((product) => (
                   <ProductCard prod={product} key={product.id} />
                 ))}
             </div>
