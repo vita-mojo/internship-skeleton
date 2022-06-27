@@ -65,6 +65,13 @@ const getAllProducts = async (
             .orderBy({ 'product.name': sortType.toUpperCase() })
             .getMany();
           break;
+        case 'calories':
+          products = await builder
+            .orderBy({
+              'product.metadata->"$.nutrition.calories"': sortType.toUpperCase()
+            })
+            .getMany();
+          break;
         default:
           console.log('Can not sort');
       }
