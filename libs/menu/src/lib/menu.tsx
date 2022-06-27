@@ -82,7 +82,7 @@ export const Menu = () => {
         <div className="flex justify-center pb-20">
           {page.map((elem) => (
             <Link key={elem} to={`/menu/${menuId}/${elem}`}>
-              <PaginationTab pageNumber={elem} />
+              <PaginationTab page={elem} />
             </Link>
           ))}
         </div>
