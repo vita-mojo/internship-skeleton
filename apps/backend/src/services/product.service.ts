@@ -16,7 +16,7 @@ const getAllProducts = async (
       .getRepository(Product)
       .createQueryBuilder('product');
 
-    const price = connection
+    const minAndMaxValue = connection
       .getRepository(Product)
       .createQueryBuilder('product');
 
@@ -54,6 +54,7 @@ const getAllProducts = async (
     if (sort) {
       const categorySort = sort.split('_')[0];
       const sortType = sort.split('_')[1];
+
       switch (categorySort) {
         case 'price':
           products = await builder
@@ -80,21 +81,31 @@ const getAllProducts = async (
     //This constants return number of products from a menu
     const totalProducts = await builder.getCount();
 
-    const maxPrice = await price
-      .select('MAX(product.price)', 'max')
-      .where('product.menuId = :menuId', { menuId })
-      .getRawOne();
+    const getMinMaxValue = (from: string, operator: string) => {
+      return minAndMaxValue
+        .select(`${operator}(${from})`, operator)
+        .where('product.menuId = :menuId', { menuId })
+        .getRawOne();
+    };
 
-    const minPrice = await price
-      .select('MIN(product.price)', 'min')
-      .where('product.menuId = :menuId', { menuId })
-      .getRawOne();
+    const maxPrice = await getMinMaxValue('product.price', 'max');
+    const minPrice = await getMinMaxValue('product.price', 'min');
+    const minCalory = await getMinMaxValue(
+      'product.metadata->"$.nutrition.calories"',
+      'min'
+    );
+    const maxCalory = await getMinMaxValue(
+      'product.metadata->"$.nutrition.calories"',
+      'max'
+    );
 
     return {
       data: products,
       totalProducts,
       maxPrice: parseFloat(maxPrice.max.toFixed(2)),
       minPrice: parseFloat(minPrice.min.toFixed(2)),
+      minCalory: parseFloat(minCalory.min),
+      maxCalory: parseFloat(maxCalory.max),
       page,
       howManyPages: Math.ceil(totalProducts / perPage)
     };
