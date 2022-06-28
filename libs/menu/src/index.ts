@@ -1,3 +1,4 @@
+export * from './lib/range-slider/range-slider';
 export * from './lib/input-form/input-form';
 export * from './lib/filtre-form/filtre-form';
 export * from './lib/menu';

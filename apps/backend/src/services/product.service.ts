@@ -26,14 +26,6 @@ const getAllProducts = async (
       products = await builder.where('product.menuId = :menuId', { menuId });
     }
 
-    //returns products that have a price between min_price and max_price
-    if (min_price || max_price) {
-      products = await builder.where(
-        `product.menuId = :menuId AND product.price >= ${min_price} AND product.price <= ${max_price}`,
-        { menuId }
-      );
-    }
-
     //return the products which name containe searching string
     if (searchByName) {
       products = await builder.where(
@@ -43,6 +35,21 @@ const getAllProducts = async (
           searchByName: `%${searchByName}%`
         }
       );
+    }
+
+    //returns products that have a price between min_price and max_price
+    if (min_price || max_price) {
+      if (searchByName) {
+        products = await builder.where(
+          `product.menuId = :menuId AND product.name LIKE :searchByName AND product.price >= ${min_price} AND product.price <= ${max_price}`,
+          { menuId, searchByName: `%${searchByName}%` }
+        );
+      } else {
+        products = await builder.where(
+          `product.menuId = :menuId AND product.price >= ${min_price} AND product.price <= ${max_price}`,
+          { menuId }
+        );
+      }
     }
 
     //take only 12 products per page

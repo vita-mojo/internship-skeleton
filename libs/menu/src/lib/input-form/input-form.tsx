@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 
+import RangeSlider from '../range-slider/range-slider';
+
 /* eslint-disable-next-line */
 export interface InputFormProps {
   isOpen: boolean;
@@ -16,8 +18,6 @@ export const InputForm = (props: InputFormProps) => {
 
   const { menuId } = useParams();
   const navigate = useNavigate();
-
-  const [maximumPrice, setMaximumPrice] = useState<number>(maxPrice);
 
   return (
     <div>
@@ -35,29 +35,12 @@ export const InputForm = (props: InputFormProps) => {
                 }}
               />
             </label>
-            <label className="relative mt-10">
-              <span className="absolute left-24 -top-10 text-center border border-black rounded p-1.5 w-[60px]">
-                {minPrice}
-              </span>
-              <div className="flex">
-                <span className="font-bold w-28">Price range:</span>
-                <input
-                  className="w-full"
-                  type="range"
-                  min={minPrice}
-                  max={maxPrice}
-                  step="0.01"
-                  onChange={(e) => {
-                    setMaximumPrice(parseFloat(e.target.value));
-                    setPrice(parseFloat(e.target.value));
-                    navigate(`/menu/${menuId}/1`);
-                  }}
-                />
-              </div>
-              <span className="absolute right-0 -top-10 text-center border border-black rounded p-1.5 w-[60px]">
-                {!maximumPrice ? maxPrice : maximumPrice}
-              </span>
-            </label>
+            <RangeSlider
+              maxValue={maxPrice}
+              minValue={minPrice}
+              text="Price range:"
+              setValue={setPrice}
+            />
             <label className="block mb-2 text-sm font-medium text-gray-900">
               <select
                 className="w-full mt-10 bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5"

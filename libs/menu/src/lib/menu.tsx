@@ -13,6 +13,8 @@ export interface MenuDataProps {
   data: any[];
   maxPrice: number;
   minPrice: number;
+  maxCalory: number;
+  minCalory: number | null;
   howManyPages: number;
   page: number;
   totalProducts: number;
