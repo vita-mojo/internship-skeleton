@@ -1,5 +1,6 @@
 import {
   Column,
+  CreateDateColumn,
   Entity,
   JoinColumn,
   ManyToOne,
@@ -45,6 +46,13 @@ export class Product {
 
   @Column({ type: 'int', name: 'menu_id' })
   menuId: number;
+
+  @CreateDateColumn({
+    type: 'timestamp',
+    name: 'created_at',
+    default: () => 'CURRENT_TIMESTAMP()'
+  })
+  createdAt: Date;
 
   @ManyToOne(() => Menu, (menu: Menu) => menu.products)
   @JoinColumn({ name: 'menu_id', referencedColumnName: 'id' })
