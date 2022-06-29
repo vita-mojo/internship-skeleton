@@ -25,7 +25,8 @@ export const Modal = () => {
   }, [id]);
 
   const { data } = productData;
-  // console.log(productData.data);
+  const date = new Date();
+  const twoDasAgo = new Date(date.setDate(date.getDate() - 2));
 
   const goBack = () => {
     const { pathname } = location;
@@ -51,7 +52,14 @@ export const Modal = () => {
             <h1 className="text-3xl font-bold">{data.name}</h1>
             <div className="flex mt-3">
               <div>
-                <div className="bg-white w-[600px]">
+                <div className="bg-white w-[600px] relative">
+                  {new Date(data.createdAt) >= twoDasAgo && (
+                    <img
+                      className="absolute top-4 right-4"
+                      src="https://icons.iconarchive.com/icons/custom-icon-design/pretty-office-11/96/new-icon.png"
+                      alt="new product"
+                    />
+                  )}
                   <img src={data.image} alt={data.name} />
                 </div>
               </div>
