@@ -50,7 +50,8 @@ export class Product {
   @CreateDateColumn({
     type: 'timestamp',
     name: 'created_at',
-    default: () => 'CURRENT_TIMESTAMP()'
+    nullable: false,
+    default: () => 'CURRENT_TIMESTAMP'
   })
   createdAt: Date;
 

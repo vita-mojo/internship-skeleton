@@ -29,7 +29,13 @@ export const ProductCard = (props: ProductCardProps) => {
         <Link to={`/item-customization/${prod.id}`}>
           <img className="w-full" src={prod.image} alt="Need be product img" />
         </Link>
-        <Link to={`/menu/${menuId}/${pageNumber}/product/${prod.id}`}>
+        <Link
+          to={
+            pageNumber
+              ? `/menu/${menuId}/${pageNumber}/product/${prod.id}`
+              : `/menu/${menuId}/1/product/${prod.id}`
+          }
+        >
           <span className="absolute bottom-2 right-2 text-2xl hover:scale-125">
             <HiOutlineInformationCircle />
           </span>
