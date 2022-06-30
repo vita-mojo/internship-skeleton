@@ -52,7 +52,6 @@ export const getStores = async (
 
     if (storeName) {
       if (deliveryType) {
-        console.log('delivery type');
         const allStoresByNameAndDeliveryType =
           await querySearchStoreByNameAndDeliveryType.getCount();
         const storesPerPageByNameAndDeliveryType =
