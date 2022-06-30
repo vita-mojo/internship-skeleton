@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 
-import StoreSelection from './store-selection';
+import { StoreSelection } from './store-selection';
 
 describe('StoreSelection', () => {
   it('should render successfully', () => {

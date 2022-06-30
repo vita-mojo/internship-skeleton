@@ -40,6 +40,7 @@ export interface ServiceType {
   type: React.ReactElement;
   text: string;
   id: string | number;
+  alternativeName: string;
 }
 
 export interface DateType {

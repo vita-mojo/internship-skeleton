@@ -1,18 +1,23 @@
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 /* eslint-disable-next-line */
 export interface PageButtonsProps {
-  allStores: number;
-  itemsPerPage: number;
+  pages: number;
 }
 
 export function PageButtons(props: PageButtonsProps) {
+  const { deliveryType } = useParams();
+
   return (
     <>
-      {Array.from(
-        Array(Math.ceil(props.allStores / props.itemsPerPage)),
-        (_, index) => index + 1
-      ).map((item) => (
-        <Link key={item} to={`/store-selection/${item}`}>
+      {Array.from(Array(props.pages), (_, index) => index + 1).map((item) => (
+        <Link
+          key={item}
+          to={
+            !deliveryType
+              ? `/store-selection/${item}`
+              : `/store-selection/${item}/menu/${deliveryType}`
+          }
+        >
           <button
             value={item}
             className="w-4 hover:scale-105 transition ease-in-out duration-200 font-bold"
@@ -21,7 +26,6 @@ export function PageButtons(props: PageButtonsProps) {
           </button>
         </Link>
       ))}
-      ;
     </>
   );
 }

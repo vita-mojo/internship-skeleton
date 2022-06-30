@@ -54,7 +54,17 @@ export const isOpenStore = (from: string, to: string, date: DateType) => {
 };
 
 export const services: ServiceType[] = [
-  { type: <RiHandbagFill />, text: 'Pickup', id: 1 },
-  { type: <MdFoodBank />, text: 'Eat In', id: 2 },
-  { type: <GiFoodTruck />, text: 'Delivery', id: 3 }
+  {
+    type: <RiHandbagFill />,
+    text: 'Pickup',
+    alternativeName: 'PICK_UP',
+    id: 1
+  },
+  { type: <MdFoodBank />, text: 'Eat In', alternativeName: 'EAT_IN', id: 2 },
+  {
+    type: <GiFoodTruck />,
+    text: 'Delivery',
+    alternativeName: 'DELIVERY',
+    id: 3
+  }
 ];

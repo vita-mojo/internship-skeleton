@@ -1,85 +1,81 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useLocation, useNavigate, useParams } from 'react-router-dom';
 
 // eslint-disable-next-line @nrwl/nx/enforce-module-boundaries
 import { getData } from '../../../../apps/online-store/src/utils/APIrequest';
-import { Menu, StoreInfo } from '../variables-interfaces/store-interfaces';
 import { FilterMenus } from './filter-menus/filter-menus';
 import { PageButtons } from './page-buttons/page-buttons';
 import { StoreCard } from './store-card/store-card';
 /* eslint-disable-next-line */
 export interface StoreSelectionProps {}
 
-interface PageAndItems {
-  allStores: number;
-  itemsPerPage: number;
-}
-
 export function StoreSelection(props: StoreSelectionProps) {
   const [storesAndMenus, setStoresAndMenus] = useState<any>([]);
-  const [filteredStoresAndMenus, setFilteredStoresAndMenus] = useState<any>([]);
-  const [itemsAndPages, setItemsAndPages] = useState<PageAndItems>({
-    allStores: 0,
-    itemsPerPage: 0
-  });
+  const [pages, setPages] = useState<number>(0);
   const [storeName, setStoreName] = useState<string>('');
   const [activeBtn, setActiveBtn] = useState<string>('');
-  const { page } = useParams();
+  const { page, deliveryType, nameOfStore } = useParams();
+  const navigate = useNavigate();
+  const location = useLocation();
+  let link;
+  let newLink;
 
   const handleStoreInput = (event: React.ChangeEvent<HTMLInputElement>) => {
     setStoreName(event.target.value);
-  };
-
-  const filterByMenuType = (event: React.MouseEvent<HTMLButtonElement>) => {
-    let menutype = event.currentTarget.name;
-    console.log(menutype);
-    if (menutype === 'Pickup') {
-      menutype = 'PICK_UP';
-      setActiveBtn('Pickup');
-    } else if (menutype === 'Eat In') {
-      menutype = 'EAT_IN';
-      setActiveBtn('Eat In');
-    } else if (menutype === 'Delivery') {
-      menutype = 'DELIVERY';
-      setActiveBtn('Delivery');
+    if (page && nameOfStore) {
+      link = location.pathname.split('/');
+      link.pop();
+      newLink = link.join('/');
+      navigate(`${newLink}/${event.target.value}`);
+    } else if (page && deliveryType) {
+      link = location.pathname.split('/');
+      link.pop();
+      newLink = link[0];
+      navigate(`${newLink}/store-selection/1/${event.target.value}`);
+    } else if (page) {
+      link = location.pathname.split('/');
+      link.pop();
+      newLink = link.join('/');
+      navigate(`${newLink}/1/${event.target.value}`);
+    } else {
+      navigate(`1/${event.target.value}`);
     }
-    const filteredMenus = storesAndMenus.map((item: StoreInfo) => {
-      const filter = item.menus.filter(
-        (type: Menu) => type.channel === menutype
-      );
-      const filteredData = { ...item, menus: filter };
-      return filteredData;
-    });
-
-    setFilteredStoresAndMenus(filteredMenus);
   };
 
   useEffect(() => {
-    !page
-      ? getData(`/api/stores/${1}`).then((newData: any) => {
+    if (!page) {
+      getData(`/api/stores/1`).then((newData: any) => {
+        setStoresAndMenus(newData.data.storeAndItsMenus);
+        setPages(newData.data.numOfPages);
+      });
+    } else if (deliveryType && nameOfStore) {
+      getData(
+        `/api/stores/${page}?deliveryType=${deliveryType}&storeName=${nameOfStore}`
+      ).then((newData: any) => {
+        setStoresAndMenus(newData.data.storeAndItsMenus);
+        setPages(newData.data.numOfPages);
+      });
+    } else if (deliveryType) {
+      getData(`/api/stores/${page}?deliveryType=${deliveryType}`).then(
+        (newData: any) => {
           setStoresAndMenus(newData.data.storeAndItsMenus);
-          setFilteredStoresAndMenus(newData.data.storeAndItsMenus);
-          setItemsAndPages({
-            allStores: newData.data.allStores,
-            itemsPerPage: newData.data.itemsPerPage
-          });
-        })
-      : getData(`/api/stores/${page}`).then((newData: any) => {
+          setPages(newData.data.numOfPages);
+        }
+      );
+    } else if (nameOfStore) {
+      getData(`/api/stores/1?deliveryType=&storeName=${nameOfStore}`).then(
+        (newData: any) => {
           setStoresAndMenus(newData.data.storeAndItsMenus);
-          setFilteredStoresAndMenus(newData.data.storeAndItsMenus);
-          setItemsAndPages({
-            allStores: newData.data.allStores,
-            itemsPerPage: newData.data.itemsPerPage
-          });
-        });
-  }, [page]);
-
-  useEffect(() => {
-    const searchStoresByName = storesAndMenus.filter((item: any) =>
-      item.name.toLowerCase().includes(storeName)
-    );
-    setFilteredStoresAndMenus(searchStoresByName);
-  }, [storeName, storesAndMenus]);
+          setPages(newData.data.numOfPages);
+        }
+      );
+    } else {
+      getData(`/api/stores/${page}`).then((newData: any) => {
+        setStoresAndMenus(newData.data.storeAndItsMenus);
+        setPages(newData.data.numOfPages);
+      });
+    }
+  }, [page, deliveryType, storeName, nameOfStore]);
 
   return (
     <div className="flex bg-amber-100">
@@ -87,7 +83,7 @@ export function StoreSelection(props: StoreSelectionProps) {
         {/* ------------------------------ Select field ----------------------------------------*/}
 
         <div className="card w-3/4 mx-auto text-center m-3 p-3">
-          <FilterMenus handleFilter={filterByMenuType} isActive={activeBtn} />
+          <FilterMenus isActive={activeBtn} />
         </div>
 
         {/* ------------------------------ Input field ----------------------------------------*/}
@@ -106,8 +102,8 @@ export function StoreSelection(props: StoreSelectionProps) {
         {/* ------------------------------ Stores cards ----------------------------------------*/}
 
         <div className="h-96 overflow-auto">
-          {filteredStoresAndMenus.length &&
-            filteredStoresAndMenus.map((store: any) => (
+          {storesAndMenus.length &&
+            storesAndMenus.map((store: any) => (
               <StoreCard key={store.id} storesInfo={store} />
             ))}
         </div>
@@ -115,12 +111,7 @@ export function StoreSelection(props: StoreSelectionProps) {
         {/* ------------------------------ Page buttons ----------------------------------------*/}
 
         <div className="card w-3/4 mx-auto text-center m-3 p-3">
-          {storesAndMenus.length && (
-            <PageButtons
-              allStores={itemsAndPages.allStores}
-              itemsPerPage={itemsAndPages.itemsPerPage}
-            />
-          )}
+          {storesAndMenus.length && <PageButtons pages={pages} />}
         </div>
       </div>
 
