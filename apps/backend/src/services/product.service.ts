@@ -36,7 +36,7 @@ const getAllProducts = async (
     //returns products that have a price between min_price and max_price
     if (min_price || max_price) {
       products = await builder.andWhere(
-        `product.price >= ${min_price} AND product.price <= ${max_price}`
+        `product.price >= ${min_price} AND product.price <= ${max_price} + 0.001`
       );
     }
 
@@ -97,8 +97,8 @@ const getAllProducts = async (
     return {
       data: products,
       totalProducts,
-      maxPrice: parseFloat(maxPrice.max.toFixed(2)),
-      minPrice: parseFloat(minPrice.min.toFixed(2)),
+      maxPrice: parseFloat(maxPrice.max),
+      minPrice: parseFloat(minPrice.min),
       minCalory: parseFloat(minCalory.min),
       maxCalory: parseFloat(maxCalory.max),
       page,

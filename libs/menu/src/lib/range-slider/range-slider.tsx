@@ -20,7 +20,7 @@ export const RangeSlider = (props: RangeSliderProps) => {
   return (
     <label className="relative mt-10">
       <span className="absolute left-28 -top-10 text-center border border-black rounded p-1.5 w-[60px]">
-        {minValue}
+        {minValue.toFixed(2)}
       </span>
       <div className="flex">
         <span className="font-bold w-32">{text}</span>
@@ -38,7 +38,7 @@ export const RangeSlider = (props: RangeSliderProps) => {
         />
       </div>
       <span className="absolute right-0 -top-10 text-center border border-black rounded p-1.5 w-[60px]">
-        {!maximumValue ? maxValue : maximumValue}
+        {!maximumValue ? maxValue : maximumValue.toFixed(2)}
       </span>
     </label>
   );

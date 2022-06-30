@@ -28,7 +28,6 @@ export const Menu = () => {
   const [selectedOption, setSelectedOption] = useState<string>('');
 
   const { data, maxPrice, minPrice, howManyPages } = menuData;
-
   const { menuId, pageNumber } = useParams();
 
   const setSearchData = (value: string) => setSearch(value);
