@@ -7,8 +7,10 @@ import { Tab, TabList, TabPanel, Tabs } from 'react-tabs';
 import capitalizeFirstLetter from '../../../../../apps/online-store/src/utils/capitalizeFirstLetter';
 import { ProductSideProps } from '../variables-interfaces/variables-interfaces';
 
+const tabItemArr = ['Dietary info', 'Ingredients', 'Nutrition'];
+
 export function ProductSide({ product }: ProductSideProps) {
-  const [, setTabIndex] = useState(0);
+  const [tabIndex, setTabIndex] = useState(0);
 
   const { name, image, description, metadata } = product;
 
@@ -33,9 +35,23 @@ export function ProductSide({ product }: ProductSideProps) {
       <p className="info mb-3 text-zinc-700">Adults need 2000 kcal / day</p>
       <Tabs onSelect={(index) => setTabIndex(index)}>
         <TabList>
-          <Tab style={{ backgroundColor: 'transparent' }}>Dietary info</Tab>
-          <Tab style={{ backgroundColor: 'transparent' }}>Ingredients</Tab>
-          <Tab style={{ backgroundColor: 'transparent' }}>Nutrition</Tab>
+          {tabItemArr.map((item, index) => {
+            return (
+              <Tab
+                key={index}
+                style={
+                  tabIndex === index
+                    ? {
+                        backgroundColor: 'transparent',
+                        borderTop: '2px solid gray'
+                      }
+                    : { backgroundColor: 'transparent' }
+                }
+              >
+                {item}
+              </Tab>
+            );
+          })}
         </TabList>
         <TabPanel>
           {metadata.dietary ? (

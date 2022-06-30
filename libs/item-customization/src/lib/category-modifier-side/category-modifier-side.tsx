@@ -178,7 +178,7 @@ export function CategoryModifierSide({ productPrice }: CategoryModifierProps) {
           )}
       </ul>
       <Button
-        className="absolute bottom-14 right-2 w-[50%] bg-black text-white rounded-xl flex justify-between py-3 px-9 hover:bg-zinc-700"
+        className="w-[50%] bg-black text-white rounded-xl flex justify-between py-3 px-9 ml-[50%] hover:bg-zinc-700"
         type="submit"
       >
         <span>Add to order</span>
