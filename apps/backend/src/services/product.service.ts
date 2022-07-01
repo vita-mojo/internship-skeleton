@@ -11,40 +11,24 @@ const getAllProducts = async (
 ) => {
   try {
     const perPage = 12;
-
-    const builder = connection
+    let builder = connection
       .getRepository(Product)
-      .createQueryBuilder('product');
-
-    const minAndMaxValue = connection
-      .getRepository(Product)
-      .createQueryBuilder('product');
-
-    let products;
-
-    if (page) {
-      products = await builder.where('product.menuId = :menuId', { menuId });
-    }
+      .createQueryBuilder('product')
+      .where('product.menuId = :menuId', { menuId });
 
     //return the products which name containe searching string
     if (searchByName) {
-      products = await builder.andWhere('product.name LIKE :searchByName', {
+      builder = builder.andWhere('product.name LIKE :searchByName', {
         searchByName: `%${searchByName}%`
       });
     }
 
     //returns products that have a price between min_price and max_price
     if (min_price || max_price) {
-      products = await builder.andWhere(
+      builder = builder.andWhere(
         `product.price >= ${min_price} AND product.price <= ${max_price} + 0.001`
       );
     }
-
-    //take only 12 products per page
-    products = await products
-      .skip((page - 1) * perPage)
-      .take(perPage)
-      .getMany();
 
     if (sort) {
       const categorySort = sort.split('_')[0];
@@ -52,57 +36,50 @@ const getAllProducts = async (
 
       switch (categorySort) {
         case 'price':
-          products = await builder
-            .orderBy({ 'product.price': sortType.toUpperCase() })
-            .getMany();
+          builder = builder.orderBy({
+            'product.price': sortType.toUpperCase()
+          });
           break;
         case 'name':
-          products = await builder
-            .orderBy({ 'product.name': sortType.toUpperCase() })
-            .getMany();
+          builder = builder.orderBy({ 'product.name': sortType.toUpperCase() });
           break;
         case 'calories':
-          products = await builder
-            .orderBy({
-              'product.metadata->"$.nutrition.calories"': sortType.toUpperCase()
-            })
-            .getMany();
+          builder = builder.orderBy({
+            'product.metadata->"$.nutrition.calories"': sortType.toUpperCase()
+          });
           break;
         default:
           console.log('Can not sort');
       }
     }
 
-    //This constants return number of products from a menu
-    const totalProducts = await builder.getCount();
+    //take only 12 products per page
+    const [products, count] = await builder
+      .skip((page - 1) * perPage)
+      .take(perPage)
+      .getManyAndCount();
 
-    const getMinMaxValue = (from: string, operator: string) => {
-      return minAndMaxValue
-        .select(`${operator}(${from})`, operator)
-        .where('product.menuId = :menuId', { menuId })
-        .getRawOne();
-    };
-
-    const maxPrice = await getMinMaxValue('product.price', 'max');
-    const minPrice = await getMinMaxValue('product.price', 'min');
-    const minCalory = await getMinMaxValue(
-      'product.metadata->"$.nutrition.calories"',
-      'min'
-    );
-    const maxCalory = await getMinMaxValue(
-      'product.metadata->"$.nutrition.calories"',
-      'max'
-    );
+    const { minPrice, maxPrice, minCalory, maxCalory } = await connection
+      .getRepository(Product)
+      .createQueryBuilder('product')
+      .select([
+        'MIN(product.price) AS minPrice',
+        'MAX(product.price) AS maxPrice',
+        'MIN(product.metadata->"$.nutrition.calories") AS minCalory',
+        'MAX(product.metadata->"$.nutrition.calories") AS maxCalory'
+      ])
+      .where('product.menuId = :menuId', { menuId })
+      .getRawOne();
 
     return {
       data: products,
-      totalProducts,
-      maxPrice: parseFloat(maxPrice.max),
-      minPrice: parseFloat(minPrice.min),
-      minCalory: parseFloat(minCalory.min),
-      maxCalory: parseFloat(maxCalory.max),
+      totalProducts: count,
+      maxPrice: parseFloat(maxPrice),
+      minPrice: parseFloat(minPrice),
+      minCalory: parseFloat(minCalory),
+      maxCalory: parseFloat(maxCalory),
       page,
-      howManyPages: Math.ceil(totalProducts / perPage)
+      howManyPages: Math.ceil(count / perPage)
     };
   } catch (err) {
     throw Error('Products not found');
