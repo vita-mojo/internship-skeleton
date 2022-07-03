@@ -6,43 +6,48 @@ import { services } from '../../variables-interfaces/store-variables';
 export interface FilterMenusProps {
   // handleFilter: (event: React.MouseEvent<HTMLButtonElement>) => void;
   isActive: string;
+  // storeNameFn: (store: string) => void;
 }
 
 export function FilterMenus(props: FilterMenusProps) {
   const { page, deliveryType, nameOfStore } = useParams();
   const location = useLocation();
   let link;
-  let newLink;
+  let redirectLink;
 
   const newLinkToRedirect = (name: string) => {
     if (page && deliveryType && nameOfStore) {
       link = location.pathname.split('/');
-      link.splice(link.length - 2);
-      newLink = link.join('/');
-      return `${newLink}/${name}/${nameOfStore}`;
+      link.splice(link.length - 2, 2, name, nameOfStore);
+      redirectLink = link.join('/');
+      return redirectLink;
     }
     if (page && deliveryType) {
+      console.log('page and delivery');
       link = location.pathname.split('/');
-      if (link[link.length - 1] === '') {
-        link.splice(link.length - 2);
-        newLink = link.join('/');
-        return `${newLink}/${name}`;
+      if (!link[link.length - 1]) {
+        link.pop();
       }
-      link.pop();
-      newLink = link.join('/');
-      console.log(newLink);
-      return `${newLink}/${name}`;
+      link.splice(link.length - 1, 1, name);
+      redirectLink = link.join('/');
+      return redirectLink;
     }
     if (page && nameOfStore) {
       link = location.pathname.split('/');
-      link.splice(link.length - 2);
-      newLink = link.join('/');
-      return `${newLink}/${page}/menu/${name}/${nameOfStore}`;
+      link.splice(3, 2, 'menu', name, nameOfStore);
+      redirectLink = link.join('/');
+      return redirectLink;
     }
-    if (!page) {
-      return `1/menu/${name}`;
+    if (page) {
+      link = location.pathname.split('/');
+      if (!link[link.length - 1]) {
+        link.pop();
+      }
+      link.splice(link.length - 1, 1, page, 'menu', name);
+      redirectLink = link.join('/');
+      return redirectLink;
     }
-    return `menu/${name}`;
+    return `1/menu/${name}`;
   };
 
   return (
@@ -56,7 +61,7 @@ export function FilterMenus(props: FilterMenusProps) {
       <div className="flex m-8 justify-around">
         {services.map((item) => (
           <Link
-            to={newLinkToRedirect(item.alternativeName)}
+            to={`${newLinkToRedirect(item.alternativeName)}`}
             key={item.id}
             className={`p-3 w-1/4 bg-white text-zinc-500 border hover:text-zinc-900 hover:scale-110 hover:border hover:rounded-lg hover:border-zinc-900 transition ease-in-out duration-100 cursor-pointer  ${
               props.isActive === item.text &&

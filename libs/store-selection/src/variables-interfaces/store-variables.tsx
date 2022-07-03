@@ -4,7 +4,7 @@ import { RiHandbagFill } from 'react-icons/ri';
 
 import { DateType, ServiceType } from './store-interfaces';
 
-export const openType1 = {
+export const open = {
   status: 'Open',
   spanStyle: 'text-green-500 font-bold',
   action: 'Order',
@@ -12,7 +12,7 @@ export const openType1 = {
     'flex justify-center items-center w-full h-1/2 text-white bg-zinc-900 rounded-2xl border hover:bg-white hover:text-zinc-900'
 };
 
-export const openType2 = {
+export const preorder = {
   status: 'Preorder',
   spanStyle: 'text-blue-500 font-bold',
   action: 'Order',
@@ -20,7 +20,7 @@ export const openType2 = {
     'flex justify-center items-center w-full h-1/2 text-white bg-zinc-900 rounded-2xl border border-zinc-300 hover:text-zinc-900 hover:bg-white'
 };
 
-export const openType3 = {
+export const close = {
   status: 'Close',
   spanStyle: 'text-red-500 font-bold',
   action: 'View Menu',
@@ -35,21 +35,21 @@ export const isOpenStore = (from: string, to: string, date: DateType) => {
   const toIntHourTo = hourTo.map((item: string) => parseInt(item));
 
   if (toIntHourFrom[0] < date.hour && date.hour < toIntHourTo[0]) {
-    return openType1;
+    return open;
   } else if (date.hour === toIntHourFrom[0]) {
     if (toIntHourFrom[1] > date.minutes) {
-      return openType2;
+      return preorder;
     } else {
-      return openType1;
+      return open;
     }
   } else if (date.hour === toIntHourTo[0]) {
     if (toIntHourTo[1] > date.minutes) {
-      return openType1;
+      return open;
     } else {
-      return openType3;
+      return close;
     }
   } else {
-    return openType3;
+    return close;
   }
 };
 

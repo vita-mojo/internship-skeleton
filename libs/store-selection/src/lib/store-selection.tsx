@@ -18,27 +18,41 @@ export function StoreSelection(props: StoreSelectionProps) {
   const navigate = useNavigate();
   const location = useLocation();
   let link;
-  let newLink;
+  let redirectLink;
 
   const handleStoreInput = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setStoreName(event.target.value);
+    const inputValue = event.target.value;
+    setStoreName(inputValue);
+    if (page && nameOfStore && deliveryType) {
+      link = location.pathname.split('/');
+      link.splice(2, link.length - 1, '1', 'menu', deliveryType, inputValue);
+      redirectLink = link.join('/');
+      navigate('/');
+    }
     if (page && nameOfStore) {
       link = location.pathname.split('/');
-      link.pop();
-      newLink = link.join('/');
-      navigate(`${newLink}/${event.target.value}`);
+      link.splice(link.length - 1, 1, inputValue);
+      redirectLink = link.join('/');
+      navigate(redirectLink);
     } else if (page && deliveryType) {
       link = location.pathname.split('/');
-      link.pop();
-      newLink = link[0];
-      navigate(`${newLink}/store-selection/1/${event.target.value}`);
+      link.splice(2, link.length - 1, '1', inputValue);
+      redirectLink = link.join('/');
+      navigate(redirectLink);
     } else if (page) {
       link = location.pathname.split('/');
-      link.pop();
-      newLink = link.join('/');
-      navigate(`${newLink}/1/${event.target.value}`);
+      if (!link[link.length - 1]) {
+        link.pop();
+      }
+      link.splice(3, 0, inputValue);
+      console.log(link);
+      redirectLink = link.join('/');
+      navigate(redirectLink);
     } else {
-      navigate(`1/${event.target.value}`);
+      link = location.pathname.split('/');
+      link.splice(2, 0, '1', inputValue);
+      redirectLink = link.join('/');
+      navigate(redirectLink);
     }
   };
 
@@ -102,16 +116,19 @@ export function StoreSelection(props: StoreSelectionProps) {
         {/* ------------------------------ Stores cards ----------------------------------------*/}
 
         <div className="h-96 overflow-auto">
-          {storesAndMenus.length &&
+          {storesAndMenus.length ? (
             storesAndMenus.map((store: any) => (
               <StoreCard key={store.id} storesInfo={store} />
-            ))}
+            ))
+          ) : (
+            <p>Nothing found</p>
+          )}
         </div>
 
         {/* ------------------------------ Page buttons ----------------------------------------*/}
 
         <div className="card w-3/4 mx-auto text-center m-3 p-3">
-          {storesAndMenus.length && <PageButtons pages={pages} />}
+          {storesAndMenus.length ? <PageButtons pages={pages} /> : <p></p>}
         </div>
       </div>
 
