@@ -45,7 +45,6 @@ export function StoreSelection(props: StoreSelectionProps) {
         link.pop();
       }
       link.splice(3, 0, inputValue);
-      console.log(link);
       redirectLink = link.join('/');
       navigate(redirectLink);
     } else {

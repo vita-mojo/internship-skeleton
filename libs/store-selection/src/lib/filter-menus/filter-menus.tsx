@@ -23,7 +23,6 @@ export function FilterMenus(props: FilterMenusProps) {
       return redirectLink;
     }
     if (page && deliveryType) {
-      console.log('page and delivery');
       link = location.pathname.split('/');
       if (!link[link.length - 1]) {
         link.pop();
